@@ -1271,6 +1271,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS)
                         Required: =false
                         Update: =DataCardValue171.Text
+                        Visible: =If(DataCardValue119.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =16
@@ -1290,7 +1291,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -1509,7 +1510,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS1)
                         Required: =false
                         Update: =DataCardValue145.Text
-                        Visible: =If(DataCardValue119.Selected.Value = "Si",true,false)
+                        Visible: =If(DataCardValue115.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =18
@@ -1747,7 +1748,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS2)
                         Required: =false
                         Update: =DataCardValue146.Text
-                        Visible: =If(DataCardValue115.Selected.Value = "Si",true,false)
+                        Visible: =If(DataCardValue116.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =20
@@ -1983,7 +1984,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS3)
                         Required: =false
                         Update: =DataCardValue147.Text
-                        Visible: =If(DataCardValue116.Selected.Value = "Si",true,false)
+                        Visible: =If(DataCardValue117.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =22
@@ -2219,7 +2220,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS4)
                         Required: =false
                         Update: =DataCardValue148.Text
-                        Visible: =If(DataCardValue117.Selected.Value = "Si",true,false)
+                        Visible: =If(DataCardValue118.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =24
@@ -2546,7 +2547,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS5)
                         Required: =false
                         Update: =DataCardValue149.Text
-                        Visible: =If(DataCardValue118.Selected.Value = "Si",true,false)
+                        Visible: =If(DataCardValue114.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =27
@@ -2784,7 +2785,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS6)
                         Required: =false
                         Update: =DataCardValue169.Text
-                        Visible: =If(DataCardValue114.Selected.Value = "Si",true,false)
+                        Visible: =If(DataCardValue120.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =29
@@ -3022,7 +3023,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS7)
                         Required: =false
                         Update: =DataCardValue150.Text
-                        Visible: =If(DataCardValue120.Selected.Value = "Si",true,false)
+                        Visible: =If(DataCardValue121.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =31
@@ -3350,6 +3351,7 @@ FormularioIPTOPBOLIVAR As screen:
                             ChevronHoverBackground: =RGBA(245, 245, 245, 1)
                             ChevronHoverFill: =RGBA(50, 49, 48, 1)
                             Color: =RGBA(50, 49, 48, 1)
+                            Default: ="No"
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(161, 159, 157, 1)
                             DisabledFill: =RGBA(242, 242, 241, 0)
@@ -3387,6 +3389,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS8)
                         Required: =false
                         Update: =DataCardValue151.Text
+                        Visible: =If(DataCardValue122.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =34
@@ -3406,7 +3409,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -3716,6 +3719,7 @@ FormularioIPTOPBOLIVAR As screen:
                             ChevronHoverBackground: =RGBA(245, 245, 245, 1)
                             ChevronHoverFill: =RGBA(50, 49, 48, 1)
                             Color: =RGBA(50, 49, 48, 1)
+                            Default: ="No"
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(161, 159, 157, 1)
                             DisabledFill: =RGBA(242, 242, 241, 0)
@@ -3753,6 +3757,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS9)
                         Required: =false
                         Update: =DataCardValue152.Text
+                        Visible: =If(DataCardValue123.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =37
@@ -3772,7 +3777,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -3887,7 +3892,11 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="Suba una foto aqui donde se
+                                evidencie si existen o no, 
+                                sombras por falta de 
+                                iluminación en el área de trabajo"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -4115,6 +4124,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS10)
                         Required: =false
                         Update: =DataCardValue153.Text
+                        Visible: =If(DataCardValue124.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =40
@@ -4134,7 +4144,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -4352,6 +4362,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS11)
                         Required: =false
                         Update: =DataCardValue154.Text
+                        Visible: =If(DataCardValue125.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =42
@@ -4371,7 +4382,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -4588,6 +4599,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS12)
                         Required: =false
                         Update: =DataCardValue155.Text
+                        Visible: =If(DataCardValue126.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =44
@@ -4607,7 +4619,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -4723,7 +4735,9 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =30
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="CARGA FISICA DEL 
+                                TRABAJO"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -4873,6 +4887,7 @@ FormularioIPTOPBOLIVAR As screen:
                             ChevronHoverBackground: =RGBA(245, 245, 245, 1)
                             ChevronHoverFill: =RGBA(50, 49, 48, 1)
                             Color: =RGBA(50, 49, 48, 1)
+                            Default: ="No"
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(161, 159, 157, 1)
                             DisabledFill: =RGBA(242, 242, 241, 0)
@@ -4910,6 +4925,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS13)
                         Required: =false
                         Update: =DataCardValue156.Text
+                        Visible: =If(DataCardValue128.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =47
@@ -4929,7 +4945,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -4948,7 +4964,7 @@ FormularioIPTOPBOLIVAR As screen:
                             DisplayMode: =Parent.DisplayMode
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            Height: =70
+                            Height: =50
                             HoverBorderColor: =RGBA(16, 110, 190, 1)
                             HoverColor: =RGBA(50, 49, 48, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
@@ -5237,6 +5253,7 @@ FormularioIPTOPBOLIVAR As screen:
                             ChevronHoverBackground: =RGBA(245, 245, 245, 1)
                             ChevronHoverFill: =RGBA(50, 49, 48, 1)
                             Color: =RGBA(50, 49, 48, 1)
+                            Default: ="No"
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(161, 159, 157, 1)
                             DisabledFill: =RGBA(242, 242, 241, 0)
@@ -5274,6 +5291,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS14)
                         Required: =false
                         Update: =DataCardValue157.Text
+                        Visible: =If(DataCardValue129.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =50
@@ -5293,7 +5311,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -5602,6 +5620,7 @@ FormularioIPTOPBOLIVAR As screen:
                             ChevronHoverBackground: =RGBA(245, 245, 245, 1)
                             ChevronHoverFill: =RGBA(50, 49, 48, 1)
                             Color: =RGBA(50, 49, 48, 1)
+                            Default: ="No"
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(161, 159, 157, 1)
                             DisabledFill: =RGBA(242, 242, 241, 0)
@@ -5639,6 +5658,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS15)
                         Required: =false
                         Update: =DataCardValue158.Text
+                        Visible: =If(DataCardValue130.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =53
@@ -5658,7 +5678,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -6002,6 +6022,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS16)
                         Required: =false
                         Update: =DataCardValue159.Text
+                        Visible: =If(DataCardValue131.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =56
@@ -6021,7 +6042,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -6367,6 +6388,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS17)
                         Required: =false
                         Update: =DataCardValue160.Text
+                        Visible: =If(DataCardValue132.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =59
@@ -6386,7 +6408,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -6405,7 +6427,7 @@ FormularioIPTOPBOLIVAR As screen:
                             DisplayMode: =Parent.DisplayMode
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            Height: =70
+                            Height: =50
                             HoverBorderColor: =RGBA(16, 110, 190, 1)
                             HoverColor: =RGBA(50, 49, 48, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
@@ -6733,6 +6755,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS18)
                         Required: =false
                         Update: =DataCardValue161.Text
+                        Visible: =If(DataCardValue134.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =62
@@ -6752,7 +6775,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -6771,7 +6794,7 @@ FormularioIPTOPBOLIVAR As screen:
                             DisplayMode: =Parent.DisplayMode
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            Height: =70
+                            Height: =50
                             HoverBorderColor: =RGBA(16, 110, 190, 1)
                             HoverColor: =RGBA(50, 49, 48, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
@@ -7098,6 +7121,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS19)
                         Required: =false
                         Update: =DataCardValue162.Text
+                        Visible: =If(DataCardValue134.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =65
@@ -7117,7 +7141,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -7136,7 +7160,7 @@ FormularioIPTOPBOLIVAR As screen:
                             DisplayMode: =Parent.DisplayMode
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            Height: =70
+                            Height: =50
                             HoverBorderColor: =RGBA(16, 110, 190, 1)
                             HoverColor: =RGBA(50, 49, 48, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
@@ -7463,6 +7487,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, HALLAZGOS20)
                         Required: =false
                         Update: =DataCardValue163.Text
+                        Visible: =If(DataCardValue135.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =68
@@ -7482,7 +7507,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -7501,7 +7526,7 @@ FormularioIPTOPBOLIVAR As screen:
                             DisplayMode: =Parent.DisplayMode
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            Height: =70
+                            Height: =50
                             HoverBorderColor: =RGBA(16, 110, 190, 1)
                             HoverColor: =RGBA(50, 49, 48, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
