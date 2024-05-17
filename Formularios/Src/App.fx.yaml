@@ -1,0 +1,83 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |+
+        =LoadData(coleccionOffline,"formularioSinCargar",true);
+        ClearCollect(coleccionOffline,{Fecha:"",Ciudad:"",Area:"",PuestoTrabajo:"",NombreTrabajador:"",Identificacion:"",Genero:"",Edad:"",EdadAgrupada:"",Turno:"",AntiguedadEnLaEmpresa:"",AntiguedadEnElCargo:"",TipoDeCargo:"",PredominacionManual:"",Estatura:"",Peso:"",PersonaFuma:"",CigarrillosDia:"",TiempoFumando:"",RealizaActividadFisica:"",CualActividadFisica:"",FrecuenciaActividadFisica:"",TiempoActividadFisica:"",EdadAG:"",EmpresaAG:"",CargoAG:"",MolestiaOsteomuscular:"",EnfeOsteo:"",NomEnfeOsteo:"",OjosF:"",OjosS:"",Ojos:"",CuelloF:"",CuelloS:"",Cuello:"",HombroIzquierdoF:"",HombroIzquierdoS:"",HombroIzquierdo:"",HombroDerechoF:"",HombroDerechoS:"",HombroDerecho:"",BrazoDerechoF:"",BrazoDerechoS:"",BrazoDerecho:"",BrazoIzquierdoF:"",BrazoIzquierdoS:"",BrazoIzquierdo:"",ABrazoDerechoF:"",ABrazoDerechoS:"",ABrazoDerecho:"",AntebrazoIzquierdoF:"",ABrazoIzquierdoS:"",ABrazoIzquierdo:"",MuñecaDerechaF:"",MuñecaDerechaS:"",MuñecaDerecha:"",MuñecaIzquierdaF:"",MuñecaIzquierdaS:"",MuñecaIzquierda:"",ManoDerechaF:"",ManoDerechaS:"",ManoDerecha:"",ManoIzquierdaF:"",ManoIzquierdaS:"",ManoIzquierda:"",ZonaDorsalF:"",ZonaDorsalS:"",ZonaDorsal:"",ZonaLumbarF:"",ZonaLumbarS:"",ZonaLumbar:"",NalgasCaderasF:"",NalgasCaderasS:"",NalgasCaderas:"",MusloDerechoF:"",MusloDerechoS:"",MulsoDerecho:"",MusloIzquierdoF:"",MusloIzquierdoS:"",MusloIzquierdo:"",RodillaDerechaF:"",RodillaDerechaS:"",RodillaDerecha:"",RodillaIzquierdaF:"",RodillaIzquierdaS:"",RodillaIzquierda:"",PiernaDerechaF:"",PiernaDerechaS:"",PiernaDerecha:"",PiernaIzquierdaF:"",PiernaIzquierdaS:"",PiernaIzquierda:"",PieTobDerechoF:"",PieTobDerechoS:"",PieTobilloDerecho:"",PieTobilloIzquierdoF:"",PieTobilloIzquierdoS:"",PieTobilloIzquierdo:"",CodoIzquierdoF:"",CodoIzquierdoS:"",CodoIzquierdo:"",CodoDerechoF:"",CodoDerechoS:"",CodoDerecho:"",PuntajeESintomas:"",ValoracionEPersonas:"",PuntajesEMiembroSuperior:"",ValoracionEMiembroSuperior:"",PuntajeEMiembroInferior:"",ValoracionEMiembroInferior:"",PuntajeESintomasColumna:"",ValoracionESintomasColumna:"",IndiceMasaCorporal:"",Empresa:"",Sede:"",AntiguedadEmpresaMeses:"",AntiguedadCargoMeses:""});
+        
+        Set(text_categoriaCargo,"");
+        
+        Set(text_categoriaEmpresa,"");
+        
+        Set(text_EdadAsignada,"");
+        
+        
+        Set(text_ojos,"");
+        
+        Set(text_cuello,"");
+        
+        Set(text_hombroIzq,"");
+        
+        Set(text_hombroDere,"");
+        
+        Set(text_brazoDere,"");
+        
+        Set(text_brazoIzq,"");
+        
+        Set(text_antebrazoDere,"");
+        
+        Set(text_antebrazoIzq,"");
+        
+        Set(text_muñecaDere,"");
+        
+        Set(text_muñecaIzq,"");
+        
+        Set(text_manoDere,"");
+        
+        Set(text_manoIzq,"");
+        
+        Set(text_zonaDorsal,"");
+        
+        Set(text_zonaLumbar,"");
+        
+        Set(text_nalgasCaderas,"");
+        
+        Set(text_musloDere,"");
+        
+        Set(text_musloIzq,"");
+        
+        Set(text_rodillaDere,"");
+        
+        Set(text_rodillaIzq,"");
+        
+        Set(text_piernaDere,"");
+        
+        Set(text_piernaIzq,"");
+        
+        Set(text_pieTobilloDere,"");
+        
+        Set(text_pieTobilloIzq,"");
+        
+        Set(text_codoDere,"");
+        
+        Set(text_codoIzq,"");
+        
+        
+        
+        Set(text_valoracion,"");
+        
+        Set(text_IndiceMasaCorporal,"");
+        
+        Set(text_AntiguedadEmpresaMeses,"");
+        
+        Set(text_AntiguedadCargoMeses,"");
+        
+    StartScreen: =
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
