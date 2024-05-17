@@ -24,7 +24,7 @@
                 },
                 "region": {
                   "charLength": 16,
-                  "charOffset": 91,
+                  "charOffset": 89,
                   "snippet": {
                     "text": "DataCardValue1_1"
                   }
@@ -64,7 +64,7 @@
                 },
                 "region": {
                   "charLength": 13,
-                  "charOffset": 107,
+                  "charOffset": 105,
                   "snippet": {
                     "text": ".SelectedDate"
                   }
@@ -101,7 +101,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 26,
+                  "charOffset": 25,
                   "snippet": {
                     "text": "Patch"
                   }
@@ -140,10 +140,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 3472,
-                  "charOffset": 77,
+                  "charLength": 3366,
+                  "charOffset": 76,
                   "snippet": {
-                    "text": "{\r\n    Fecha: DataCardValue1_1.SelectedDate;\r\n    Ciudad: DataCardValue2.Text;\r\n    Area: DataCardValue3.Text;\r\n    CargoTrabajo: DataCardValue4.Text;\r\n    NombreTrabajador: DataCardValue5.Text;\r\n    Identificacion: DataCardValue6.Text;\r\n    Genero: DataCardValue7.Selected.Value;\r\n    Edad: edadDigito.Value;\r\n    Turno: DataCardValue7.Selected.Value;\r\n    TipoDeCargp:DataCardValue12.Selected.Value;\r\n    PredominacionManual:DataCardValue13.Selected.Value;\r\n    Estatura: DataCardValue14.Text;\r\n    Peso: DataCardValue15.Text;\r\n    PersonaFuma: DataCardValue17.Selected.Value;\r\n    CigarrillosDia: DataCardValue18.Text;\r\n    TiempoFumando:DataCardValue19.Text;\r\n    RealizaActividadFisica:DataCardValue20.Selected.Value;\r\n    CualActividadFisica: DataCardValue21.Text;\r\n    FrecuenciaActividadFisica: DataCardValue22.Text;\r\n    TiempoActividadFisica: DataCardValue23.Text;\r\n    MolestiaOsteomuscular:DataCardValue26.Selected.Value;\r\n    EnfeOsteo:DataCardValue27.Selected.Value;\r\n    NomEnfeOsteo:DataCardValue28.Text;\r\n    OjosF:DataCardValue29.Value;\r\n    OjosS:DataCardValue30.Value;\r\n    \r\n    CuelloF:DataCardValue33.Value;\r\n    CuelloS:DataCardValue34.Value;\r\n    \r\n    HombroIzquierdoF:DataCardValue35.Value;\r\n    HombroIzquierdoS:DataCardValue36.Value;\r\n    \r\n    HombroDerechoF:DataCardValue38.Value;\r\n    HombroDerechoS:DataCardValue39.Value;\r\n    \r\n    BrazoDerechoF:DataCardValue41.Value;\r\n    BrazoDerechoS:DataCardValue42.Value;\r\n    \r\n    BrazoIzquierdoF:Dropdown12.Value;\r\n    BrazoIzquierdoS:DataCardValue45.Value;\r\n    \r\n    ABrazoDerechoF:DataCardValue47.Value;\r\n    ABrazoDerechoS:DataCardValue48.Value;\r\n   \r\n    AntebrazoIzquierdoF:DataCardValue50.Value;\r\n    ABrazoIzquierdoS:DataCardValue51.Value;\r\n  \r\n    MuñecaDerechaF:DataCardValue53.Value;\r\n    MuñecaDerechaS:DataCardValue54.Value;\r\n    \r\n    MuñecaIzquierdaF:DataCardValue56.Value;\r\n    MuñecaIzquierdaS:DataCardValue57.Value;\r\n   \r\n    ManoDerechaF:DataCardValue59.Value;\r\n    ManoDerechaS:DataCardValue60.Value;\r\n    \r\n    ManoIzquierdaF:DataCardValue62.Value;\r\n    ManoIzquierdaS:DataCardValue63.Value;\r\n    \r\n    ZonaDorsalF:DataCardValue65.Value;\r\n    ZonaDorsalS:DataCardValue66.Value;\r\n    \r\n    ZonaLumbarF:DataCardValue68.Value;\r\n    ZonaLumbarS:DataCardValue69.Value;\r\n    \r\n    NalgasCaderasF:DataCardValue71.Value;\r\n    NalgasCaderasS:DataCardValue72.Value;\r\n    \r\n    MusloDerechoF:DataCardValue74.Value;\r\n    MusloDerechoS:DataCardValue75.Value;\r\n    \r\n    MusloIzquierdoF:DataCardValue77.Value;\r\n    MusloIzquierdoS:DataCardValue78.Value;\r\n    \r\n    RodillaDerechaF:DataCardValue80.Value;\r\n    RodillaDerechaS:DataCardValue81.Value;\r\n    \r\n    RodillaIzquierdaF:DataCardValue83.Value;\r\n    RodillaIzquierdaS:DataCardValue84.Value;\r\n\r\n    PiernaDerechaF:DataCardValue86.Value;\r\n    PiernaDerechaS:DataCardValue87.Value;\r\n\r\n    PiernaIzquierdaF:DataCardValue89.Value;\r\n    PiernaIzquierdaS:DataCardValue90.Value;\r\n \r\n    PieTobDerechoF:DataCardValue92.Value;\r\n    PieTobDerechoS:DataCardValue93.Value;\r\n   \r\n    PieTobilloIzquierdoF:DataCardValue95.Value;\r\n    PieTobilloIzquierdoS:DataCardValue96.Value;\r\n    \r\n    CodoDerechoF:DataCardValue24.Value;\r\n    CodoDerechoS:DataCardValue98.Value;\r\n    \r\n    CodoIzquierdoF:DataCardValue100.Value;\r\n    CodoIzquierdoS:DataCardValue101.Value;\r\n    \r\n    Empresa:DataCardValue44.Text;\r\n    Sede:DataCardValue104.Text;\r\n\r\n    AntiguedadEmpresaMeses:Slider1.AccessibleLabel;\r\n    AntiguedadCargoMeses:Slider2.AccessibleLabel\r\n    \r\n\r\n}"
+                    "text": "{\n    Fecha: DataCardValue1_1.SelectedDate;\n    Ciudad: DataCardValue2.Text;\n    Area: DataCardValue3.Text;\n    CargoTrabajo: DataCardValue4.Text;\n    NombreTrabajador: DataCardValue5.Text;\n    Identificacion: DataCardValue6.Text;\n    Genero: DataCardValue7.Selected.Value;\n    Edad: edadDigito.Value;\n    Turno: DataCardValue7.Selected.Value;\n    TipoDeCargp:DataCardValue12.Selected.Value;\n    PredominacionManual:DataCardValue13.Selected.Value;\n    Estatura: DataCardValue14.Text;\n    Peso: DataCardValue15.Text;\n    PersonaFuma: DataCardValue17.Selected.Value;\n    CigarrillosDia: DataCardValue18.Text;\n    TiempoFumando:DataCardValue19.Text;\n    RealizaActividadFisica:DataCardValue20.Selected.Value;\n    CualActividadFisica: DataCardValue21.Text;\n    FrecuenciaActividadFisica: DataCardValue22.Text;\n    TiempoActividadFisica: DataCardValue23.Text;\n    MolestiaOsteomuscular:DataCardValue26.Selected.Value;\n    EnfeOsteo:DataCardValue27.Selected.Value;\n    NomEnfeOsteo:DataCardValue28.Text;\n    OjosF:DataCardValue29.Value;\n    OjosS:DataCardValue30.Value;\n    \n    CuelloF:DataCardValue33.Value;\n    CuelloS:DataCardValue34.Value;\n    \n    HombroIzquierdoF:DataCardValue35.Value;\n    HombroIzquierdoS:DataCardValue36.Value;\n    \n    HombroDerechoF:DataCardValue38.Value;\n    HombroDerechoS:DataCardValue39.Value;\n    \n    BrazoDerechoF:DataCardValue41.Value;\n    BrazoDerechoS:DataCardValue42.Value;\n    \n    BrazoIzquierdoF:Dropdown12.Value;\n    BrazoIzquierdoS:DataCardValue45.Value;\n    \n    ABrazoDerechoF:DataCardValue47.Value;\n    ABrazoDerechoS:DataCardValue48.Value;\n   \n    AntebrazoIzquierdoF:DataCardValue50.Value;\n    ABrazoIzquierdoS:DataCardValue51.Value;\n  \n    MuñecaDerechaF:DataCardValue53.Value;\n    MuñecaDerechaS:DataCardValue54.Value;\n    \n    MuñecaIzquierdaF:DataCardValue56.Value;\n    MuñecaIzquierdaS:DataCardValue57.Value;\n   \n    ManoDerechaF:DataCardValue59.Value;\n    ManoDerechaS:DataCardValue60.Value;\n    \n    ManoIzquierdaF:DataCardValue62.Value;\n    ManoIzquierdaS:DataCardValue63.Value;\n    \n    ZonaDorsalF:DataCardValue65.Value;\n    ZonaDorsalS:DataCardValue66.Value;\n    \n    ZonaLumbarF:DataCardValue68.Value;\n    ZonaLumbarS:DataCardValue69.Value;\n    \n    NalgasCaderasF:DataCardValue71.Value;\n    NalgasCaderasS:DataCardValue72.Value;\n    \n    MusloDerechoF:DataCardValue74.Value;\n    MusloDerechoS:DataCardValue75.Value;\n    \n    MusloIzquierdoF:DataCardValue77.Value;\n    MusloIzquierdoS:DataCardValue78.Value;\n    \n    RodillaDerechaF:DataCardValue80.Value;\n    RodillaDerechaS:DataCardValue81.Value;\n    \n    RodillaIzquierdaF:DataCardValue83.Value;\n    RodillaIzquierdaS:DataCardValue84.Value;\n\n    PiernaDerechaF:DataCardValue86.Value;\n    PiernaDerechaS:DataCardValue87.Value;\n\n    PiernaIzquierdaF:DataCardValue89.Value;\n    PiernaIzquierdaS:DataCardValue90.Value;\n \n    PieTobDerechoF:DataCardValue92.Value;\n    PieTobDerechoS:DataCardValue93.Value;\n   \n    PieTobilloIzquierdoF:DataCardValue95.Value;\n    PieTobilloIzquierdoS:DataCardValue96.Value;\n    \n    CodoDerechoF:DataCardValue24.Value;\n    CodoDerechoS:DataCardValue98.Value;\n    \n    CodoIzquierdoF:DataCardValue100.Value;\n    CodoIzquierdoS:DataCardValue101.Value;\n    \n    Empresa:DataCardValue44.Text;\n    Sede:DataCardValue104.Text;\n\n    AntiguedadEmpresaMeses:Slider1.AccessibleLabel;\n    AntiguedadCargoMeses:Slider2.AccessibleLabel\n    \n\n}"
                   }
                 }
               },
@@ -463,6 +463,426 @@
           },
           "ruleId": "app-ErrOperatorExpected",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.Título_DataCard1.DataCardValue142.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.Título_DataCard1.DataCardValue142.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.Título_DataCard1.DataCardValue142"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.CIUDAD_DataCard3.DataCardValue143.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.CIUDAD_DataCard3.DataCardValue143.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.CIUDAD_DataCard3.DataCardValue143"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.FECHA_DataCard3.DataCardValue144.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.FECHA_DataCard3.DataCardValue144.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.FECHA_DataCard3.DataCardValue144"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE EMPRESA_DataCard1'.DataCardValue172.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE EMPRESA_DataCard1'.DataCardValue172.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE EMPRESA_DataCard1'.DataCardValue172"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.NIT_DataCard2.DataCardValue173.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.NIT_DataCard2.DataCardValue173.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.NIT_DataCard2.DataCardValue173"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE TRABAJADOR_DataCard1'.DataCardValue174.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE TRABAJADOR_DataCard1'.DataCardValue174.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE TRABAJADOR_DataCard1'.DataCardValue174"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.IDENTIFICACIÓN_DataCard2.DataCardValue175.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.IDENTIFICACIÓN_DataCard2.DataCardValue175.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.IDENTIFICACIÓN_DataCard2.DataCardValue175"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'SECCIÓN/AREA_DataCard1'.DataCardValue176.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'SECCIÓN/AREA_DataCard1'.DataCardValue176.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'SECCIÓN/AREA_DataCard1'.DataCardValue176"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -5881,426 +6301,6 @@
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTOPBOLIVAR",
                 "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Hay repetitividad de movimientos idénticos o similares efectuados cada pocos segundos en los miembros superiores_DataCard1'.DataCardValue141"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon6_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon5_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container8_3.Icon1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.Título_DataCard1.DataCardValue142.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.Título_DataCard1.DataCardValue142.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.Título_DataCard1.DataCardValue142"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.CIUDAD_DataCard3.DataCardValue143.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.CIUDAD_DataCard3.DataCardValue143.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.CIUDAD_DataCard3.DataCardValue143"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.FECHA_DataCard3.DataCardValue144.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.FECHA_DataCard3.DataCardValue144.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.FECHA_DataCard3.DataCardValue144"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE EMPRESA_DataCard1'.DataCardValue172.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE EMPRESA_DataCard1'.DataCardValue172.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE EMPRESA_DataCard1'.DataCardValue172"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.NIT_DataCard2.DataCardValue173.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.NIT_DataCard2.DataCardValue173.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.NIT_DataCard2.DataCardValue173"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE TRABAJADOR_DataCard1'.DataCardValue174.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE TRABAJADOR_DataCard1'.DataCardValue174.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'NOMBRE TRABAJADOR_DataCard1'.DataCardValue174"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.IDENTIFICACIÓN_DataCard2.DataCardValue175.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.IDENTIFICACIÓN_DataCard2.DataCardValue175.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.IDENTIFICACIÓN_DataCard2.DataCardValue175"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'SECCIÓN/AREA_DataCard1'.DataCardValue176.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'SECCIÓN/AREA_DataCard1'.DataCardValue176.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'SECCIÓN/AREA_DataCard1'.DataCardValue176"
               }
             }
           ],
