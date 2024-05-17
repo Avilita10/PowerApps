@@ -238,10 +238,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="CARGAFISICAPORESFUERZOS"
                         Default: =ThisItem.'CARGA FISICA POR ESFUERZOS'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,CARGAFISICAPORESFUERZOS)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'CARGA FISICA POR ESFUERZOS')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =120
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, CARGAFISICAPORESFUERZOS)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'CARGA FISICA POR ESFUERZOS')
                         Required: =false
                         Update: =
                         Width: =640
@@ -324,10 +324,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Eltrabajorequierelevantarpesoens"
                         Default: =ThisItem.'El trabajo requiere levantar peso en solo envión (para hombres 25 kilos y mujeres 12.5 kilos) Si la respuesta es afirmativ conteste la 31A '
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Eltrabajorequierelevantarpesoens)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'El trabajo requiere levantar peso en solo envión (para hombres 25 kilos y mujeres 12.5 kilos) Si la respuesta es afirmativ conteste la 31A ')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Eltrabajorequierelevantarpesoens)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'El trabajo requiere levantar peso en solo envión (para hombres 25 kilos y mujeres 12.5 kilos) Si la respuesta es afirmativ conteste la 31A ')
                         Required: =false
                         Update: =DataCardValue197.Text
                         Width: =640
