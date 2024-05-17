@@ -19,7 +19,9 @@
       }
     },
     "dataSources": [
-      "Inspección puesto de trabajo video Terminales"
+      "Inspección puesto de trabajo video Terminales",
+      "Inspección de puesto de trabajo (Operativo)",
+      "Inspección puesto de trabajo video Terminales_1"
     ],
     "dependencies": {},
     "dependents": [],

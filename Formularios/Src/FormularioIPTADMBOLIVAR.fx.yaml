@@ -440,7 +440,7 @@ FormularioIPTADMBOLIVAR As screen:
                 ZIndex: =3
 
                 Form1_2 As form:
-                    AlignInContainer: =%AlignInContainer.RESERVED%.SetByContainer
+                    AlignInContainer: =AlignInContainer
                     BorderColor: =RGBA(250, 250, 250, 1)
                     DataSource: ='Inspección puesto de trabajo video Terminales_1'
                     DefaultMode: =FormMode.New

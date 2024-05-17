@@ -99,7 +99,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 7,
+    "BindingErrorCount": 4,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -118,7 +118,7 @@
     "ManualOfflineProfileId": "",
     "Name": "APLICACION AUTO-REPORTE DE SINTOMATOLOGÍA",
     "OriginatingVersion": "1.337",
-    "ParserErrorCount": 5,
+    "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
