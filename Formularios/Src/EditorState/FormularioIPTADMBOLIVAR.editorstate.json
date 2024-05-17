@@ -46,7 +46,7 @@
       "MetaDataIDKey": "%AddPicture.ID%",
       "Name": "AddPicture16",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -254,7 +254,7 @@
       "MetaDataIDKey": "%AddPicture.ID%",
       "Name": "AddPicture17",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -462,7 +462,7 @@
       "MetaDataIDKey": "%AddPicture.ID%",
       "Name": "AddPicture18",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -911,7 +911,7 @@
       "MetaDataIDKey": "",
       "Name": "CARGO_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1072,7 +1072,7 @@
       "MetaDataIDKey": "",
       "Name": "CIUDAD_DataCard3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2597,7 +2597,7 @@
       "MetaDataIDKey": "",
       "Name": "CORREO ELECTRONICO_DataCard1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2742,7 +2742,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey169",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3017,7 +3017,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey170",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7142,7 +7142,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey213",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7417,7 +7417,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey214",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7692,7 +7692,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey215",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8792,7 +8792,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey219",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9067,7 +9067,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey220",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9342,7 +9342,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey221",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9617,7 +9617,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey222",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9892,7 +9892,7 @@
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey27",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10198,7 +10198,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue113",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10519,7 +10519,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue127",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14983,7 +14983,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue182",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15219,7 +15219,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue183",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15516,7 +15516,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue184",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15752,7 +15752,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue185",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16049,7 +16049,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue186",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16285,7 +16285,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue187",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16606,7 +16606,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue8",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16903,7 +16903,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage164",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17185,7 +17185,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage165",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21415,7 +21415,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage208",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21697,7 +21697,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage209",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -21979,7 +21979,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage210",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23107,7 +23107,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage214",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23389,7 +23389,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage215",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23671,7 +23671,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage216",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23953,7 +23953,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage217",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24235,7 +24235,7 @@
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage25",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24518,7 +24518,7 @@
       "MetaDataIDKey": "",
       "Name": "EVIDENCIAS_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24666,7 +24666,7 @@
       "MetaDataIDKey": "",
       "Name": "EVIDENCIAS1_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 20,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24814,7 +24814,7 @@
       "MetaDataIDKey": "",
       "Name": "EVIDENCIAS2_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 23,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24962,7 +24962,7 @@
       "MetaDataIDKey": "",
       "Name": "EVIDENCIAS3_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 26,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25110,7 +25110,7 @@
       "MetaDataIDKey": "",
       "Name": "Existen deslumbramientos en el área pouzr exceso de l_DataCard1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 21,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25258,7 +25258,7 @@
       "MetaDataIDKey": "",
       "Name": "Existen reflejos o brillos sobre la pantalla del computador_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25406,7 +25406,7 @@
       "MetaDataIDKey": "",
       "Name": "Existen sombras por falta de iluminación en el área de trabajo_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 24,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25554,7 +25554,7 @@
       "MetaDataIDKey": "",
       "Name": "FECHA_DataCard3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25952,7 +25952,7 @@
       "MetaDataIDKey": "",
       "Name": "HALLAZGOS_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26113,7 +26113,7 @@
       "MetaDataIDKey": "",
       "Name": "HALLAZGOS1_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 19,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26274,7 +26274,7 @@
       "MetaDataIDKey": "",
       "Name": "HALLAZGOS2_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 22,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26435,7 +26435,7 @@
       "MetaDataIDKey": "",
       "Name": "HALLAZGOS3_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 25,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26596,7 +26596,7 @@
       "MetaDataIDKey": "",
       "Name": "HALLAZGOS4_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26757,7 +26757,7 @@
       "MetaDataIDKey": "",
       "Name": "HALLAZGOS5_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26910,7 +26910,7 @@
       "MetaDataIDKey": "",
       "Name": "Hay ruido excesivo que es molesto o aturdidor_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -28348,7 +28348,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "Image20",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -28571,7 +28571,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "Image21",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -28794,7 +28794,7 @@
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "Image22",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -29245,7 +29245,7 @@
       "MetaDataIDKey": "",
       "Name": "La circulación de aire en el área de trabajo es insuficiente_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 25,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30020,7 +30020,7 @@
       "MetaDataIDKey": "",
       "Name": "Label6",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30283,7 +30283,7 @@
       "MetaDataIDKey": "",
       "Name": "Label6_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30546,7 +30546,7 @@
       "MetaDataIDKey": "",
       "Name": "Label8",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30819,7 +30819,7 @@
       "MetaDataIDKey": "",
       "Name": "Las luminarias carecen de difusores ó se encuentran en mal estado_DataCard1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 18,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -31284,7 +31284,7 @@
       "MetaDataIDKey": "",
       "Name": "NOMBRE QUIEN ELABORA LA INSPECCIÓN_DataCard1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -31758,7 +31758,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible164",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -32040,7 +32040,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible165",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -36270,7 +36270,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible208",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -36552,7 +36552,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible209",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -36834,7 +36834,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible210",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -37962,7 +37962,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible214",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -38244,7 +38244,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible215",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -38526,7 +38526,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible216",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -38808,7 +38808,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible217",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -39090,7 +39090,7 @@
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible25",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
