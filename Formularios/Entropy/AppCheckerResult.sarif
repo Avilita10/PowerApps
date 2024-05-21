@@ -182,6 +182,46 @@
                   "relativeAddress": 0
                 },
                 "region": {
+                  "charLength": 16,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue127"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.FECHA_DataCard3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue127"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.FECHA_DataCard3.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.FECHA_DataCard3.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
                   "charLength": 13,
                   "charOffset": 16,
                   "snippet": {
@@ -197,16 +237,13 @@
             }
           ],
           "message": {
-            "arguments": [
-              "SelectedDate"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2330,6 +2367,237 @@
           },
           "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue232"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue232"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 16,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue232"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue232"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 16,
+                  "snippet": {
+                    "text": ".Y"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 21,
+                  "snippet": {
+                    "text": "DataCardValue232"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue232"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273.Y",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 37,
+                  "snippet": {
+                    "text": ".Height"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.ErrorMessage273"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -9475,19 +9743,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.DataCardValue232.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.Dropdown6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.DataCardValue232.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.Dropdown6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.DataCardValue232"
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.Dropdown6"
               }
             }
           ],
@@ -9835,19 +10103,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas_DataCard1'.DataCardValue236.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo es minucioso y requiere de precisión_DataCard1'.DataCardValue234.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas_DataCard1'.DataCardValue236.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo es minucioso y requiere de precisión_DataCard1'.DataCardValue234.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas_DataCard1'.DataCardValue236"
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo es minucioso y requiere de precisión_DataCard1'.DataCardValue234"
               }
             }
           ],
@@ -9895,19 +10163,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo es minucioso y requiere de precisión_DataCard1'.DataCardValue234.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas_DataCard1'.DataCardValue236.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo es minucioso y requiere de precisión_DataCard1'.DataCardValue234.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas_DataCard1'.DataCardValue236.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo es minucioso y requiere de precisión_DataCard1'.DataCardValue234"
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas_DataCard1'.DataCardValue236"
               }
             }
           ],
@@ -12638,36 +12906,6 @@
                 "member": "AccessibleLabel",
                 "module": "FormularioSinotomatologia",
                 "type": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.OBSERVACIONES_DataCard1.DataCardValue103"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Organización del trabajo_DataCard1'.DataCardValue127.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Organización del trabajo_DataCard1'.DataCardValue127.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Organización del trabajo_DataCard1'.DataCardValue127"
               }
             }
           ],
