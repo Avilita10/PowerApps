@@ -3263,19 +3263,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajador empuja o hala 1o o mas kilos Si la respuesta es afirmativa conteste la 33 A_DataCard1'.DataCardValue212.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Mas de 25 veces al dia_DataCard2'.DataCardValue210.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajador empuja o hala 1o o mas kilos Si la respuesta es afirmativa conteste la 33 A_DataCard1'.DataCardValue212.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Mas de 25 veces al dia_DataCard2'.DataCardValue210.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajador empuja o hala 1o o mas kilos Si la respuesta es afirmativa conteste la 33 A_DataCard1'.DataCardValue212"
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Mas de 25 veces al dia_DataCard2'.DataCardValue210"
               }
             }
           ],
@@ -3323,19 +3323,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Mas de 25 veces al dia_DataCard2'.DataCardValue210.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajador empuja o hala 1o o mas kilos Si la respuesta es afirmativa conteste la 33 A_DataCard1'.DataCardValue212.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Mas de 25 veces al dia_DataCard2'.DataCardValue210.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajador empuja o hala 1o o mas kilos Si la respuesta es afirmativa conteste la 33 A_DataCard1'.DataCardValue212.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Mas de 25 veces al dia_DataCard2'.DataCardValue210"
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajador empuja o hala 1o o mas kilos Si la respuesta es afirmativa conteste la 33 A_DataCard1'.DataCardValue212"
               }
             }
           ],
