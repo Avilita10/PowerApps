@@ -1592,6 +1592,249 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =110
                             ZIndex: =5
 
+                    HALLAZGOS1_DataCard2 As typedDataCard.textualEditCard:
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="HALLAZGOS1"
+                        Default: =ThisItem.HALLAZGOS1
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,HALLAZGOS1)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS1)
+                        Required: =false
+                        Update: =DataCardValue327.Text
+                        Visible: =If(DataCardValue179.Selected.Value = "Si",true,false)
+                        Width: =640
+                        X: =0
+                        Y: =15
+                        ZIndex: =1
+
+                        DataCardKey405 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =48
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: ="HALLAZGOS"
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue327 As text:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            Default: =Parent.Default
+                            DelayOutput: =true
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =70
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(255, 255, 255, 1)
+                            MaxLength: =Parent.MaxLength
+                            PaddingLeft: =5
+                            PressedBorderColor: =RGBA(0, 120, 212, 1)
+                            PressedColor: =RGBA(50, 49, 48, 1)
+                            PressedFill: =RGBA(255, 255, 255, 1)
+                            RadiusBottomLeft: =0
+                            RadiusBottomRight: =0
+                            RadiusTopLeft: =0
+                            RadiusTopRight: =0
+                            Size: =21
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey405.Y + DataCardKey405.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage400 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =21
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue327.Y + DataCardValue327.Height
+                            ZIndex: =3
+
+                        StarVisible400 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey405.Height
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey405.Y
+                            ZIndex: =4
+
+                    EVIDENCIAS1_DataCard2 As typedDataCard.addLargePictureCard:
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="EVIDENCIAS1"
+                        Default: =ThisItem.EVIDENCIAS1
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,EVIDENCIAS1)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =326
+                        Required: =false
+                        Update: =Image62.Image
+                        Width: =640
+                        X: =0
+                        Y: =16
+                        ZIndex: =1
+
+                        DataCardKey404 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =48
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: ="EVIDENCIAS"
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        Image62 As image:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledFill: =RGBA(0, 0, 0, 0)
+                            DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: =4
+                            Height: =AddPicture58.Height
+                            HoverBorderColor: =RGBA(0, 0, 0, 0)
+                            HoverFill: =RGBA(0, 0, 0, 0)
+                            Image: =If(IsBlank(AddPicture58.Media), Parent.Default, AddPicture58.Media)
+                            PressedBorderColor: =RGBA(0, 0, 0, 0)
+                            PressedFill: =RGBA(0, 0, 0, 0)
+                            Tooltip: =Parent.DisplayName
+                            Width: =AddPicture58.Width
+                            X: =AddPicture58.X
+                            Y: =AddPicture58.Y
+                            ZIndex: =2
+
+                        AddPicture58 As addMedia:
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(0, 120, 212, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =320
+                            HoverBorderColor: =RGBA(0, 0, 0, 0)
+                            HoverColor: =RGBA(255, 255, 255, 1)
+                            HoverFill: =RGBA(16, 110, 190, 1)
+                            PressedBorderColor: =RGBA(0, 69, 120, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(16, 110, 190, 1)
+                            Size: =24
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey404.Y + DataCardKey404.Height + 5
+                            ZIndex: =3
+
+                        ErrorMessage399 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =21
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =Image62.Y + Image62.Height
+                            ZIndex: =4
+
+                        StarVisible399 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey404.Height
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey404.Y
+                            ZIndex: =5
+
                     "'Existen deslumbramientos en el área pouzr exceso de l_DataCard1' As typedDataCard.textualEditCard":
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -1606,7 +1849,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue181.Text
                         Width: =640
                         X: =0
-                        Y: =15
+                        Y: =17
                         ZIndex: =1
 
                         DataCardKey214 As label:
@@ -1722,7 +1965,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue182.Text
                         Width: =640
                         X: =0
-                        Y: =16
+                        Y: =18
                         ZIndex: =1
 
                         DataCardKey215 As label:
@@ -1800,12 +2043,12 @@ FormularioIPTADMBOLIVAR As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,EVIDENCIAS2)
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =290
                         Required: =false
                         Update: =Image22.Image
                         Width: =640
                         X: =0
-                        Y: =17
+                        Y: =19
                         ZIndex: =1
 
                         DataCardKey216 As label:
@@ -1859,7 +2102,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Fill: =RGBA(0, 120, 212, 1)
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            Height: =320
+                            Height: =206
                             HoverBorderColor: =RGBA(0, 0, 0, 0)
                             HoverColor: =RGBA(255, 255, 255, 1)
                             HoverFill: =RGBA(16, 110, 190, 1)
@@ -1931,7 +2174,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue183.Text
                         Width: =640
                         X: =0
-                        Y: =18
+                        Y: =20
                         ZIndex: =1
 
                         DataCardKey217 As label:
@@ -2047,7 +2290,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue184.Text
                         Width: =640
                         X: =0
-                        Y: =19
+                        Y: =21
                         ZIndex: =1
 
                         DataCardKey218 As label:
@@ -2162,7 +2405,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image23.Image
                         Width: =640
                         X: =0
-                        Y: =20
+                        Y: =22
                         ZIndex: =1
 
                         DataCardKey219 As label:
@@ -2288,7 +2531,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue185.Text
                         Width: =640
                         X: =0
-                        Y: =21
+                        Y: =23
                         ZIndex: =1
 
                         DataCardKey220 As label:
@@ -2404,7 +2647,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue186.Text
                         Width: =640
                         X: =0
-                        Y: =22
+                        Y: =24
                         ZIndex: =1
 
                         DataCardKey221 As label:
@@ -2519,7 +2762,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue187.Text
                         Width: =640
                         X: =0
-                        Y: =23
+                        Y: =25
                         ZIndex: =1
 
                         DataCardKey222 As label:
@@ -2635,7 +2878,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue188.Text
                         Width: =640
                         X: =0
-                        Y: =24
+                        Y: =26
                         ZIndex: =1
 
                         DataCardKey238 As label:
@@ -2751,7 +2994,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue199.Text
                         Width: =640
                         X: =0
-                        Y: =25
+                        Y: =27
                         ZIndex: =1
 
                         DataCardKey239 As label:
@@ -2867,7 +3110,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue240.Text
                         Width: =640
                         X: =0
-                        Y: =26
+                        Y: =28
                         ZIndex: =1
 
                         DataCardKey286 As label:
@@ -2983,7 +3226,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue241.Text
                         Width: =640
                         X: =0
-                        Y: =27
+                        Y: =29
                         ZIndex: =1
 
                         DataCardKey288 As label:
@@ -3099,7 +3342,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue242.Text
                         Width: =640
                         X: =0
-                        Y: =28
+                        Y: =30
                         ZIndex: =1
 
                         DataCardKey289 As label:
@@ -3214,7 +3457,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image29.Image
                         Width: =640
                         X: =0
-                        Y: =29
+                        Y: =31
                         ZIndex: =1
 
                         DataCardKey287 As label:
@@ -3341,7 +3584,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue243.Text
                         Width: =640
                         X: =0
-                        Y: =30
+                        Y: =32
                         ZIndex: =1
 
                         DataCardKey290 As label:
@@ -3457,7 +3700,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue244.Text
                         Width: =640
                         X: =0
-                        Y: =31
+                        Y: =33
                         ZIndex: =1
 
                         DataCardKey291 As label:
@@ -3572,7 +3815,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image34.Image
                         Width: =640
                         X: =0
-                        Y: =32
+                        Y: =34
                         ZIndex: =1
 
                         DataCardKey292 As label:
@@ -3699,7 +3942,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue245.Text
                         Width: =640
                         X: =0
-                        Y: =33
+                        Y: =35
                         ZIndex: =1
 
                         DataCardKey293 As label:
@@ -3815,7 +4058,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue246.Text
                         Width: =640
                         X: =0
-                        Y: =34
+                        Y: =36
                         ZIndex: =1
 
                         DataCardKey294 As label:
@@ -3930,7 +4173,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image35.Image
                         Width: =640
                         X: =0
-                        Y: =35
+                        Y: =37
                         ZIndex: =1
 
                         DataCardKey295 As label:
@@ -4057,7 +4300,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue247.Text
                         Width: =640
                         X: =0
-                        Y: =36
+                        Y: =38
                         ZIndex: =1
 
                         DataCardKey296 As label:
@@ -4173,7 +4416,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue248.Text
                         Width: =640
                         X: =0
-                        Y: =37
+                        Y: =39
                         ZIndex: =1
 
                         DataCardKey297 As label:
@@ -4288,7 +4531,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image36.Image
                         Width: =640
                         X: =0
-                        Y: =38
+                        Y: =40
                         ZIndex: =1
 
                         DataCardKey298 As label:
@@ -4415,7 +4658,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue249.Text
                         Width: =640
                         X: =0
-                        Y: =39
+                        Y: =41
                         ZIndex: =1
 
                         DataCardKey299 As label:
@@ -4531,7 +4774,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue250.Text
                         Width: =640
                         X: =0
-                        Y: =40
+                        Y: =42
                         ZIndex: =1
 
                         DataCardKey300 As label:
@@ -4646,7 +4889,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image37.Image
                         Width: =640
                         X: =0
-                        Y: =41
+                        Y: =43
                         ZIndex: =1
 
                         DataCardKey301 As label:
@@ -4773,7 +5016,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue251.Text
                         Width: =640
                         X: =0
-                        Y: =42
+                        Y: =44
                         ZIndex: =1
 
                         DataCardKey302 As label:
@@ -4889,7 +5132,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue252.Text
                         Width: =640
                         X: =0
-                        Y: =43
+                        Y: =45
                         ZIndex: =1
 
                         DataCardKey303 As label:
@@ -5004,7 +5247,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image38.Image
                         Width: =640
                         X: =0
-                        Y: =44
+                        Y: =46
                         ZIndex: =1
 
                         DataCardKey304 As label:
@@ -5131,7 +5374,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue253.Text
                         Width: =640
                         X: =0
-                        Y: =45
+                        Y: =47
                         ZIndex: =1
 
                         DataCardKey305 As label:
@@ -5247,7 +5490,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue254.Text
                         Width: =640
                         X: =0
-                        Y: =46
+                        Y: =48
                         ZIndex: =1
 
                         DataCardKey306 As label:
@@ -5362,7 +5605,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image39.Image
                         Width: =640
                         X: =0
-                        Y: =47
+                        Y: =49
                         ZIndex: =1
 
                         DataCardKey307 As label:
@@ -5489,7 +5732,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue255.Text
                         Width: =640
                         X: =0
-                        Y: =48
+                        Y: =50
                         ZIndex: =1
 
                         DataCardKey308 As label:
@@ -5605,7 +5848,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue256.Text
                         Width: =640
                         X: =0
-                        Y: =49
+                        Y: =51
                         ZIndex: =1
 
                         DataCardKey309 As label:
@@ -5720,7 +5963,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image40.Image
                         Width: =640
                         X: =0
-                        Y: =50
+                        Y: =52
                         ZIndex: =1
 
                         DataCardKey310 As label:
@@ -5847,7 +6090,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue257.Text
                         Width: =640
                         X: =0
-                        Y: =51
+                        Y: =53
                         ZIndex: =1
 
                         DataCardKey311 As label:
@@ -5963,7 +6206,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue258.Text
                         Width: =640
                         X: =0
-                        Y: =52
+                        Y: =54
                         ZIndex: =1
 
                         DataCardKey312 As label:
@@ -6078,7 +6321,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image41.Image
                         Width: =640
                         X: =0
-                        Y: =53
+                        Y: =55
                         ZIndex: =1
 
                         DataCardKey313 As label:
@@ -6205,7 +6448,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue259.Text
                         Width: =640
                         X: =0
-                        Y: =54
+                        Y: =56
                         ZIndex: =1
 
                         DataCardKey314 As label:
@@ -6321,7 +6564,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue260.Text
                         Width: =640
                         X: =0
-                        Y: =55
+                        Y: =57
                         ZIndex: =1
 
                         DataCardKey315 As label:
@@ -6436,7 +6679,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image42.Image
                         Width: =640
                         X: =0
-                        Y: =56
+                        Y: =58
                         ZIndex: =1
 
                         DataCardKey316 As label:
@@ -6563,7 +6806,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue261.Text
                         Width: =640
                         X: =0
-                        Y: =57
+                        Y: =59
                         ZIndex: =1
 
                         DataCardKey317 As label:
@@ -6679,7 +6922,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue262.Text
                         Width: =640
                         X: =0
-                        Y: =58
+                        Y: =60
                         ZIndex: =1
 
                         DataCardKey318 As label:
@@ -6794,7 +7037,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image43.Image
                         Width: =640
                         X: =0
-                        Y: =59
+                        Y: =61
                         ZIndex: =1
 
                         DataCardKey319 As label:
@@ -6921,7 +7164,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue263.Text
                         Width: =640
                         X: =0
-                        Y: =60
+                        Y: =62
                         ZIndex: =1
 
                         DataCardKey320 As label:
@@ -7037,7 +7280,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue264.Text
                         Width: =640
                         X: =0
-                        Y: =61
+                        Y: =63
                         ZIndex: =1
 
                         DataCardKey321 As label:
@@ -7153,7 +7396,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue265.Text
                         Width: =640
                         X: =0
-                        Y: =62
+                        Y: =64
                         ZIndex: =1
 
                         DataCardKey322 As label:
@@ -7269,7 +7512,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue266.Text
                         Width: =640
                         X: =0
-                        Y: =63
+                        Y: =65
                         ZIndex: =1
 
                         DataCardKey323 As label:
@@ -7385,7 +7628,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue267.Text
                         Width: =640
                         X: =0
-                        Y: =64
+                        Y: =66
                         ZIndex: =1
 
                         DataCardKey324 As label:
@@ -7501,7 +7744,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue268.Text
                         Width: =640
                         X: =0
-                        Y: =65
+                        Y: =67
                         ZIndex: =1
 
                         DataCardKey325 As label:
@@ -7617,7 +7860,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue269.Text
                         Width: =640
                         X: =0
-                        Y: =66
+                        Y: =68
                         ZIndex: =1
 
                         DataCardKey326 As label:
@@ -7733,7 +7976,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue270.Text
                         Width: =640
                         X: =0
-                        Y: =67
+                        Y: =69
                         ZIndex: =1
 
                         DataCardKey327 As label:
@@ -7849,7 +8092,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue271.Text
                         Width: =640
                         X: =0
-                        Y: =68
+                        Y: =70
                         ZIndex: =1
 
                         DataCardKey328 As label:
@@ -7965,7 +8208,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue272.Text
                         Width: =640
                         X: =0
-                        Y: =69
+                        Y: =71
                         ZIndex: =1
 
                         DataCardKey329 As label:
@@ -8081,7 +8324,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue273.Text
                         Width: =640
                         X: =0
-                        Y: =70
+                        Y: =72
                         ZIndex: =1
 
                         DataCardKey330 As label:
@@ -8197,7 +8440,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue274.Text
                         Width: =640
                         X: =0
-                        Y: =71
+                        Y: =73
                         ZIndex: =1
 
                         DataCardKey331 As label:
@@ -8313,7 +8556,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue275.Text
                         Width: =640
                         X: =0
-                        Y: =72
+                        Y: =74
                         ZIndex: =1
 
                         DataCardKey332 As label:
@@ -8429,7 +8672,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue276.Text
                         Width: =640
                         X: =0
-                        Y: =73
+                        Y: =75
                         ZIndex: =1
 
                         DataCardKey333 As label:
@@ -8545,7 +8788,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue277.Text
                         Width: =640
                         X: =0
-                        Y: =74
+                        Y: =76
                         ZIndex: =1
 
                         DataCardKey334 As label:
@@ -8661,7 +8904,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue278.Text
                         Width: =640
                         X: =0
-                        Y: =75
+                        Y: =77
                         ZIndex: =1
 
                         DataCardKey335 As label:
@@ -8777,7 +9020,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue279.Text
                         Width: =640
                         X: =0
-                        Y: =76
+                        Y: =78
                         ZIndex: =1
 
                         DataCardKey336 As label:
@@ -8893,7 +9136,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue280.Text
                         Width: =640
                         X: =0
-                        Y: =77
+                        Y: =79
                         ZIndex: =1
 
                         DataCardKey337 As label:
@@ -9009,7 +9252,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue281.Text
                         Width: =640
                         X: =0
-                        Y: =78
+                        Y: =80
                         ZIndex: =1
 
                         DataCardKey338 As label:
@@ -9125,7 +9368,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue282.Text
                         Width: =640
                         X: =0
-                        Y: =79
+                        Y: =81
                         ZIndex: =1
 
                         DataCardKey339 As label:
@@ -9241,7 +9484,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue283.Text
                         Width: =640
                         X: =0
-                        Y: =80
+                        Y: =82
                         ZIndex: =1
 
                         DataCardKey340 As label:
@@ -9357,7 +9600,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue284.Text
                         Width: =640
                         X: =0
-                        Y: =81
+                        Y: =83
                         ZIndex: =1
 
                         DataCardKey341 As label:
@@ -9473,7 +9716,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue285.Text
                         Width: =640
                         X: =0
-                        Y: =82
+                        Y: =84
                         ZIndex: =1
 
                         DataCardKey342 As label:
@@ -9589,7 +9832,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue286.Text
                         Width: =640
                         X: =0
-                        Y: =83
+                        Y: =85
                         ZIndex: =1
 
                         DataCardKey343 As label:
@@ -9705,7 +9948,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue287.Text
                         Width: =640
                         X: =0
-                        Y: =84
+                        Y: =86
                         ZIndex: =1
 
                         DataCardKey344 As label:
@@ -9821,7 +10064,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue288.Text
                         Width: =640
                         X: =0
-                        Y: =85
+                        Y: =87
                         ZIndex: =1
 
                         DataCardKey345 As label:
@@ -9937,7 +10180,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue291.Text
                         Width: =640
                         X: =0
-                        Y: =86
+                        Y: =88
                         ZIndex: =1
 
                         DataCardKey348 As label:
@@ -10053,7 +10296,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue290.Text
                         Width: =640
                         X: =0
-                        Y: =87
+                        Y: =89
                         ZIndex: =1
 
                         DataCardKey347 As label:
@@ -10169,7 +10412,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue289.Text
                         Width: =640
                         X: =0
-                        Y: =88
+                        Y: =90
                         ZIndex: =1
 
                         DataCardKey346 As label:
@@ -10285,7 +10528,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue292.Text
                         Width: =640
                         X: =0
-                        Y: =89
+                        Y: =91
                         ZIndex: =1
 
                         DataCardKey349 As label:
@@ -10401,7 +10644,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue293.Text
                         Width: =640
                         X: =0
-                        Y: =90
+                        Y: =92
                         ZIndex: =1
 
                         DataCardKey350 As label:
@@ -10517,7 +10760,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue294.Text
                         Width: =640
                         X: =0
-                        Y: =91
+                        Y: =93
                         ZIndex: =1
 
                         DataCardKey351 As label:
@@ -10632,7 +10875,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image44.Image
                         Width: =640
                         X: =0
-                        Y: =92
+                        Y: =94
                         ZIndex: =1
 
                         DataCardKey352 As label:
@@ -10759,7 +11002,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue295.Text
                         Width: =640
                         X: =0
-                        Y: =93
+                        Y: =95
                         ZIndex: =1
 
                         DataCardKey353 As label:
@@ -10875,7 +11118,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue296.Text
                         Width: =640
                         X: =0
-                        Y: =94
+                        Y: =96
                         ZIndex: =1
 
                         DataCardKey354 As label:
@@ -10990,7 +11233,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image45.Image
                         Width: =640
                         X: =0
-                        Y: =95
+                        Y: =97
                         ZIndex: =1
 
                         DataCardKey355 As label:
@@ -11117,7 +11360,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue297.Text
                         Width: =640
                         X: =0
-                        Y: =96
+                        Y: =98
                         ZIndex: =1
 
                         DataCardKey356 As label:
@@ -11233,7 +11476,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue298.Text
                         Width: =640
                         X: =0
-                        Y: =97
+                        Y: =99
                         ZIndex: =1
 
                         DataCardKey357 As label:
@@ -11348,7 +11591,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image46.Image
                         Width: =640
                         X: =0
-                        Y: =98
+                        Y: =100
                         ZIndex: =1
 
                         DataCardKey358 As label:
@@ -11475,7 +11718,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue299.Text
                         Width: =640
                         X: =0
-                        Y: =99
+                        Y: =101
                         ZIndex: =1
 
                         DataCardKey359 As label:
@@ -11591,7 +11834,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue300.Text
                         Width: =640
                         X: =0
-                        Y: =100
+                        Y: =102
                         ZIndex: =1
 
                         DataCardKey360 As label:
@@ -11706,7 +11949,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image47.Image
                         Width: =640
                         X: =0
-                        Y: =101
+                        Y: =103
                         ZIndex: =1
 
                         DataCardKey361 As label:
@@ -11833,7 +12076,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue182.Text
                         Width: =640
                         X: =0
-                        Y: =102
+                        Y: =104
                         ZIndex: =1
 
                         DataCardKey362 As label:
@@ -11949,7 +12192,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue232.Text
                         Width: =640
                         X: =0
-                        Y: =103
+                        Y: =105
                         ZIndex: =1
 
                         DataCardKey363 As label:
@@ -12064,7 +12307,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image48.Image
                         Width: =640
                         X: =0
-                        Y: =104
+                        Y: =106
                         ZIndex: =1
 
                         DataCardKey364 As label:
@@ -12191,7 +12434,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue301.Text
                         Width: =640
                         X: =0
-                        Y: =105
+                        Y: =107
                         ZIndex: =1
 
                         DataCardKey365 As label:
@@ -12307,7 +12550,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue302.Text
                         Width: =640
                         X: =0
-                        Y: =106
+                        Y: =108
                         ZIndex: =1
 
                         DataCardKey366 As label:
@@ -12422,7 +12665,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image49.Image
                         Width: =640
                         X: =0
-                        Y: =107
+                        Y: =109
                         ZIndex: =1
 
                         DataCardKey367 As label:
@@ -12549,7 +12792,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue303.Text
                         Width: =640
                         X: =0
-                        Y: =108
+                        Y: =110
                         ZIndex: =1
 
                         DataCardKey368 As label:
@@ -12665,7 +12908,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue304.Text
                         Width: =640
                         X: =0
-                        Y: =109
+                        Y: =111
                         ZIndex: =1
 
                         DataCardKey369 As label:
@@ -12780,7 +13023,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image50.Image
                         Width: =640
                         X: =0
-                        Y: =110
+                        Y: =112
                         ZIndex: =1
 
                         DataCardKey370 As label:
@@ -12907,7 +13150,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue305.Text
                         Width: =640
                         X: =0
-                        Y: =111
+                        Y: =113
                         ZIndex: =1
 
                         DataCardKey371 As label:
@@ -13023,7 +13266,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue306.Text
                         Width: =640
                         X: =0
-                        Y: =112
+                        Y: =114
                         ZIndex: =1
 
                         DataCardKey372 As label:
@@ -13138,7 +13381,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image51.Image
                         Width: =640
                         X: =0
-                        Y: =113
+                        Y: =115
                         ZIndex: =1
 
                         DataCardKey373 As label:
@@ -13265,7 +13508,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue307.Text
                         Width: =640
                         X: =0
-                        Y: =114
+                        Y: =116
                         ZIndex: =1
 
                         DataCardKey374 As label:
@@ -13381,7 +13624,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue308.Text
                         Width: =640
                         X: =0
-                        Y: =115
+                        Y: =117
                         ZIndex: =1
 
                         DataCardKey375 As label:
@@ -13496,7 +13739,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image52.Image
                         Width: =640
                         X: =0
-                        Y: =116
+                        Y: =118
                         ZIndex: =1
 
                         DataCardKey376 As label:
@@ -13623,7 +13866,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue309.Text
                         Width: =640
                         X: =0
-                        Y: =117
+                        Y: =119
                         ZIndex: =1
 
                         DataCardKey377 As label:
@@ -13739,7 +13982,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue310.Text
                         Width: =640
                         X: =0
-                        Y: =118
+                        Y: =120
                         ZIndex: =1
 
                         DataCardKey378 As label:
@@ -13854,7 +14097,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image53.Image
                         Width: =640
                         X: =0
-                        Y: =119
+                        Y: =121
                         ZIndex: =1
 
                         DataCardKey379 As label:
@@ -13981,7 +14224,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue311.Text
                         Width: =640
                         X: =0
-                        Y: =120
+                        Y: =122
                         ZIndex: =1
 
                         DataCardKey380 As label:
@@ -14097,7 +14340,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue312.Text
                         Width: =640
                         X: =0
-                        Y: =121
+                        Y: =123
                         ZIndex: =1
 
                         DataCardKey381 As label:
@@ -14212,7 +14455,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image54.Image
                         Width: =640
                         X: =0
-                        Y: =122
+                        Y: =124
                         ZIndex: =1
 
                         DataCardKey382 As label:
@@ -14339,7 +14582,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue313.Text
                         Width: =640
                         X: =0
-                        Y: =123
+                        Y: =125
                         ZIndex: =1
 
                         DataCardKey383 As label:
@@ -14455,7 +14698,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue314.Text
                         Width: =640
                         X: =0
-                        Y: =124
+                        Y: =126
                         ZIndex: =1
 
                         DataCardKey384 As label:
@@ -14570,7 +14813,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image55.Image
                         Width: =640
                         X: =0
-                        Y: =125
+                        Y: =127
                         ZIndex: =1
 
                         DataCardKey385 As label:
@@ -14697,7 +14940,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue315.Text
                         Width: =640
                         X: =0
-                        Y: =126
+                        Y: =128
                         ZIndex: =1
 
                         DataCardKey386 As label:
@@ -14813,7 +15056,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue316.Text
                         Width: =640
                         X: =0
-                        Y: =127
+                        Y: =129
                         ZIndex: =1
 
                         DataCardKey387 As label:
@@ -14928,7 +15171,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image56.Image
                         Width: =640
                         X: =0
-                        Y: =128
+                        Y: =130
                         ZIndex: =1
 
                         DataCardKey388 As label:
@@ -15055,7 +15298,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue317.Text
                         Width: =640
                         X: =0
-                        Y: =129
+                        Y: =131
                         ZIndex: =1
 
                         DataCardKey389 As label:
@@ -15171,7 +15414,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue318.Text
                         Width: =640
                         X: =0
-                        Y: =130
+                        Y: =132
                         ZIndex: =1
 
                         DataCardKey390 As label:
@@ -15286,7 +15529,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image57.Image
                         Width: =640
                         X: =0
-                        Y: =131
+                        Y: =133
                         ZIndex: =1
 
                         DataCardKey391 As label:
@@ -15413,7 +15656,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue319.Text
                         Width: =640
                         X: =0
-                        Y: =132
+                        Y: =134
                         ZIndex: =1
 
                         DataCardKey392 As label:
@@ -15529,7 +15772,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue320.Text
                         Width: =640
                         X: =0
-                        Y: =133
+                        Y: =135
                         ZIndex: =1
 
                         DataCardKey393 As label:
@@ -15644,7 +15887,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image58.Image
                         Width: =640
                         X: =0
-                        Y: =134
+                        Y: =136
                         ZIndex: =1
 
                         DataCardKey394 As label:
@@ -15771,7 +16014,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue321.Text
                         Width: =640
                         X: =0
-                        Y: =135
+                        Y: =137
                         ZIndex: =1
 
                         DataCardKey395 As label:
@@ -15887,7 +16130,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue322.Text
                         Width: =640
                         X: =0
-                        Y: =136
+                        Y: =138
                         ZIndex: =1
 
                         DataCardKey396 As label:
@@ -16002,7 +16245,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image59.Image
                         Width: =640
                         X: =0
-                        Y: =137
+                        Y: =139
                         ZIndex: =1
 
                         DataCardKey397 As label:
@@ -16129,7 +16372,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue323.Text
                         Width: =640
                         X: =0
-                        Y: =138
+                        Y: =140
                         ZIndex: =1
 
                         DataCardKey398 As label:
@@ -16245,7 +16488,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue324.Text
                         Width: =640
                         X: =0
-                        Y: =139
+                        Y: =141
                         ZIndex: =1
 
                         DataCardKey399 As label:
@@ -16360,7 +16603,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =Image60.Image
                         Width: =640
                         X: =0
-                        Y: =140
+                        Y: =142
                         ZIndex: =1
 
                         DataCardKey400 As label:
@@ -16487,7 +16730,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Update: =DataCardValue325.Text
                         Width: =640
                         X: =0
-                        Y: =141
+                        Y: =143
                         ZIndex: =1
 
                         DataCardKey401 As label:
