@@ -1,4 +1,26 @@
 {
+  "4c46a12e-ab9a-4f9e-b1be-ffce7a42a96c": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1685/1.0.1685.3700/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://consusaludsas.sharepoint.com/sites/Operaciones": {
+        "dataSources": {
+          "Inspección puesto de trabajo video Terminales_2": {
+            "tableName": "e0cd8c0a-3df5-4ad3-96f3-bcc4b70d7c24"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Inspección puesto de trabajo video Terminales_2"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4c46a12e-ab9a-4f9e-b1be-ffce7a42a96c"
+  },
   "5b288d4b-4109-4744-8e0e-dd8bc4d2152b": {
     "appActions": [],
     "connectionRef": {
