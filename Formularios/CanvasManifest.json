@@ -99,7 +99,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 4,
+    "BindingErrorCount": 58,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -112,11 +112,11 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "a74ffc4b-4d31-4302-b6b3-aa829074a00d",
-    "Id": "5fc9a7b5-4ff1-4672-b395-84c589a729c7",
+    "Id": "ded133ef-f1dc-4714-a813-5cf7902ac1a6",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
-    "Name": "APLICACION AUTO-REPORTE DE SINTOMATOLOGÍA",
+    "Name": "APLICACION%2BAUTO-REPORTE%2BDE%2BSINTOMATOLOG%25c3%258dA.msapp",
     "OriginatingVersion": "1.337",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
