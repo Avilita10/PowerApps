@@ -36,6 +36,9 @@
         "dataSources": {
           "Inspección puesto de trabajo video Terminales": {
             "tableName": "e0cd8c0a-3df5-4ad3-96f3-bcc4b70d7c24"
+          },
+          "Inspección puesto de trabajo video Terminales_3": {
+            "tableName": "e0cd8c0a-3df5-4ad3-96f3-bcc4b70d7c24"
           }
         }
       }
@@ -45,7 +48,8 @@
       "Inspección de puesto de trabajo (Operativo)",
       "Inspección de puesto de trabajo (Operativo)_1",
       "Inspección de puesto de trabajo (Operativo)_2",
-      "Inspección puesto de trabajo video Terminales_1"
+      "Inspección puesto de trabajo video Terminales_1",
+      "Inspección puesto de trabajo video Terminales_3"
     ],
     "dependencies": {},
     "dependents": [],
