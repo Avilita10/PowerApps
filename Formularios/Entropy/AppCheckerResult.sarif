@@ -7822,6 +7822,546 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo Exige simultáneamente varias tareas_DataCard1'.DataCardValue200.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo Exige simultáneamente varias tareas_DataCard1'.DataCardValue200.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo Exige simultáneamente varias tareas_DataCard1'.DataCardValue200"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS42_DataCard1.DataCardValue201.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS42_DataCard1.DataCardValue201.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS42_DataCard1.DataCardValue201"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La tarea tiene un grado alto de complejidad y/o rquiere de una elvada concentración_DataCard1'.DataCardValue202.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La tarea tiene un grado alto de complejidad y/o rquiere de una elvada concentración_DataCard1'.DataCardValue202.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La tarea tiene un grado alto de complejidad y/o rquiere de una elvada concentración_DataCard1'.DataCardValue202"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS43_DataCard1.DataCardValue203.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS43_DataCard1.DataCardValue203.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS43_DataCard1.DataCardValue203"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Se requiere velocidad en el proceso para la realización de la tarea_DataCard1'.DataCardValue204.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Se requiere velocidad en el proceso para la realización de la tarea_DataCard1'.DataCardValue204.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Se requiere velocidad en el proceso para la realización de la tarea_DataCard1'.DataCardValue204"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS44_DataCard1.DataCardValue205.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS44_DataCard1.DataCardValue205.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS44_DataCard1.DataCardValue205"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La tarea requiere de una elevada concentración_DataCard1'.DataCardValue228.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La tarea requiere de una elevada concentración_DataCard1'.DataCardValue228.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La tarea requiere de una elevada concentración_DataCard1'.DataCardValue228"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS45_DataCard1.DataCardValue229.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS45_DataCard1.DataCardValue229.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS45_DataCard1.DataCardValue229"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Se requiere atención sostenida y continua_DataCard1'.DataCardValue230.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Se requiere atención sostenida y continua_DataCard1'.DataCardValue230.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Se requiere atención sostenida y continua_DataCard1'.DataCardValue230"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS46_DataCard1.DataCardValue231.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS46_DataCard1.DataCardValue231.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS46_DataCard1.DataCardValue231"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.DataCardValue232.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.DataCardValue232.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo implica el control de varias señales_DataCard1'.DataCardValue232"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS47_DataCard1.DataCardValue233.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS47_DataCard1.DataCardValue233.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS47_DataCard1.DataCardValue233"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo es minucioso y requiere de precisión_DataCard1'.DataCardValue234.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo es minucioso y requiere de precisión_DataCard1'.DataCardValue234.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'El trabajo es minucioso y requiere de precisión_DataCard1'.DataCardValue234"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS48_DataCard1.DataCardValue235.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS48_DataCard1.DataCardValue235.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS48_DataCard1.DataCardValue235"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas_DataCard1'.DataCardValue236.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas_DataCard1'.DataCardValue236.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas_DataCard1'.DataCardValue236"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS49_DataCard1.DataCardValue237.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS49_DataCard1.DataCardValue237.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS49_DataCard1.DataCardValue237"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La realización de la tarea prohibe hablar con otros compañeros mientras se trabaja_DataCard1'.DataCardValue238.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La realización de la tarea prohibe hablar con otros compañeros mientras se trabaja_DataCard1'.DataCardValue238.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La realización de la tarea prohibe hablar con otros compañeros mientras se trabaja_DataCard1'.DataCardValue238"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS50_DataCard1.DataCardValue239.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS50_DataCard1.DataCardValue239.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS50_DataCard1.DataCardValue239"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.text_categoriaCargo"
                 }
               ],
@@ -8553,7 +9093,7 @@
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "Los controles consumen recursos y, si una pantalla tiene demasiados controles, la aplicación puede dejar de responder o ralentizarse. La complejidad estimada de \"FormularioIPTOPBOLIVAR\" es 668, que es superior al umbral máximo recomendado (300)."
+                "whyFix": "Los controles consumen recursos y, si una pantalla tiene demasiados controles, la aplicación puede dejar de responder o ralentizarse. La complejidad estimada de \"FormularioIPTOPBOLIVAR\" es 762, que es superior al umbral máximo recomendado (300)."
               }
             }
           ],
