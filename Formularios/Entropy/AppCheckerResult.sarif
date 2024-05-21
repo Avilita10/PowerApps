@@ -8452,6 +8452,1866 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS4_DataCard2.AddPicture25.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS4_DataCard2.AddPicture25.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS4_DataCard2.AddPicture25"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El trabajador mantiene una postura prolongada durante 75% o más de la jornada laboral sin alternarla(de pie o sentado)_DataCard1'.DataCardValue241.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El trabajador mantiene una postura prolongada durante 75% o más de la jornada laboral sin alternarla(de pie o sentado)_DataCard1'.DataCardValue241.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El trabajador mantiene una postura prolongada durante 75% o más de la jornada laboral sin alternarla(de pie o sentado)_DataCard1'.DataCardValue241"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS6_DataCard2.DataCardValue242.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS6_DataCard2.DataCardValue242.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS6_DataCard2.DataCardValue242"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen rotaciones e inclinaciones importantes en el cuello, por la ubicación de la pantalla_DataCard1'.DataCardValue243.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen rotaciones e inclinaciones importantes en el cuello, por la ubicación de la pantalla_DataCard1'.DataCardValue243.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen rotaciones e inclinaciones importantes en el cuello, por la ubicación de la pantalla_DataCard1'.DataCardValue243"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS7_DataCard2.DataCardValue244.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS7_DataCard2.DataCardValue244.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS7_DataCard2.DataCardValue244"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS5_DataCard2.AddPicture30.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS5_DataCard2.AddPicture30.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS5_DataCard2.AddPicture30"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay rotaciones de la espada o tronco, por la ubicación de elementos de trabajo o del puesto de trabajo_DataCard1'.DataCardValue245.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay rotaciones de la espada o tronco, por la ubicación de elementos de trabajo o del puesto de trabajo_DataCard1'.DataCardValue245.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay rotaciones de la espada o tronco, por la ubicación de elementos de trabajo o del puesto de trabajo_DataCard1'.DataCardValue245"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'  HALLAZGOS8_DataCard1'.DataCardValue246.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'  HALLAZGOS8_DataCard1'.DataCardValue246.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'  HALLAZGOS8_DataCard1'.DataCardValue246"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS6_DataCard2.AddPicture31.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS6_DataCard2.AddPicture31.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS6_DataCard2.AddPicture31"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen posturas donde los codos se encuentran en flexión mayor de 90°_DataCard1'.DataCardValue247.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen posturas donde los codos se encuentran en flexión mayor de 90°_DataCard1'.DataCardValue247.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen posturas donde los codos se encuentran en flexión mayor de 90°_DataCard1'.DataCardValue247"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS9_DataCard2.DataCardValue248.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS9_DataCard2.DataCardValue248.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS9_DataCard2.DataCardValue248"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS7_DataCard2.AddPicture32.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS7_DataCard2.AddPicture32.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS7_DataCard2.AddPicture32"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen posturas de los miembros superiores en contra de la gravedad_DataCard1'.DataCardValue249.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen posturas de los miembros superiores en contra de la gravedad_DataCard1'.DataCardValue249.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen posturas de los miembros superiores en contra de la gravedad_DataCard1'.DataCardValue249"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS10_DataCard2.DataCardValue250.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS10_DataCard2.DataCardValue250.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS10_DataCard2.DataCardValue250"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS8_DataCard2.AddPicture33.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS8_DataCard2.AddPicture33.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS8_DataCard2.AddPicture33"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)_DataCard1'.DataCardValue251.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)_DataCard1'.DataCardValue251.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)_DataCard1'.DataCardValue251"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS11_DataCard2.DataCardValue252.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS11_DataCard2.DataCardValue252.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS11_DataCard2.DataCardValue252"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS9_DataCard2.AddPicture34.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS9_DataCard2.AddPicture34.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS9_DataCard2.AddPicture34"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación_DataCard1'.DataCardValue253.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación_DataCard1'.DataCardValue253.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación_DataCard1'.DataCardValue253"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS12_DataCard2.DataCardValue254.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS12_DataCard2.DataCardValue254.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS12_DataCard2.DataCardValue254"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS10_DataCard2.AddPicture35.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS10_DataCard2.AddPicture35.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS10_DataCard2.AddPicture35"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La mano recibe presión en la base de la muñeca por contacto con la superficie de trabajo_DataCard1'.DataCardValue255.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La mano recibe presión en la base de la muñeca por contacto con la superficie de trabajo_DataCard1'.DataCardValue255.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La mano recibe presión en la base de la muñeca por contacto con la superficie de trabajo_DataCard1'.DataCardValue255"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS13_DataCard2.DataCardValue256.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS13_DataCard2.DataCardValue256.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS13_DataCard2.DataCardValue256"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS11_DataCard2.AddPicture36.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS11_DataCard2.AddPicture36.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS11_DataCard2.AddPicture36"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen movimientos forzados de espalda y miembros superiores por la ubicación de los elementos de trabajo_DataCard1'.DataCardValue257.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen movimientos forzados de espalda y miembros superiores por la ubicación de los elementos de trabajo_DataCard1'.DataCardValue257.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Existen movimientos forzados de espalda y miembros superiores por la ubicación de los elementos de trabajo_DataCard1'.DataCardValue257"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS14_DataCard2.DataCardValue258.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS14_DataCard2.DataCardValue258.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS14_DataCard2.DataCardValue258"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS12_DataCard2.AddPicture37.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS12_DataCard2.AddPicture37.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS12_DataCard2.AddPicture37"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Las rodillas se encuentran encima o debajo del nivel de la cadera_DataCard1'.DataCardValue259.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Las rodillas se encuentran encima o debajo del nivel de la cadera_DataCard1'.DataCardValue259.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Las rodillas se encuentran encima o debajo del nivel de la cadera_DataCard1'.DataCardValue259"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS15_DataCard2.DataCardValue260.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS15_DataCard2.DataCardValue260.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS15_DataCard2.DataCardValue260"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS13_DataCard2.AddPicture38.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS13_DataCard2.AddPicture38.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS13_DataCard2.AddPicture38"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Es dificil apoyar completamente los pies en la superficie_DataCard1'.DataCardValue261.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Es dificil apoyar completamente los pies en la superficie_DataCard1'.DataCardValue261.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Es dificil apoyar completamente los pies en la superficie_DataCard1'.DataCardValue261"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS16_DataCard2.DataCardValue262.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS16_DataCard2.DataCardValue262.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS16_DataCard2.DataCardValue262"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS14_DataCard2.AddPicture39.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS14_DataCard2.AddPicture39.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS14_DataCard2.AddPicture39"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Carga Física por Movimientos_DataCard1'.DataCardValue263.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Carga Física por Movimientos_DataCard1'.DataCardValue263.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Carga Física por Movimientos_DataCard1'.DataCardValue263"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay repetitividad de movimientos idénticos o similares efectuados cada pocos segundos en los miembros superiores_DataCard2'.DataCardValue264.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay repetitividad de movimientos idénticos o similares efectuados cada pocos segundos en los miembros superiores_DataCard2'.DataCardValue264.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay repetitividad de movimientos idénticos o similares efectuados cada pocos segundos en los miembros superiores_DataCard2'.DataCardValue264"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS17_DataCard2.DataCardValue265.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS17_DataCard2.DataCardValue265.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS17_DataCard2.DataCardValue265"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay moviminetos de los miembros superiores con combinación de fuerza_DataCard1'.DataCardValue266.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay moviminetos de los miembros superiores con combinación de fuerza_DataCard1'.DataCardValue266.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay moviminetos de los miembros superiores con combinación de fuerza_DataCard1'.DataCardValue266"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS18_DataCard2.DataCardValue267.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS18_DataCard2.DataCardValue267.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS18_DataCard2.DataCardValue267"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea involucra movimientos rápidos, fuertes o repentinos de los miembros superiores en posiciones forzadas, especialmente a nivel de las manos_DataCard1'.DataCardValue268.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea involucra movimientos rápidos, fuertes o repentinos de los miembros superiores en posiciones forzadas, especialmente a nivel de las manos_DataCard1'.DataCardValue268.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea involucra movimientos rápidos, fuertes o repentinos de los miembros superiores en posiciones forzadas, especialmente a nivel de las manos_DataCard1'.DataCardValue268"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS19_DataCard2.DataCardValue269.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS19_DataCard2.DataCardValue269.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS19_DataCard2.DataCardValue269"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'CARGA MENTAL_DataCard2'.DataCardValue270.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'CARGA MENTAL_DataCard2'.DataCardValue270.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'CARGA MENTAL_DataCard2'.DataCardValue270"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El trabajo exige simultaneamente varia tareas_DataCard1'.DataCardValue271.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El trabajo exige simultaneamente varia tareas_DataCard1'.DataCardValue271.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El trabajo exige simultaneamente varia tareas_DataCard1'.DataCardValue271"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS20_DataCard2.DataCardValue272.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS20_DataCard2.DataCardValue272.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS20_DataCard2.DataCardValue272"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea tiene un grado alto de coplejidad_DataCard1'.DataCardValue273.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea tiene un grado alto de coplejidad_DataCard1'.DataCardValue273.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea tiene un grado alto de coplejidad_DataCard1'.DataCardValue273"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS21_DataCard2.DataCardValue274.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS21_DataCard2.DataCardValue274.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS21_DataCard2.DataCardValue274"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se requiere velocidad en el proceso para la realización de la tarea_DataCard2'.DataCardValue275.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se requiere velocidad en el proceso para la realización de la tarea_DataCard2'.DataCardValue275.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se requiere velocidad en el proceso para la realización de la tarea_DataCard2'.DataCardValue275"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS22_DataCard2.DataCardValue276.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS22_DataCard2.DataCardValue276.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS22_DataCard2.DataCardValue276"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea requiere de una elevada concentración _DataCard1'.DataCardValue277.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea requiere de una elevada concentración _DataCard1'.DataCardValue277.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea requiere de una elevada concentración _DataCard1'.DataCardValue277"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS23_DataCard2.DataCardValue278.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS23_DataCard2.DataCardValue278.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS23_DataCard2.DataCardValue278"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se requiere atención sostenida y continua_DataCard2'.DataCardValue279.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se requiere atención sostenida y continua_DataCard2'.DataCardValue279.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se requiere atención sostenida y continua_DataCard2'.DataCardValue279"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS24_DataCard2.DataCardValue280.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS24_DataCard2.DataCardValue280.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS24_DataCard2.DataCardValue280"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'ORGANIZACIÓN DEL TRABAJO_DataCard1'.DataCardValue281.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'ORGANIZACIÓN DEL TRABAJO_DataCard1'.DataCardValue281.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'ORGANIZACIÓN DEL TRABAJO_DataCard1'.DataCardValue281"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La jornada laboral excede 8 horas diarias_DataCard1'.DataCardValue282.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La jornada laboral excede 8 horas diarias_DataCard1'.DataCardValue282.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La jornada laboral excede 8 horas diarias_DataCard1'.DataCardValue282"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS25_DataCard2.DataCardValue283.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS25_DataCard2.DataCardValue283.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS25_DataCard2.DataCardValue283"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se realizan horas extras luego de la jornada de trabajo_DataCard1'.DataCardValue284.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se realizan horas extras luego de la jornada de trabajo_DataCard1'.DataCardValue284.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se realizan horas extras luego de la jornada de trabajo_DataCard1'.DataCardValue284"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS26_DataCard2.DataCardValue285.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS26_DataCard2.DataCardValue285.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS26_DataCard2.DataCardValue285"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El uso del computador es de 4 horas seguidas o más_DataCard1'.DataCardValue286.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El uso del computador es de 4 horas seguidas o más_DataCard1'.DataCardValue286.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El uso del computador es de 4 horas seguidas o más_DataCard1'.DataCardValue286"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS27_DataCard2.DataCardValue287.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS27_DataCard2.DataCardValue287.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS27_DataCard2.DataCardValue287"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se prohibe mas de un descanso o pausa durante la jornada de trabajo_DataCard1'.DataCardValue288.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se prohibe mas de un descanso o pausa durante la jornada de trabajo_DataCard1'.DataCardValue288.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se prohibe mas de un descanso o pausa durante la jornada de trabajo_DataCard1'.DataCardValue288"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se impone un ritmo de trabajo dificil de alcanzar para el trabajador_DataCard1'.DataCardValue289.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se impone un ritmo de trabajo dificil de alcanzar para el trabajador_DataCard1'.DataCardValue289.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se impone un ritmo de trabajo dificil de alcanzar para el trabajador_DataCard1'.DataCardValue289"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS28_DataCard2.DataCardValue290.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS28_DataCard2.DataCardValue290.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS28_DataCard2.DataCardValue290"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS29_DataCard2.DataCardValue291.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS29_DataCard2.DataCardValue291.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS29_DataCard2.DataCardValue291"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.text_categoriaCargo"
                 }
               ],
@@ -8974,6 +10834,35 @@
               "properties": {
                 "module": "FormularioIPTOPBOLIVAR",
                 "type": "FormularioIPTOPBOLIVAR"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-ScreenHasManyControls",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR"
               }
             }
           ],
