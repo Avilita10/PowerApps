@@ -10312,6 +10312,306 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'CONDICIONES DEL PUESTO DE TRABAJO_DataCard1'.DataCardValue292.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'CONDICIONES DEL PUESTO DE TRABAJO_DataCard1'.DataCardValue292.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'CONDICIONES DEL PUESTO DE TRABAJO_DataCard1'.DataCardValue292"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La dimensión del plano de trabajo impide la ubicación flexible de la pantalla, el teclado, los documentos y demás accesorios de la oficina_DataCard1'.DataCardValue293.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La dimensión del plano de trabajo impide la ubicación flexible de la pantalla, el teclado, los documentos y demás accesorios de la oficina_DataCard1'.DataCardValue293.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La dimensión del plano de trabajo impide la ubicación flexible de la pantalla, el teclado, los documentos y demás accesorios de la oficina_DataCard1'.DataCardValue293"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS30_DataCard2.DataCardValue294.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS30_DataCard2.DataCardValue294.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS30_DataCard2.DataCardValue294"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS15_DataCard2.AddPicture40.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS15_DataCard2.AddPicture40.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS15_DataCard2.AddPicture40"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La superficie de trabajo es inestable_DataCard1'.DataCardValue295.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La superficie de trabajo es inestable_DataCard1'.DataCardValue295.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La superficie de trabajo es inestable_DataCard1'.DataCardValue295"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS31_DataCard1.DataCardValue296.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS31_DataCard1.DataCardValue296.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS31_DataCard1.DataCardValue296"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS16_DataCard2.AddPicture41.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS16_DataCard2.AddPicture41.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS16_DataCard2.AddPicture41"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El espacio debajo de la mesa obstaculiza el movimiento de las piernas_DataCard1'.DataCardValue297.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El espacio debajo de la mesa obstaculiza el movimiento de las piernas_DataCard1'.DataCardValue297.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El espacio debajo de la mesa obstaculiza el movimiento de las piernas_DataCard1'.DataCardValue297"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS32_DataCard1.DataCardValue298.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS32_DataCard1.DataCardValue298.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS32_DataCard1.DataCardValue298"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS17_DataCard2.AddPicture42.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS17_DataCard2.AddPicture42.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR",
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS17_DataCard2.AddPicture42"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.text_categoriaCargo"
                 }
               ],
