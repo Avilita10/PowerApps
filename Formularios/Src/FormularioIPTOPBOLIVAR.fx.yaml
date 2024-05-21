@@ -232,6 +232,122 @@ FormularioIPTOPBOLIVAR As screen:
                     Width: =640
                     ZIndex: =1
 
+                    "'CARGA MENTAL_DataCard1' As typedDataCard.textualEditCard":
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="CARGAMENTAL"
+                        Default: =ThisItem.'CARGA MENTAL'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,CARGAMENTAL)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, CARGAMENTAL)
+                        Required: =false
+                        Update: =DataCardValue140.Text
+                        Width: =640
+                        X: =0
+                        Y: =127
+                        ZIndex: =1
+
+                        DataCardKey171 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =48
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue140 As text:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            Default: =Parent.Default
+                            DelayOutput: =true
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            Height: =70
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(255, 255, 255, 1)
+                            MaxLength: =Parent.MaxLength
+                            PaddingLeft: =5
+                            PressedBorderColor: =RGBA(0, 120, 212, 1)
+                            PressedColor: =RGBA(50, 49, 48, 1)
+                            PressedFill: =RGBA(255, 255, 255, 1)
+                            RadiusBottomLeft: =0
+                            RadiusBottomRight: =0
+                            RadiusTopLeft: =0
+                            RadiusTopRight: =0
+                            Size: =21
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey171.Y + DataCardKey171.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage166 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =21
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue140.Y + DataCardValue140.Height
+                            ZIndex: =3
+
+                        StarVisible166 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey171.Height
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey171.Y
+                            ZIndex: =4
+
                     CARGO_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -13217,6 +13333,7 @@ FormularioIPTOPBOLIVAR As screen:
                             ChevronHoverBackground: =RGBA(245, 245, 245, 1)
                             ChevronHoverFill: =RGBA(50, 49, 48, 1)
                             Color: =RGBA(50, 49, 48, 1)
+                            Default: ="No"
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(161, 159, 157, 1)
                             DisabledFill: =RGBA(242, 242, 241, 0)
@@ -13959,7 +14076,7 @@ FormularioIPTOPBOLIVAR As screen:
                             DisabledFill: =RGBA(242, 242, 241, 0)
                             Fill: =RGBA(245, 245, 245, 1)
                             Font: =Font.'Segoe UI'
-                            Height: =70
+                            Height: =50
                             HoverBorderColor: =RGBA(16, 110, 190, 1)
                             HoverColor: =RGBA(50, 49, 48, 1)
                             HoverFill: =RGBA(245, 245, 245, 1)
@@ -14030,7 +14147,7 @@ FormularioIPTOPBOLIVAR As screen:
                             DisplayMode: =Parent.DisplayMode
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            Height: =70
+                            Height: =50
                             HoverBorderColor: =RGBA(16, 110, 190, 1)
                             HoverColor: =RGBA(50, 49, 48, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
@@ -14380,7 +14497,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -14594,33 +14711,16 @@ FormularioIPTOPBOLIVAR As screen:
                             Y: =DataCardKey236.Y
                             ZIndex: =5
 
-                    "'CARGA MENTAL_DataCard1' As typedDataCard.textualEditCard":
-                        BorderColor: =RGBA(245, 245, 245, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="CARGAMENTAL"
-                        Default: =ThisItem.'CARGA MENTAL'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,CARGAMENTAL)
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =120
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, CARGAMENTAL)
-                        Required: =false
-                        Update: =
-                        Width: =640
-                        X: =0
-                        Y: =127
-                        ZIndex: =1
-
                     "'El trabajo Exige simultáneamente varias tareas_DataCard1' As typedDataCard.textualEditCard":
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="EltrabajoExigesimult_x00e1_neame"
                         Default: =ThisItem.'El trabajo Exige simultáneamente varias tareas'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,EltrabajoExigesimult_x00e1_neame)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'El trabajo Exige simultáneamente varias tareas')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, EltrabajoExigesimult_x00e1_neame)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'El trabajo Exige simultáneamente varias tareas')
                         Required: =false
                         Update: =DataCardValue200.Text
                         Width: =640
@@ -14851,10 +14951,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Latareatieneungradoaltodecomplej"
                         Default: =ThisItem.'La tarea tiene un grado alto de complejidad y/o rquiere de una elvada concentración'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Latareatieneungradoaltodecomplej)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'La tarea tiene un grado alto de complejidad y/o rquiere de una elvada concentración')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Latareatieneungradoaltodecomplej)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'La tarea tiene un grado alto de complejidad y/o rquiere de una elvada concentración')
                         Required: =false
                         Update: =DataCardValue202.Text
                         Width: =640
@@ -15086,10 +15186,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Serequierevelocidadenelprocesopa"
                         Default: =ThisItem.'Se requiere velocidad en el proceso para la realización de la tarea'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Serequierevelocidadenelprocesopa)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'Se requiere velocidad en el proceso para la realización de la tarea')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Serequierevelocidadenelprocesopa)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'Se requiere velocidad en el proceso para la realización de la tarea')
                         Required: =false
                         Update: =DataCardValue204.Text
                         Width: =640
@@ -15321,10 +15421,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Latarearequieredeunaelevadaconce"
                         Default: =ThisItem.'La tarea requiere de una elevada concentración'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Latarearequieredeunaelevadaconce)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'La tarea requiere de una elevada concentración')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Latarearequieredeunaelevadaconce)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'La tarea requiere de una elevada concentración')
                         Required: =false
                         Update: =DataCardValue228.Text
                         Width: =640
@@ -15555,10 +15655,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Serequiereatenci_x00f3_nsostenid"
                         Default: =ThisItem.'Se requiere atención sostenida y continua'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Serequiereatenci_x00f3_nsostenid)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'Se requiere atención sostenida y continua')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Serequiereatenci_x00f3_nsostenid)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'Se requiere atención sostenida y continua')
                         Required: =false
                         Update: =DataCardValue230.Text
                         Width: =640
@@ -15787,10 +15887,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Eltrabajoimplicaelcontroldevaria"
                         Default: =ThisItem.'El trabajo implica el control de varias señales'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Eltrabajoimplicaelcontroldevaria)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'El trabajo implica el control de varias señales')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Eltrabajoimplicaelcontroldevaria)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'El trabajo implica el control de varias señales')
                         Required: =false
                         Update: =DataCardValue232.Text
                         Width: =640
@@ -16021,10 +16121,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Eltrabajoesminuciosoyrequieredep"
                         Default: =ThisItem.'El trabajo es minucioso y requiere de precisión'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Eltrabajoesminuciosoyrequieredep)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'El trabajo es minucioso y requiere de precisión')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Eltrabajoesminuciosoyrequieredep)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'El trabajo es minucioso y requiere de precisión')
                         Required: =false
                         Update: =DataCardValue234.Text
                         Width: =640
@@ -16255,10 +16355,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Existeunaltoriesgodeaccidentalid"
                         Default: =ThisItem.'Existe un alto riesgo de accidentalidad en la manipulación de herramientas'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Existeunaltoriesgodeaccidentalid)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'Existe un alto riesgo de accidentalidad en la manipulación de herramientas')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Existeunaltoriesgodeaccidentalid)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'Existe un alto riesgo de accidentalidad en la manipulación de herramientas')
                         Required: =false
                         Update: =DataCardValue236.Text
                         Width: =640
@@ -16489,10 +16589,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Larealizaci_x00f3_ndelatareaproh"
                         Default: =ThisItem.'La realización de la tarea prohibe hablar con otros compañeros mientras se trabaja'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Larealizaci_x00f3_ndelatareaproh)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'La realización de la tarea prohibe hablar con otros compañeros mientras se trabaja')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Larealizaci_x00f3_ndelatareaproh)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'La realización de la tarea prohibe hablar con otros compañeros mientras se trabaja')
                         Required: =false
                         Update: =DataCardValue238.Text
                         Width: =640
