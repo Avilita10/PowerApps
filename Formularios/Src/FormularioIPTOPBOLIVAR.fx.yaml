@@ -829,124 +829,6 @@ FormularioIPTOPBOLIVAR As screen:
                             Y: =DataCardKey123.Y
                             ZIndex: =4
 
-                    "'LISTA DE MATERIALES UTILIZADOS PARA LA TAREA_DataCard1' As typedDataCard.textualEditCard":
-                        BorderColor: =RGBA(245, 245, 245, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="LISTADEMATERIALESUTILIZADOSPARAL"
-                        Default: =ThisItem.'LISTA DE MATERIALES UTILIZADOS PARA LA TAREA'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'LISTA DE MATERIALES UTILIZADOS PARA LA TAREA')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'LISTA DE MATERIALES UTILIZADOS PARA LA TAREA')
-                        Required: =false
-                        Update: =DataCardValue111.Text
-                        Width: =640
-                        X: =0
-                        Y: =12
-                        ZIndex: =1
-
-                        DataCardKey124 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =48
-                            PaddingLeft: =0
-                            Size: =21
-                            Text: |-
-                                ="LISTA DE MATERIALES UTILIZADOS 
-                                PARA LA TAREA"
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue111 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey124.Y + DataCardKey124.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage119 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(168, 0, 0, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(168, 0, 0, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =21
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue111.Y + DataCardValue111.Height
-                            ZIndex: =3
-
-                        StarVisible119 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =DataCardKey124.Height
-                            PaddingLeft: =0
-                            Size: =21
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey124.Y
-                            ZIndex: =4
-
                     "'DESCRIBIR BREVEMENTE LOS PASOS DE LA TAREA_DataCard1' As typedDataCard.textualEditCard":
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -961,7 +843,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue112.Text
                         Width: =640
                         X: =0
-                        Y: =13
+                        Y: =12
                         ZIndex: =1
 
                         DataCardKey125 As label:
@@ -1081,7 +963,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =14
+                        Y: =13
                         ZIndex: =1
 
                         DataCardKey126 As label:
@@ -1165,7 +1047,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue119.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =15
+                        Y: =14
                         ZIndex: =1
 
                         DataCardKey133 As label:
@@ -1287,7 +1169,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue119.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =16
+                        Y: =15
                         ZIndex: =1
 
                         DataCardKey202 As label:
@@ -1404,7 +1286,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =true
                         Width: =640
                         X: =0
-                        Y: =17
+                        Y: =16
                         ZIndex: =1
 
                         DataCardKey128 As label:
@@ -1526,7 +1408,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue115.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =18
+                        Y: =17
                         ZIndex: =1
 
                         DataCardKey176 As label:
@@ -1642,7 +1524,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue116.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =19
+                        Y: =18
                         ZIndex: =1
 
                         DataCardKey129 As label:
@@ -1660,7 +1542,7 @@ FormularioIPTOPBOLIVAR As screen:
                             PaddingLeft: =0
                             Size: =21
                             Text: |-
-                                ="El puesto de trabajo cuentacon un manual 
+                                ="El puesto de trabajo cuenta con un manual 
                                 de funciones"
                             Width: =Parent.Width - 60
                             Wrap: =false
@@ -1764,7 +1646,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue116.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =20
+                        Y: =19
                         ZIndex: =1
 
                         DataCardKey177 As label:
@@ -1880,7 +1762,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue117.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =21
+                        Y: =20
                         ZIndex: =1
 
                         DataCardKey130 As label:
@@ -2000,7 +1882,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue117.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =22
+                        Y: =21
                         ZIndex: =1
 
                         DataCardKey178 As label:
@@ -2116,7 +1998,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue118.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =23
+                        Y: =22
                         ZIndex: =1
 
                         DataCardKey131 As label:
@@ -2236,7 +2118,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue118.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =24
+                        Y: =23
                         ZIndex: =1
 
                         DataCardKey179 As label:
@@ -2353,7 +2235,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =25
+                        Y: =24
                         ZIndex: =1
 
                         DataCardKey127 As label:
@@ -2439,7 +2321,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue114.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =26
+                        Y: =25
                         ZIndex: =1
 
                         DataCardKey132 As label:
@@ -2563,7 +2445,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue114.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =27
+                        Y: =26
                         ZIndex: =1
 
                         DataCardKey180 As label:
@@ -2679,7 +2561,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue120.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =28
+                        Y: =27
                         ZIndex: =1
 
                         DataCardKey134 As label:
@@ -2801,7 +2683,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue120.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =29
+                        Y: =28
                         ZIndex: =1
 
                         DataCardKey200 As label:
@@ -2917,7 +2799,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue121.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =30
+                        Y: =29
                         ZIndex: =1
 
                         DataCardKey135 As label:
@@ -3039,7 +2921,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue121.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =31
+                        Y: =30
                         ZIndex: =1
 
                         DataCardKey181 As label:
@@ -3154,7 +3036,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image5.Image
                         Width: =640
                         X: =0
-                        Y: =32
+                        Y: =31
                         ZIndex: =1
 
                         DataCardKey154 As label:
@@ -3283,7 +3165,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue122.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =33
+                        Y: =32
                         ZIndex: =1
 
                         DataCardKey136 As label:
@@ -3405,7 +3287,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue122.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =34
+                        Y: =33
                         ZIndex: =1
 
                         DataCardKey182 As label:
@@ -3520,7 +3402,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image6.Image
                         Width: =640
                         X: =0
-                        Y: =35
+                        Y: =34
                         ZIndex: =1
 
                         DataCardKey155 As label:
@@ -3651,7 +3533,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue123.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =36
+                        Y: =35
                         ZIndex: =1
 
                         DataCardKey137 As label:
@@ -3773,7 +3655,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue123.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =37
+                        Y: =36
                         ZIndex: =1
 
                         DataCardKey183 As label:
@@ -3888,7 +3770,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image7.Image
                         Width: =640
                         X: =0
-                        Y: =38
+                        Y: =37
                         ZIndex: =1
 
                         DataCardKey156 As label:
@@ -4019,7 +3901,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue124.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =39
+                        Y: =38
                         ZIndex: =1
 
                         DataCardKey138 As label:
@@ -4141,7 +4023,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue124.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =40
+                        Y: =39
                         ZIndex: =1
 
                         DataCardKey184 As label:
@@ -4257,7 +4139,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue125.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =41
+                        Y: =40
                         ZIndex: =1
 
                         DataCardKey139 As label:
@@ -4380,7 +4262,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue125.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =42
+                        Y: =41
                         ZIndex: =1
 
                         DataCardKey185 As label:
@@ -4496,7 +4378,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue126.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =43
+                        Y: =42
                         ZIndex: =1
 
                         DataCardKey140 As label:
@@ -4618,7 +4500,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue126.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =44
+                        Y: =43
                         ZIndex: =1
 
                         DataCardKey186 As label:
@@ -4734,7 +4616,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =45
+                        Y: =44
                         ZIndex: =1
 
                         DataCardKey141 As label:
@@ -4820,7 +4702,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue128.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =46
+                        Y: =45
                         ZIndex: =1
 
                         DataCardKey142 As label:
@@ -4944,7 +4826,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue128.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =47
+                        Y: =46
                         ZIndex: =1
 
                         DataCardKey187 As label:
@@ -5059,7 +4941,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image8.Image
                         Width: =640
                         X: =0
-                        Y: =48
+                        Y: =47
                         ZIndex: =1
 
                         DataCardKey157 As label:
@@ -5188,7 +5070,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue129.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =49
+                        Y: =48
                         ZIndex: =1
 
                         DataCardKey143 As label:
@@ -5310,7 +5192,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue129.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =50
+                        Y: =49
                         ZIndex: =1
 
                         DataCardKey188 As label:
@@ -5425,7 +5307,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image9.Image
                         Width: =640
                         X: =0
-                        Y: =51
+                        Y: =50
                         ZIndex: =1
 
                         DataCardKey158 As label:
@@ -5555,7 +5437,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue130.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =52
+                        Y: =51
                         ZIndex: =1
 
                         DataCardKey144 As label:
@@ -5677,7 +5559,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue130.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =53
+                        Y: =52
                         ZIndex: =1
 
                         DataCardKey189 As label:
@@ -5792,7 +5674,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image10.Image
                         Width: =640
                         X: =0
-                        Y: =54
+                        Y: =53
                         ZIndex: =1
 
                         DataCardKey159 As label:
@@ -5922,7 +5804,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue131.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =55
+                        Y: =54
                         ZIndex: =1
 
                         DataCardKey145 As label:
@@ -6042,7 +5924,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue131.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =56
+                        Y: =55
                         ZIndex: =1
 
                         DataCardKey190 As label:
@@ -6157,7 +6039,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image11.Image
                         Width: =640
                         X: =0
-                        Y: =57
+                        Y: =56
                         ZIndex: =1
 
                         DataCardKey160 As label:
@@ -6287,7 +6169,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue132.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =58
+                        Y: =57
                         ZIndex: =1
 
                         DataCardKey146 As label:
@@ -6409,7 +6291,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue132.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =59
+                        Y: =58
                         ZIndex: =1
 
                         DataCardKey191 As label:
@@ -6524,7 +6406,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image12.Image
                         Width: =640
                         X: =0
-                        Y: =60
+                        Y: =59
                         ZIndex: =1
 
                         DataCardKey161 As label:
@@ -6654,7 +6536,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue133.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =61
+                        Y: =60
                         ZIndex: =1
 
                         DataCardKey147 As label:
@@ -6671,7 +6553,9 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =""
+                            Text: |-
+                                ="Existen posturas de los hombros en 
+                                flexion mayor a 45º"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =25
@@ -6775,7 +6659,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue133.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =62
+                        Y: =61
                         ZIndex: =1
 
                         DataCardKey192 As label:
@@ -6890,7 +6774,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image13.Image
                         Width: =640
                         X: =0
-                        Y: =63
+                        Y: =62
                         ZIndex: =1
 
                         DataCardKey162 As label:
@@ -7020,7 +6904,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue134.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =64
+                        Y: =63
                         ZIndex: =1
 
                         DataCardKey148 As label:
@@ -7142,7 +7026,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue134.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =65
+                        Y: =64
                         ZIndex: =1
 
                         DataCardKey193 As label:
@@ -7257,7 +7141,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image14.Image
                         Width: =640
                         X: =0
-                        Y: =66
+                        Y: =65
                         ZIndex: =1
 
                         DataCardKey163 As label:
@@ -7387,7 +7271,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue135.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =67
+                        Y: =66
                         ZIndex: =1
 
                         DataCardKey149 As label:
@@ -7509,7 +7393,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue135.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =68
+                        Y: =67
                         ZIndex: =1
 
                         DataCardKey194 As label:
@@ -7625,7 +7509,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =true
                         Width: =640
                         X: =0
-                        Y: =69
+                        Y: =68
                         ZIndex: =1
 
                         DataCardKey164 As label:
@@ -7645,8 +7529,8 @@ FormularioIPTOPBOLIVAR As screen:
                             Text: |-
                                 ="Suba una foto aqui donde se
                                 evidencie, si existen posturas
-                                 donde los codos se encuentren
-                                  en una flexión mayor a 90º"
+                                donde los codos se encuentren
+                                en una flexión mayor a 90º"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -7755,7 +7639,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue136.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =70
+                        Y: =69
                         ZIndex: =1
 
                         DataCardKey150 As label:
@@ -7877,7 +7761,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue136.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =71
+                        Y: =70
                         ZIndex: =1
 
                         DataCardKey195 As label:
@@ -7992,7 +7876,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image16.Image
                         Width: =640
                         X: =0
-                        Y: =72
+                        Y: =71
                         ZIndex: =1
 
                         DataCardKey165 As label:
@@ -8122,7 +8006,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue137.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =73
+                        Y: =72
                         ZIndex: =1
 
                         DataCardKey151 As label:
@@ -8244,7 +8128,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue137.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =74
+                        Y: =73
                         ZIndex: =1
 
                         DataCardKey196 As label:
@@ -8359,7 +8243,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image17.Image
                         Width: =640
                         X: =0
-                        Y: =75
+                        Y: =74
                         ZIndex: =1
 
                         DataCardKey166 As label:
@@ -8490,7 +8374,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue138.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =76
+                        Y: =75
                         ZIndex: =1
 
                         DataCardKey152 As label:
@@ -8613,7 +8497,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue138.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =77
+                        Y: =76
                         ZIndex: =1
 
                         DataCardKey197 As label:
@@ -8729,7 +8613,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image18.Image
                         Width: =640
                         X: =0
-                        Y: =78
+                        Y: =77
                         ZIndex: =1
 
                         DataCardKey167 As label:
@@ -8859,7 +8743,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue139.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =79
+                        Y: =78
                         ZIndex: =1
 
                         DataCardKey153 As label:
@@ -8983,7 +8867,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue139.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =80
+                        Y: =79
                         ZIndex: =1
 
                         DataCardKey198 As label:
@@ -9098,7 +8982,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image19.Image
                         Width: =640
                         X: =0
-                        Y: =81
+                        Y: =80
                         ZIndex: =1
 
                         DataCardKey168 As label:
@@ -9231,7 +9115,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =82
+                        Y: =81
                         ZIndex: =1
 
                         DataCardKey223 As label:
@@ -9316,7 +9200,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue141.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =83
+                        Y: =82
                         ZIndex: =1
 
                         DataCardKey172 As label:
@@ -9440,7 +9324,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue141.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =84
+                        Y: =83
                         ZIndex: =1
 
                         DataCardKey199 As label:
@@ -9556,7 +9440,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue189.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =85
+                        Y: =84
                         ZIndex: =1
 
                         DataCardKey224 As label:
@@ -9678,7 +9562,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue189.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =86
+                        Y: =85
                         ZIndex: =1
 
                         DataCardKey225 As label:
@@ -9794,7 +9678,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue191.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =87
+                        Y: =86
                         ZIndex: =1
 
                         DataCardKey226 As label:
@@ -9916,7 +9800,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue191.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =88
+                        Y: =87
                         ZIndex: =1
 
                         DataCardKey227 As label:
@@ -10032,7 +9916,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue193.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =89
+                        Y: =88
                         ZIndex: =1
 
                         DataCardKey228 As label:
@@ -10156,7 +10040,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue193.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =90
+                        Y: =89
                         ZIndex: =1
 
                         DataCardKey229 As label:
@@ -10272,7 +10156,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue195.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =91
+                        Y: =90
                         ZIndex: =1
 
                         DataCardKey230 As label:
@@ -10395,7 +10279,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue195.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =92
+                        Y: =91
                         ZIndex: =1
 
                         DataCardKey231 As label:
@@ -10511,7 +10395,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =93
+                        Y: =92
                         ZIndex: =1
 
                         DataCardKey232 As label:
@@ -10597,7 +10481,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue197.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =94
+                        Y: =93
                         ZIndex: =1
 
                         DataCardKey233 As label:
@@ -10722,7 +10606,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue197.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =95
+                        Y: =94
                         ZIndex: =1
 
                         DataCardKey234 As label:
@@ -10837,7 +10721,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image24.Image
                         Width: =640
                         X: =0
-                        Y: =96
+                        Y: =95
                         ZIndex: =1
 
                         DataCardKey265 As label:
@@ -10968,7 +10852,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue206.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =97
+                        Y: =96
                         ZIndex: =1
 
                         DataCardKey243 As label:
@@ -11088,7 +10972,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue206.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =98
+                        Y: =97
                         ZIndex: =1
 
                         DataCardKey244 As label:
@@ -11204,7 +11088,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue208.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =99
+                        Y: =98
                         ZIndex: =1
 
                         DataCardKey245 As label:
@@ -11327,7 +11211,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue208.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =100
+                        Y: =99
                         ZIndex: =1
 
                         DataCardKey246 As label:
@@ -11437,7 +11321,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image25.Image
                         Width: =640
                         X: =0
-                        Y: =101
+                        Y: =100
                         ZIndex: =1
 
                         DataCardKey266 As label:
@@ -11568,7 +11452,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue210.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =102
+                        Y: =101
                         ZIndex: =1
 
                         DataCardKey247 As label:
@@ -11688,7 +11572,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue210.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =103
+                        Y: =102
                         ZIndex: =1
 
                         DataCardKey248 As label:
@@ -11804,7 +11688,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue212.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =104
+                        Y: =103
                         ZIndex: =1
 
                         DataCardKey249 As label:
@@ -11926,7 +11810,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue212.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =105
+                        Y: =104
                         ZIndex: =1
 
                         DataCardKey250 As label:
@@ -12041,7 +11925,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image26.Image
                         Width: =640
                         X: =0
-                        Y: =106
+                        Y: =105
                         ZIndex: =1
 
                         DataCardKey267 As label:
@@ -12171,7 +12055,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue214.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =107
+                        Y: =106
                         ZIndex: =1
 
                         DataCardKey251 As label:
@@ -12291,7 +12175,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue214.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =108
+                        Y: =107
                         ZIndex: =1
 
                         DataCardKey252 As label:
@@ -12407,7 +12291,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue216.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =109
+                        Y: =108
                         ZIndex: =1
 
                         DataCardKey253 As label:
@@ -12530,7 +12414,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue216.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =110
+                        Y: =109
                         ZIndex: =1
 
                         DataCardKey254 As label:
@@ -12645,7 +12529,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image27.Image
                         Width: =640
                         X: =0
-                        Y: =111
+                        Y: =110
                         ZIndex: =1
 
                         DataCardKey268 As label:
@@ -12777,7 +12661,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue218.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =112
+                        Y: =111
                         ZIndex: =1
 
                         DataCardKey255 As label:
@@ -12900,7 +12784,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue218.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =113
+                        Y: =112
                         ZIndex: =1
 
                         DataCardKey256 As label:
@@ -13015,7 +12899,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image28.Image
                         Width: =640
                         X: =0
-                        Y: =114
+                        Y: =113
                         ZIndex: =1
 
                         DataCardKey269 As label:
@@ -13147,7 +13031,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue220.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =115
+                        Y: =114
                         ZIndex: =1
 
                         DataCardKey257 As label:
@@ -13270,7 +13154,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue220.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =116
+                        Y: =115
                         ZIndex: =1
 
                         DataCardKey258 As label:
@@ -13385,7 +13269,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image31.Image
                         Width: =640
                         X: =0
-                        Y: =117
+                        Y: =116
                         ZIndex: =1
 
                         DataCardKey235 As label:
@@ -13517,7 +13401,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue222.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =118
+                        Y: =117
                         ZIndex: =1
 
                         DataCardKey259 As label:
@@ -13639,7 +13523,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue222.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =119
+                        Y: =118
                         ZIndex: =1
 
                         DataCardKey260 As label:
@@ -13754,7 +13638,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image33.Image
                         Width: =640
                         X: =0
-                        Y: =120
+                        Y: =119
                         ZIndex: =1
 
                         DataCardKey237 As label:
@@ -13885,7 +13769,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue224.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =121
+                        Y: =120
                         ZIndex: =1
 
                         DataCardKey261 As label:
@@ -14007,7 +13891,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue224.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =122
+                        Y: =121
                         ZIndex: =1
 
                         DataCardKey262 As label:
@@ -14123,7 +14007,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =true
                         Width: =640
                         X: =0
-                        Y: =123
+                        Y: =122
                         ZIndex: =1
 
                         DataCardKey271 As label:
@@ -14254,7 +14138,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue226.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =124
+                        Y: =123
                         ZIndex: =1
 
                         DataCardKey263 As label:
@@ -14377,7 +14261,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue226.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =125
+                        Y: =124
                         ZIndex: =1
 
                         DataCardKey264 As label:
@@ -14492,7 +14376,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image32.Image
                         Width: =640
                         X: =0
-                        Y: =126
+                        Y: =125
                         ZIndex: =1
 
                         DataCardKey236 As label:
@@ -14622,7 +14506,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =127
+                        Y: =126
                         ZIndex: =1
 
                         DataCardKey171 As label:
@@ -14706,7 +14590,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue200.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =128
+                        Y: =127
                         ZIndex: =1
 
                         DataCardKey240 As label:
@@ -14828,7 +14712,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue200.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =129
+                        Y: =128
                         ZIndex: =1
 
                         DataCardKey241 As label:
@@ -14944,7 +14828,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue202.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =130
+                        Y: =129
                         ZIndex: =1
 
                         DataCardKey242 As label:
@@ -15067,7 +14951,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue202.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =131
+                        Y: =130
                         ZIndex: =1
 
                         DataCardKey270 As label:
@@ -15183,7 +15067,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue204.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =132
+                        Y: =131
                         ZIndex: =1
 
                         DataCardKey272 As label:
@@ -15306,7 +15190,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue204.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =133
+                        Y: =132
                         ZIndex: =1
 
                         DataCardKey273 As label:
@@ -15422,7 +15306,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue228.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =134
+                        Y: =133
                         ZIndex: =1
 
                         DataCardKey274 As label:
@@ -15544,7 +15428,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue228.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =135
+                        Y: =134
                         ZIndex: =1
 
                         DataCardKey275 As label:
@@ -15660,7 +15544,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue230.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =136
+                        Y: =135
                         ZIndex: =1
 
                         DataCardKey276 As label:
@@ -15780,7 +15664,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue230.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =137
+                        Y: =136
                         ZIndex: =1
 
                         DataCardKey277 As label:
@@ -15896,7 +15780,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue232.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =138
+                        Y: =137
                         ZIndex: =1
 
                         DataCardKey278 As label:
@@ -16018,7 +15902,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue232.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =139
+                        Y: =138
                         ZIndex: =1
 
                         DataCardKey279 As label:
@@ -16134,7 +16018,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue234.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =140
+                        Y: =139
                         ZIndex: =1
 
                         DataCardKey280 As label:
@@ -16256,7 +16140,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue234.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =141
+                        Y: =140
                         ZIndex: =1
 
                         DataCardKey281 As label:
@@ -16372,7 +16256,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue236.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =142
+                        Y: =141
                         ZIndex: =1
 
                         DataCardKey282 As label:
@@ -16494,7 +16378,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue236.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =143
+                        Y: =142
                         ZIndex: =1
 
                         DataCardKey283 As label:
@@ -16610,7 +16494,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue238.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =144
+                        Y: =143
                         ZIndex: =1
 
                         DataCardKey284 As label:
@@ -16733,7 +16617,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue238.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =145
+                        Y: =144
                         ZIndex: =1
 
                         DataCardKey285 As label:
@@ -16849,7 +16733,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =146
+                        Y: =145
                         ZIndex: =1
 
                         DataCardKey170 As label:
@@ -16935,7 +16819,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue199.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =147
+                        Y: =146
                         ZIndex: =1
 
                         DataCardKey27 As label:
@@ -17055,7 +16939,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue199.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =148
+                        Y: =147
                         ZIndex: =1
 
                         DataCardKey209 As label:
@@ -17171,7 +17055,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue140.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =149
+                        Y: =148
                         ZIndex: =1
 
                         DataCardKey210 As label:
@@ -17293,7 +17177,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue140.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =150
+                        Y: =149
                         ZIndex: =1
 
                         DataCardKey212 As label:
@@ -17409,7 +17293,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue180.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =151
+                        Y: =150
                         ZIndex: =1
 
                         DataCardKey406 As label:
@@ -17531,7 +17415,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue180.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =152
+                        Y: =151
                         ZIndex: =1
 
                         DataCardKey407 As label:
@@ -17647,7 +17531,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue329.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =153
+                        Y: =152
                         ZIndex: =1
 
                         DataCardKey408 As label:
@@ -17770,7 +17654,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue329.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =154
+                        Y: =153
                         ZIndex: =1
 
                         DataCardKey409 As label:
@@ -17886,7 +17770,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue331.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =155
+                        Y: =154
                         ZIndex: =1
 
                         DataCardKey410 As label:
@@ -18008,7 +17892,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue331.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =156
+                        Y: =155
                         ZIndex: =1
 
                         DataCardKey411 As label:
@@ -18124,7 +18008,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =157
+                        Y: =156
                         ZIndex: =1
 
                         DataCardKey413 As label:
@@ -18210,7 +18094,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue335.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =158
+                        Y: =157
                         ZIndex: =1
 
                         DataCardKey414 As label:
@@ -18332,7 +18216,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue335.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =159
+                        Y: =158
                         ZIndex: =1
 
                         DataCardKey415 As label:
@@ -18447,7 +18331,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image20.Image
                         Width: =640
                         X: =0
-                        Y: =160
+                        Y: =159
                         ZIndex: =1
 
                         DataCardKey416 As label:
@@ -18578,7 +18462,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue337.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =161
+                        Y: =160
                         ZIndex: =1
 
                         DataCardKey417 As label:
@@ -18701,7 +18585,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue337.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =162
+                        Y: =161
                         ZIndex: =1
 
                         DataCardKey418 As label:
@@ -18817,7 +18701,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue339.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =163
+                        Y: =162
                         ZIndex: =1
 
                         DataCardKey419 As label:
@@ -18942,7 +18826,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue339.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =164
+                        Y: =163
                         ZIndex: =1
 
                         DataCardKey420 As label:
@@ -19058,7 +18942,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue341.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =165
+                        Y: =164
                         ZIndex: =1
 
                         DataCardKey421 As label:
@@ -19180,7 +19064,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue341.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =166
+                        Y: =165
                         ZIndex: =1
 
                         DataCardKey422 As label:
@@ -19296,7 +19180,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue343.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =167
+                        Y: =166
                         ZIndex: =1
 
                         DataCardKey423 As label:
@@ -19418,7 +19302,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue343.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =168
+                        Y: =167
                         ZIndex: =1
 
                         DataCardKey424 As label:
@@ -19533,7 +19417,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image21.Image
                         Width: =640
                         X: =0
-                        Y: =169
+                        Y: =168
                         ZIndex: =1
 
                         DataCardKey425 As label:
@@ -19663,7 +19547,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue345.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =170
+                        Y: =169
                         ZIndex: =1
 
                         DataCardKey426 As label:
@@ -19787,7 +19671,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue345.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =171
+                        Y: =170
                         ZIndex: =1
 
                         DataCardKey427 As label:
@@ -19902,7 +19786,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image63.Image
                         Width: =640
                         X: =0
-                        Y: =172
+                        Y: =171
                         ZIndex: =1
 
                         DataCardKey428 As label:
@@ -20033,7 +19917,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue347.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =173
+                        Y: =172
                         ZIndex: =1
 
                         DataCardKey429 As label:
@@ -20153,7 +20037,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue347.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =174
+                        Y: =173
                         ZIndex: =1
 
                         DataCardKey430 As label:
@@ -20268,7 +20152,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image64.Image
                         Width: =640
                         X: =0
-                        Y: =175
+                        Y: =174
                         ZIndex: =1
 
                         DataCardKey431 As label:
@@ -20397,7 +20281,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue349.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =176
+                        Y: =175
                         ZIndex: =1
 
                         DataCardKey432 As label:
@@ -20521,7 +20405,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue349.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =177
+                        Y: =176
                         ZIndex: =1
 
                         DataCardKey433 As label:
@@ -20636,7 +20520,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image65.Image
                         Width: =640
                         X: =0
-                        Y: =178
+                        Y: =177
                         ZIndex: =1
 
                         DataCardKey434 As label:
@@ -20767,7 +20651,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue351.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =179
+                        Y: =178
                         ZIndex: =1
 
                         DataCardKey435 As label:
@@ -20891,7 +20775,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue351.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =180
+                        Y: =179
                         ZIndex: =1
 
                         DataCardKey436 As label:
@@ -21006,7 +20890,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image66.Image
                         Width: =640
                         X: =0
-                        Y: =181
+                        Y: =180
                         ZIndex: =1
 
                         DataCardKey437 As label:
@@ -21138,7 +21022,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue353.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =182
+                        Y: =181
                         ZIndex: =1
 
                         DataCardKey438 As label:
@@ -21260,7 +21144,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue353.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =183
+                        Y: =182
                         ZIndex: =1
 
                         DataCardKey439 As label:
@@ -21375,7 +21259,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image67.Image
                         Width: =640
                         X: =0
-                        Y: =184
+                        Y: =183
                         ZIndex: =1
 
                         DataCardKey440 As label:
@@ -21505,7 +21389,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue355.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =185
+                        Y: =184
                         ZIndex: =1
 
                         DataCardKey441 As label:
@@ -21627,7 +21511,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue355.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =186
+                        Y: =185
                         ZIndex: =1
 
                         DataCardKey442 As label:
@@ -21742,7 +21626,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image68.Image
                         Width: =640
                         X: =0
-                        Y: =187
+                        Y: =186
                         ZIndex: =1
 
                         DataCardKey443 As label:
@@ -21872,7 +21756,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue357.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =188
+                        Y: =187
                         ZIndex: =1
 
                         DataCardKey444 As label:
@@ -21992,7 +21876,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue357.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =189
+                        Y: =188
                         ZIndex: =1
 
                         DataCardKey445 As label:
@@ -22107,7 +21991,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =Image69.Image
                         Width: =640
                         X: =0
-                        Y: =190
+                        Y: =189
                         ZIndex: =1
 
                         DataCardKey446 As label:
@@ -22236,7 +22120,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue359.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =191
+                        Y: =190
                         ZIndex: =1
 
                         DataCardKey447 As label:
@@ -22360,7 +22244,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue359.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =192
+                        Y: =191
                         ZIndex: =1
 
                         DataCardKey448 As label:
@@ -22476,7 +22360,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue361.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =193
+                        Y: =192
                         ZIndex: =1
 
                         DataCardKey449 As label:
@@ -22599,7 +22483,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue361.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =194
+                        Y: =193
                         ZIndex: =1
 
                         DataCardKey450 As label:
@@ -22715,7 +22599,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue363.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =195
+                        Y: =194
                         ZIndex: =1
 
                         DataCardKey451 As label:
@@ -22840,7 +22724,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue363.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =196
+                        Y: =195
                         ZIndex: =1
 
                         DataCardKey452 As label:
@@ -22956,7 +22840,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue365.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =197
+                        Y: =196
                         ZIndex: =1
 
                         DataCardKey453 As label:
@@ -23078,7 +22962,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue365.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =198
+                        Y: =197
                         ZIndex: =1
 
                         DataCardKey454 As label:
@@ -23194,7 +23078,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue367.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =199
+                        Y: =198
                         ZIndex: =1
 
                         DataCardKey455 As label:
@@ -23318,7 +23202,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Visible: =If(DataCardValue367.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =200
+                        Y: =199
                         ZIndex: =1
 
                         DataCardKey456 As label:
@@ -23434,7 +23318,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Update: =DataCardValue333.Text
                         Width: =640
                         X: =0
-                        Y: =201
+                        Y: =200
                         ZIndex: =1
 
                         DataCardKey412 As label:
