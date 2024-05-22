@@ -7993,6 +7993,23 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey329.Y
                             ZIndex: =4
 
+                    "'La tarea tiene un grado alto de complejidad_DataCard1' As typedDataCard.textualEditCard":
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Latareatieneungradoaltodecopleji"
+                        Default: =ThisItem.'La tarea tiene un grado alto de coplejidad'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'La tarea tiene un grado alto de coplejidad')
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =178
+                        MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'La tarea tiene un grado alto de coplejidad')
+                        Required: =false
+                        Update: =DataCardValue273.Selected.Value
+                        Width: =640
+                        X: =0
+                        Y: =71
+                        ZIndex: =1
+
                     HALLAZGOS21_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -16366,23 +16383,6 @@ FormularioIPTADMBOLIVAR As screen:
                             Wrap: =false
                             Y: =DataCardKey401.Y
                             ZIndex: =4
-
-                    "'La tarea tiene un grado alto de complejidad_DataCard1' As typedDataCard.textualEditCard":
-                        BorderColor: =RGBA(245, 245, 245, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Latareatieneungradoaltodecopleji"
-                        Default: =ThisItem.'La tarea tiene un grado alto de coplejidad'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'La tarea tiene un grado alto de coplejidad')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =178
-                        MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'La tarea tiene un grado alto de coplejidad')
-                        Required: =false
-                        Update: =DataCardValue273.Selected.Value
-                        Width: =640
-                        X: =0
-                        Y: =71
-                        ZIndex: =1
 
                     CIUDAD_DataCard3 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
