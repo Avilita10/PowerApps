@@ -7993,23 +7993,6 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey329.Y
                             ZIndex: =4
 
-                    "'La tarea tiene un grado alto de complejidad_DataCard1' As typedDataCard.textualEditCard":
-                        BorderColor: =RGBA(245, 245, 245, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Latareatieneungradoaltodecopleji"
-                        Default: =ThisItem.'La tarea tiene un grado alto de coplejidad'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'La tarea tiene un grado alto de coplejidad')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =178
-                        MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'La tarea tiene un grado alto de coplejidad')
-                        Required: =false
-                        Update: =DataCardValue273.Selected.Value
-                        Width: =640
-                        X: =0
-                        Y: =71
-                        ZIndex: =1
-
                     HALLAZGOS21_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -8022,6 +8005,7 @@ FormularioIPTADMBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS21)
                         Required: =false
                         Update: =DataCardValue274.Text
+                        Visible: =If(DataCardValue240.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =72
@@ -8041,7 +8025,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -8134,10 +8118,10 @@ FormularioIPTADMBOLIVAR As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'Se requiere velocidad en el proceso para la realización de la tarea')
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =180
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'Se requiere velocidad en el proceso para la realización de la tarea')
                         Required: =false
-                        Update: =DataCardValue275.Text
+                        Update: =DataCardValue275.Selected.Value
                         Width: =640
                         X: =0
                         Y: =73
@@ -8157,44 +8141,14 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="Se requiere velocidad en el proceso para 
+                                la realización de la tarea"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue275 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey332.Y + DataCardKey332.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage327 As label:
                             AutoHeight: =true
@@ -8242,6 +8196,40 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey332.Y
                             ZIndex: =4
 
+                        DataCardValue275 As dropdown:
+                            BorderColor: =RGBA(245, 245, 245, 1)
+                            ChevronBackground: =RGBA(245, 245, 245, 1)
+                            ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                            ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                            ChevronFill: =RGBA(50, 49, 48, 1)
+                            ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                            ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =50
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(245, 245, 245, 1)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingLeft: =12
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedBorderColor: =RGBA(16, 110, 190, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(0, 120, 212, 1)
+                            SelectionColor: =RGBA(50, 49, 48, 1)
+                            SelectionFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            Width: =575
+                            X: =30
+                            Y: =108
+                            ZIndex: =5
+
                     HALLAZGOS22_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -8254,6 +8242,7 @@ FormularioIPTADMBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS22)
                         Required: =false
                         Update: =DataCardValue276.Text
+                        Visible: =If(DataCardValue275.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =74
@@ -8273,7 +8262,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -8366,10 +8355,10 @@ FormularioIPTADMBOLIVAR As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'La tarea requiere de una elevada concentración ')
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =186
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'La tarea requiere de una elevada concentración ')
                         Required: =false
-                        Update: =DataCardValue277.Text
+                        Update: =DataCardValue277.Selected.Value
                         Width: =640
                         X: =0
                         Y: =75
@@ -8389,44 +8378,14 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="La tarea requiere de una elevada 
+                                concentración"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue277 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey334.Y + DataCardKey334.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage329 As label:
                             AutoHeight: =true
@@ -8474,6 +8433,40 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey334.Y
                             ZIndex: =4
 
+                        DataCardValue277 As dropdown:
+                            BorderColor: =RGBA(245, 245, 245, 1)
+                            ChevronBackground: =RGBA(245, 245, 245, 1)
+                            ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                            ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                            ChevronFill: =RGBA(50, 49, 48, 1)
+                            ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                            ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =50
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(245, 245, 245, 1)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingLeft: =12
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedBorderColor: =RGBA(16, 110, 190, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(0, 120, 212, 1)
+                            SelectionColor: =RGBA(50, 49, 48, 1)
+                            SelectionFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            Width: =575
+                            X: =35
+                            Y: =110
+                            ZIndex: =5
+
                     HALLAZGOS23_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -8486,6 +8479,7 @@ FormularioIPTADMBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS23)
                         Required: =false
                         Update: =DataCardValue278.Text
+                        Visible: =If(DataCardValue277.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =76
@@ -8505,7 +8499,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -8598,10 +8592,10 @@ FormularioIPTADMBOLIVAR As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'Se requiere atención sostenida y continua')
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =146
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'Se requiere atención sostenida y continua')
                         Required: =false
-                        Update: =DataCardValue279.Text
+                        Update: =DataCardValue279.Selected.Value
                         Width: =640
                         X: =0
                         Y: =77
@@ -8621,44 +8615,12 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Se requiere atención sostenida y continua"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue279 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey336.Y + DataCardKey336.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage331 As label:
                             AutoHeight: =true
@@ -8706,6 +8668,40 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey336.Y
                             ZIndex: =4
 
+                        DataCardValue279 As dropdown:
+                            BorderColor: =RGBA(245, 245, 245, 1)
+                            ChevronBackground: =RGBA(245, 245, 245, 1)
+                            ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                            ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                            ChevronFill: =RGBA(50, 49, 48, 1)
+                            ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                            ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =50
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(245, 245, 245, 1)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingLeft: =12
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedBorderColor: =RGBA(16, 110, 190, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(0, 120, 212, 1)
+                            SelectionColor: =RGBA(50, 49, 48, 1)
+                            SelectionFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            Width: =575
+                            X: =30
+                            Y: =80
+                            ZIndex: =5
+
                     HALLAZGOS24_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -8718,6 +8714,7 @@ FormularioIPTADMBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS24)
                         Required: =false
                         Update: =DataCardValue280.Text
+                        Visible: =If(DataCardValue279.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =78
@@ -8737,7 +8734,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -8833,7 +8830,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Height: =50
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'ORGANIZACIÓN DEL TRABAJO')
                         Required: =false
-                        Update: =DataCardValue281.Text
+                        Update: =
                         Width: =640
                         X: =0
                         Y: =79
@@ -8849,48 +8846,16 @@ FormularioIPTADMBOLIVAR As screen:
                             DisabledColor: =RGBA(161, 159, 157, 1)
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
+                            FontWeight: =FontWeight.Bold
                             Height: =48
                             PaddingLeft: =0
-                            Size: =21
+                            Size: =29
                             Text: =Parent.DisplayName
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue281 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey338.Y + DataCardKey338.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage333 As label:
                             AutoHeight: =true
@@ -8914,7 +8879,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Visible: =Parent.DisplayMode=DisplayMode.Edit
                             Width: =Parent.Width - 60
                             X: =30
-                            Y: =DataCardValue281.Y + DataCardValue281.Height
+                            Y: =
                             ZIndex: =3
 
                         StarVisible333 As label:
@@ -8946,10 +8911,10 @@ FormularioIPTADMBOLIVAR As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'La jornada laboral excede 8 horas diarias')
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =148
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'La jornada laboral excede 8 horas diarias')
                         Required: =false
-                        Update: =DataCardValue282.Text
+                        Update: =DataCardValue282.Selected.Value
                         Width: =640
                         X: =0
                         Y: =80
@@ -8975,38 +8940,6 @@ FormularioIPTADMBOLIVAR As screen:
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue282 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey339.Y + DataCardKey339.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage334 As label:
                             AutoHeight: =true
@@ -9054,6 +8987,40 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey339.Y
                             ZIndex: =4
 
+                        DataCardValue282 As dropdown:
+                            BorderColor: =RGBA(245, 245, 245, 1)
+                            ChevronBackground: =RGBA(245, 245, 245, 1)
+                            ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                            ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                            ChevronFill: =RGBA(50, 49, 48, 1)
+                            ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                            ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =50
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(245, 245, 245, 1)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingLeft: =12
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedBorderColor: =RGBA(16, 110, 190, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(0, 120, 212, 1)
+                            SelectionColor: =RGBA(50, 49, 48, 1)
+                            SelectionFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            Width: =575
+                            X: =30
+                            Y: =80
+                            ZIndex: =5
+
                     HALLAZGOS25_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -9066,6 +9033,7 @@ FormularioIPTADMBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS25)
                         Required: =false
                         Update: =DataCardValue283.Text
+                        Visible: =If(DataCardValue282.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =81
@@ -9085,7 +9053,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -9178,10 +9146,10 @@ FormularioIPTADMBOLIVAR As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'Se realizan horas extras luego de la jornada de trabajo')
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =200
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'Se realizan horas extras luego de la jornada de trabajo')
                         Required: =false
-                        Update: =DataCardValue284.Text
+                        Update: =DataCardValue284.Selected.Value
                         Width: =640
                         X: =0
                         Y: =82
@@ -9201,44 +9169,14 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="Se realizan horas extras luego 
+                                de la jornada de trabajo"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue284 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey341.Y + DataCardKey341.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage336 As label:
                             AutoHeight: =true
@@ -9286,6 +9224,40 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey341.Y
                             ZIndex: =4
 
+                        DataCardValue284 As dropdown:
+                            BorderColor: =RGBA(245, 245, 245, 1)
+                            ChevronBackground: =RGBA(245, 245, 245, 1)
+                            ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                            ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                            ChevronFill: =RGBA(50, 49, 48, 1)
+                            ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                            ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =50
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(245, 245, 245, 1)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingLeft: =12
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedBorderColor: =RGBA(16, 110, 190, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(0, 120, 212, 1)
+                            SelectionColor: =RGBA(50, 49, 48, 1)
+                            SelectionFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            Width: =575
+                            X: =30
+                            Y: =110
+                            ZIndex: =5
+
                     HALLAZGOS26_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -9298,6 +9270,7 @@ FormularioIPTADMBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS26)
                         Required: =false
                         Update: =DataCardValue285.Text
+                        Visible: =If(DataCardValue284.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =83
@@ -9317,7 +9290,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -9410,10 +9383,10 @@ FormularioIPTADMBOLIVAR As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'El uso del computador es de 4 horas seguidas o más')
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =188
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'El uso del computador es de 4 horas seguidas o más')
                         Required: =false
-                        Update: =DataCardValue286.Text
+                        Update: =DataCardValue286.Selected.Value
                         Width: =640
                         X: =0
                         Y: =84
@@ -9433,44 +9406,14 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="El uso del computador es de 4 horas 
+                                seguidas o más"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue286 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey343.Y + DataCardKey343.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage338 As label:
                             AutoHeight: =true
@@ -9518,6 +9461,40 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey343.Y
                             ZIndex: =4
 
+                        DataCardValue286 As dropdown:
+                            BorderColor: =RGBA(245, 245, 245, 1)
+                            ChevronBackground: =RGBA(245, 245, 245, 1)
+                            ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                            ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                            ChevronFill: =RGBA(50, 49, 48, 1)
+                            ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                            ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =50
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(245, 245, 245, 1)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingLeft: =12
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedBorderColor: =RGBA(16, 110, 190, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(0, 120, 212, 1)
+                            SelectionColor: =RGBA(50, 49, 48, 1)
+                            SelectionFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            Width: =575
+                            X: =30
+                            Y: =110
+                            ZIndex: =5
+
                     HALLAZGOS27_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -9530,6 +9507,7 @@ FormularioIPTADMBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS27)
                         Required: =false
                         Update: =DataCardValue287.Text
+                        Visible: =If(DataCardValue286.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =85
@@ -9549,7 +9527,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -9642,10 +9620,10 @@ FormularioIPTADMBOLIVAR As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'Se prohibe mas de un descanso o pausa durante la jornada de trabajo')
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =186
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'Se prohibe mas de un descanso o pausa durante la jornada de trabajo')
                         Required: =false
-                        Update: =DataCardValue288.Text
+                        Update: =DataCardValue288.Selected.Value
                         Width: =640
                         X: =0
                         Y: =86
@@ -9665,44 +9643,14 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="Se prohibe mas de un descanso o pausa 
+                                durante la jornada de trabajo"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue288 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey345.Y + DataCardKey345.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage340 As label:
                             AutoHeight: =true
@@ -9750,6 +9698,40 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey345.Y
                             ZIndex: =4
 
+                        DataCardValue288 As dropdown:
+                            BorderColor: =RGBA(245, 245, 245, 1)
+                            ChevronBackground: =RGBA(245, 245, 245, 1)
+                            ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                            ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                            ChevronFill: =RGBA(50, 49, 48, 1)
+                            ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                            ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =50
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(245, 245, 245, 1)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingLeft: =12
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedBorderColor: =RGBA(16, 110, 190, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(0, 120, 212, 1)
+                            SelectionColor: =RGBA(50, 49, 48, 1)
+                            SelectionFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            Width: =575
+                            X: =30
+                            Y: =110
+                            ZIndex: =5
+
                     HALLAZGOS28_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -9762,6 +9744,7 @@ FormularioIPTADMBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS28)
                         Required: =false
                         Update: =DataCardValue290.Text
+                        Visible: =If(DataCardValue288.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =87
@@ -9781,7 +9764,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -9874,10 +9857,10 @@ FormularioIPTADMBOLIVAR As screen:
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,'Se impone un ritmo de trabajo dificil de alcanzar para el trabajador')
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =192
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'Se impone un ritmo de trabajo dificil de alcanzar para el trabajador')
                         Required: =false
-                        Update: =DataCardValue289.Text
+                        Update: =DataCardValue289.Selected.Value
                         Width: =640
                         X: =0
                         Y: =88
@@ -9897,44 +9880,14 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: |-
+                                ="Se impone un ritmo de trabajo dificil 
+                                de alcanzar para el trabajador"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue289 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey346.Y + DataCardKey346.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage341 As label:
                             AutoHeight: =true
@@ -9982,6 +9935,40 @@ FormularioIPTADMBOLIVAR As screen:
                             Y: =DataCardKey346.Y
                             ZIndex: =4
 
+                        DataCardValue289 As dropdown:
+                            BorderColor: =RGBA(245, 245, 245, 1)
+                            ChevronBackground: =RGBA(245, 245, 245, 1)
+                            ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                            ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                            ChevronFill: =RGBA(50, 49, 48, 1)
+                            ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                            ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =50
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(245, 245, 245, 1)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingLeft: =12
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedBorderColor: =RGBA(16, 110, 190, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(0, 120, 212, 1)
+                            SelectionColor: =RGBA(50, 49, 48, 1)
+                            SelectionFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            Width: =575
+                            X: =30
+                            Y: =110
+                            ZIndex: =5
+
                     HALLAZGOS29_DataCard2 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -9994,6 +9981,7 @@ FormularioIPTADMBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, HALLAZGOS29)
                         Required: =false
                         Update: =DataCardValue291.Text
+                        Visible: =If(DataCardValue289.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
                         Y: =89
@@ -10013,7 +10001,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -10109,7 +10097,7 @@ FormularioIPTADMBOLIVAR As screen:
                         Height: =50
                         MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, 'CONDICIONES DEL PUESTO DE TRABAJO')
                         Required: =false
-                        Update: =DataCardValue292.Text
+                        Update: =
                         Width: =640
                         X: =0
                         Y: =90
@@ -10125,48 +10113,18 @@ FormularioIPTADMBOLIVAR As screen:
                             DisabledColor: =RGBA(161, 159, 157, 1)
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
+                            FontWeight: =FontWeight.Bold
                             Height: =48
                             PaddingLeft: =0
-                            Size: =21
-                            Text: =Parent.DisplayName
+                            Size: =29
+                            Text: |-
+                                ="CONDICIONES DEL PUESTO 
+                                DE TRABAJO"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
                             Y: =10
                             ZIndex: =1
-
-                        DataCardValue292 As text:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            Default: =Parent.Default
-                            DelayOutput: =true
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverBorderColor: =RGBA(16, 110, 190, 1)
-                            HoverColor: =RGBA(50, 49, 48, 1)
-                            HoverFill: =RGBA(255, 255, 255, 1)
-                            MaxLength: =Parent.MaxLength
-                            PaddingLeft: =5
-                            PressedBorderColor: =RGBA(0, 120, 212, 1)
-                            PressedColor: =RGBA(50, 49, 48, 1)
-                            PressedFill: =RGBA(255, 255, 255, 1)
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Size: =21
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey349.Y + DataCardKey349.Height + 5
-                            ZIndex: =2
 
                         ErrorMessage344 As label:
                             AutoHeight: =true
@@ -10190,7 +10148,7 @@ FormularioIPTADMBOLIVAR As screen:
                             Visible: =Parent.DisplayMode=DisplayMode.Edit
                             Width: =Parent.Width - 60
                             X: =30
-                            Y: =DataCardValue292.Y + DataCardValue292.Height
+                            Y: =
                             ZIndex: =3
 
                         StarVisible344 As label:
@@ -16383,6 +16341,57 @@ FormularioIPTADMBOLIVAR As screen:
                             Wrap: =false
                             Y: =DataCardKey401.Y
                             ZIndex: =4
+
+                    "'La tarea tiene un grado alto de coplejidad_DataCard1' As typedDataCard.textualEditCard":
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Latareatieneungradoaltodecopleji"
+                        Default: =ThisItem.'La tarea tiene un grado alto de coplejidad'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,Latareatieneungradoaltodecopleji)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =156
+                        MaxLength: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'], DataSourceInfo.MaxLength, Latareatieneungradoaltodecopleji)
+                        Required: =false
+                        Update: =DataCardValue240.Selected.Value
+                        Width: =640
+                        X: =0
+                        Y: =71
+                        ZIndex: =1
+
+                        DataCardValue240 As dropdown:
+                            BorderColor: =RGBA(245, 245, 245, 1)
+                            ChevronBackground: =RGBA(245, 245, 245, 1)
+                            ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                            ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                            ChevronFill: =RGBA(50, 49, 48, 1)
+                            ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                            ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =50
+                            HoverBorderColor: =RGBA(16, 110, 190, 1)
+                            HoverColor: =RGBA(50, 49, 48, 1)
+                            HoverFill: =RGBA(245, 245, 245, 1)
+                            Items: =["Si","No"]
+                            PaddingBottom: =5
+                            PaddingLeft: =12
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedBorderColor: =RGBA(16, 110, 190, 1)
+                            PressedColor: =RGBA(255, 255, 255, 1)
+                            PressedFill: =RGBA(0, 120, 212, 1)
+                            SelectionColor: =RGBA(50, 49, 48, 1)
+                            SelectionFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            Width: =575
+                            X: =30
+                            Y: =80
+                            ZIndex: =5
 
                     CIUDAD_DataCard3 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
