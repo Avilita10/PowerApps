@@ -23202,10 +23202,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Observaciones"
                         Default: =ThisItem.'Observaciones '
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Observaciones)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'Observaciones ')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Observaciones)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'Observaciones ')
                         Required: =false
                         Update: =DataCardValue333.Text
                         Width: =640
