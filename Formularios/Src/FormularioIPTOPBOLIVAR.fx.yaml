@@ -16915,10 +16915,10 @@ FormularioIPTOPBOLIVAR As screen:
                         DataField: ="Lajornadalaboralexcede8horasdiar"
                         Default: =ThisItem.'La jornada laboral excede 8 horas diarias'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,Lajornadalaboralexcede8horasdiar)
+                        DisplayName: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'],DataSourceInfo.DisplayName,'La jornada laboral excede 8 horas diarias')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Lajornadalaboralexcede8horasdiar)
+                        MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'La jornada laboral excede 8 horas diarias')
                         Required: =false
                         Update: =DataCardValue199.Text
                         Width: =640

@@ -1678,83 +1678,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Selected"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 23,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS51_DataCard1.Visible"
                 }
               ],
@@ -3972,36 +3895,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Carga Física por Movimientos_DataCard1'.DataCardValue263.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Carga Física por Movimientos_DataCard1'.DataCardValue263.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Carga Física por Movimientos_DataCard1'.DataCardValue263"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay repetitividad de movimientos idénticos o similares efectuados cada pocos segundos en los miembros superiores_DataCard2'.DataCardValue264.AccessibleLabel"
                 }
               ],
@@ -4182,36 +4075,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'CARGA MENTAL_DataCard2'.DataCardValue270.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'CARGA MENTAL_DataCard2'.DataCardValue270.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'CARGA MENTAL_DataCard2'.DataCardValue270"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'El trabajo exige simultaneamente varia tareas_DataCard1'.DataCardValue271.AccessibleLabel"
                 }
               ],
@@ -4272,19 +4135,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea tiene un grado alto de coplejidad_DataCard1'.DataCardValue273.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea tiene un grado alto de complejidad_DataCard1'.DataCardValue273.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea tiene un grado alto de coplejidad_DataCard1'.DataCardValue273.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea tiene un grado alto de complejidad_DataCard1'.DataCardValue273.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea tiene un grado alto de coplejidad_DataCard1'.DataCardValue273"
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'La tarea tiene un grado alto de complejidad_DataCard1'.DataCardValue273"
               }
             }
           ],
@@ -10782,6 +10645,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.DataCardValue199.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.DataCardValue199.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.DataCardValue199"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.HALLAZGOS51_DataCard1.DataCardValue127.AccessibleLabel"
                 }
               ],
@@ -15012,36 +14905,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.Dropdown7.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.Dropdown7.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container9_2.Form1_1.'La jornada laboral excede 8 horas diarias_DataCard2'.Dropdown7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.text_categoriaCargo"
                 }
               ],
@@ -15881,7 +15744,7 @@
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "Los controles consumen recursos y, si una pantalla tiene demasiados controles, la aplicación puede dejar de responder o ralentizarse. La complejidad estimada de \"FormularioIPTADMBOLIVAR\" es 757, que es superior al umbral máximo recomendado (300)."
+                "whyFix": "Los controles consumen recursos y, si una pantalla tiene demasiados controles, la aplicación puede dejar de responder o ralentizarse. La complejidad estimada de \"FormularioIPTADMBOLIVAR\" es 755, que es superior al umbral máximo recomendado (300)."
               }
             },
             {
