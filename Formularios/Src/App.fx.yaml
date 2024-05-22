@@ -71,6 +71,8 @@ App As appinfo:
         
         Set(text_AntiguedadCargoMeses,"");
         
+        LoadData(coleccionOffline_2,"FormularioIptOpBolivar",true)
+        
     StartScreen: =
     Theme: =PowerAppsTheme
 
