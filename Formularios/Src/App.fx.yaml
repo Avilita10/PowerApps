@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |+
+    OnStart: |
         =LoadData(coleccionOffline,"formularioSinCargar",true);
         ClearCollect(coleccionOffline,{Fecha:"",Ciudad:"",Area:"",PuestoTrabajo:"",NombreTrabajador:"",Identificacion:"",Genero:"",Edad:"",EdadAgrupada:"",Turno:"",AntiguedadEnLaEmpresa:"",AntiguedadEnElCargo:"",TipoDeCargo:"",PredominacionManual:"",Estatura:"",Peso:"",PersonaFuma:"",CigarrillosDia:"",TiempoFumando:"",RealizaActividadFisica:"",CualActividadFisica:"",FrecuenciaActividadFisica:"",TiempoActividadFisica:"",EdadAG:"",EmpresaAG:"",CargoAG:"",MolestiaOsteomuscular:"",EnfeOsteo:"",NomEnfeOsteo:"",OjosF:"",OjosS:"",Ojos:"",CuelloF:"",CuelloS:"",Cuello:"",HombroIzquierdoF:"",HombroIzquierdoS:"",HombroIzquierdo:"",HombroDerechoF:"",HombroDerechoS:"",HombroDerecho:"",BrazoDerechoF:"",BrazoDerechoS:"",BrazoDerecho:"",BrazoIzquierdoF:"",BrazoIzquierdoS:"",BrazoIzquierdo:"",ABrazoDerechoF:"",ABrazoDerechoS:"",ABrazoDerecho:"",AntebrazoIzquierdoF:"",ABrazoIzquierdoS:"",ABrazoIzquierdo:"",MuñecaDerechaF:"",MuñecaDerechaS:"",MuñecaDerecha:"",MuñecaIzquierdaF:"",MuñecaIzquierdaS:"",MuñecaIzquierda:"",ManoDerechaF:"",ManoDerechaS:"",ManoDerecha:"",ManoIzquierdaF:"",ManoIzquierdaS:"",ManoIzquierda:"",ZonaDorsalF:"",ZonaDorsalS:"",ZonaDorsal:"",ZonaLumbarF:"",ZonaLumbarS:"",ZonaLumbar:"",NalgasCaderasF:"",NalgasCaderasS:"",NalgasCaderas:"",MusloDerechoF:"",MusloDerechoS:"",MulsoDerecho:"",MusloIzquierdoF:"",MusloIzquierdoS:"",MusloIzquierdo:"",RodillaDerechaF:"",RodillaDerechaS:"",RodillaDerecha:"",RodillaIzquierdaF:"",RodillaIzquierdaS:"",RodillaIzquierda:"",PiernaDerechaF:"",PiernaDerechaS:"",PiernaDerecha:"",PiernaIzquierdaF:"",PiernaIzquierdaS:"",PiernaIzquierda:"",PieTobDerechoF:"",PieTobDerechoS:"",PieTobilloDerecho:"",PieTobilloIzquierdoF:"",PieTobilloIzquierdoS:"",PieTobilloIzquierdo:"",CodoIzquierdoF:"",CodoIzquierdoS:"",CodoIzquierdo:"",CodoDerechoF:"",CodoDerechoS:"",CodoDerecho:"",PuntajeESintomas:"",ValoracionEPersonas:"",PuntajesEMiembroSuperior:"",ValoracionEMiembroSuperior:"",PuntajeEMiembroInferior:"",ValoracionEMiembroInferior:"",PuntajeESintomasColumna:"",ValoracionESintomasColumna:"",IndiceMasaCorporal:"",Empresa:"",Sede:"",AntiguedadEmpresaMeses:"",AntiguedadCargoMeses:""});
         
@@ -71,8 +71,8 @@ App As appinfo:
         
         Set(text_AntiguedadCargoMeses,"");
         
-        LoadData(coleccionOffline_2,"FormularioIptOpBolivar",true)
-        
+        LoadData(ColeccionOffline2,"formularioSinCargar",true);
+        ClearCollect(ColeccionOffline2,{Ciudad:""});
     StartScreen: =
     Theme: =PowerAppsTheme
 

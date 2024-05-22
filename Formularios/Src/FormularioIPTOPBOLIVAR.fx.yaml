@@ -156,11 +156,11 @@ FormularioIPTOPBOLIVAR As screen:
                     OnSelect: |-
                         =If(Connection.Connected,
                         Patch(ColeccionOffline2, Defaults(ColeccionOffline2),{
-                            
-                            
+                            Ciudad: DataCardValue16.Text
                         
                         }),
                         Collect(ColeccionOffline2, {
+                            Ciudad: DataCardValue16.Text
                         
                             
                             
