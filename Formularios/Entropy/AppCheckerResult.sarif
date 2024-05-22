@@ -4023,19 +4023,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)_DataCard1'.DataCardValue251.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación_DataCard1'.DataCardValue253.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)_DataCard1'.DataCardValue251.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación_DataCard1'.DataCardValue253.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)_DataCard1'.DataCardValue251"
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación_DataCard1'.DataCardValue253"
               }
             }
           ],
@@ -4113,19 +4113,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación_DataCard1'.DataCardValue253.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)_DataCard1'.DataCardValue251.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación_DataCard1'.DataCardValue253.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)_DataCard1'.DataCardValue251.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación_DataCard1'.DataCardValue253"
+                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)_DataCard1'.DataCardValue251"
               }
             }
           ],
