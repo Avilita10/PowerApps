@@ -3,6 +3,9 @@ App As appinfo:
     OnStart: |-
         =LoadData(
             coleccionOffline,"Cache",true
+        );
+        LoadData(
+            ColeccionOffline2,"Cache2",true
         )
     StartScreen: =
     Theme: =PowerAppsTheme
