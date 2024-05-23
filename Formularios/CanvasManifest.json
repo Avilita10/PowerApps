@@ -99,7 +99,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 45,
+    "BindingErrorCount": 43,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -123,9 +123,9 @@
   },
   "PublishInfo": {
     "AppName": "b03d452e-25cf-4b20-bac7-23947c9bcb92",
-    "BackgroundColor": "rgba(255, 255, 255, 1)",
+    "BackgroundColor": "rgba(221, 79, 14, 1)",
     "IconColor": "RGBA(255,255,255,1)",
-    "IconName": "",
+    "IconName": "FavoriteStarFill",
     "LogoFileName": "logo.jpg",
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
@@ -137,6 +137,7 @@
     "IncioFormularioSintomatologia",
     "FormularioSinotomatologia",
     "CarpetaSinConexionSintomatologia",
+    "CarpetaSinConexionIPTOPBolivar",
     "InicioFormularioIPTADMBOLIVAR",
     "FormularioIPTADMBOLIVAR",
     "FormularioIPTADMBOLIVAR_1",
