@@ -226,7 +226,7 @@ FormularioIPTADMBOLIVAR As screen:
                 Form1_2 As form:
                     AlignInContainer: =AlignInContainer
                     BorderColor: =RGBA(250, 250, 250, 1)
-                    DataSource: ='Inspección puesto de trabajo video Terminales_3'
+                    DataSource: ='Inspección puesto de trabajo video Terminales'
                     DefaultMode: =FormMode.New
                     FillPortions: =0
                     Height: =600

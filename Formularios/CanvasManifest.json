@@ -99,7 +99,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 28,
+    "BindingErrorCount": 21,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -139,6 +139,7 @@
     "CarpetaSinConexionSintomatologia",
     "InicioFormularioIPTADMBOLIVAR",
     "FormularioIPTADMBOLIVAR",
+    "FormularioIPTADMBOLIVAR_1",
     "InicioFormularioIPTOPBOLIVAR",
     "FormularioIPTOPBOLIVAR",
     "Screen1"
