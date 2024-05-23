@@ -342,168 +342,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 95,
-                  "snippet": {
-                    "text": "EVIDENCIAS24"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "EVIDENCIAS24",
-              "EVIDENCIAS20"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 108,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'];DataSourceInfo.DisplayName;EVIDENCIAS24)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".EVIDENCIAS24"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "EVIDENCIAS24"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS25_DataCard1.DisplayName"
                 }
               ],
@@ -5340,36 +5178,6 @@
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTADMBOLIVAR",
                 "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.HALLAZGOS39_DataCard2.DataCardValue310"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.AddPicture49.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.AddPicture49.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioIPTADMBOLIVAR",
-                "type": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.EVIDENCIAS24_DataCard1.AddPicture49"
               }
             }
           ],
@@ -15524,7 +15332,7 @@
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "Los controles consumen recursos y, si una pantalla tiene demasiados controles, la aplicación puede dejar de responder o ralentizarse. La complejidad estimada de \"FormularioIPTADMBOLIVAR\" es 751, que es superior al umbral máximo recomendado (300)."
+                "whyFix": "Los controles consumen recursos y, si una pantalla tiene demasiados controles, la aplicación puede dejar de responder o ralentizarse. La complejidad estimada de \"FormularioIPTADMBOLIVAR\" es 745, que es superior al umbral máximo recomendado (300)."
               }
             }
           ],
