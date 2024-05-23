@@ -797,7 +797,7 @@ FormularioSinotomatologia As screen:
                         DataField: ="ANTIGUEDADENLAEMPRESAMESES"
                         Default: =ThisItem.'ANTIGUEDAD EN LA EMPRESA MESES'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,ANTIGUEDADENLAEMPRESAMESES)
+                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,'ANTIGUEDAD EN LA EMPRESA MESES')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =219
                         Required: =false
@@ -1016,7 +1016,7 @@ FormularioSinotomatologia As screen:
                         DataField: ="AntiguedadCargoMeses"
                         Default: =ThisItem.'ANTIGUEDAD DEL CARGO MESES'
                         DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,AntiguedadCargoMeses)
+                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,'ANTIGUEDAD DEL CARGO MESES')
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =204
                         Required: =false
@@ -4064,7 +4064,7 @@ FormularioSinotomatologia As screen:
                             Font: =Font.'Segoe UI'
                             Height: =70
                             Size: =21
-                            Text: =text_hombroDere
+                            Text: =
                             Width: =560
                             X: =40
                             Y: =40
