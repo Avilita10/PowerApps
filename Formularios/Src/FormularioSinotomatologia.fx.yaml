@@ -152,116 +152,10 @@ FormularioSinotomatologia As screen:
                     HoverColor: =RGBA(16, 110, 190, 1)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Icon: =Icon.GlobeChangesPending
-                    OnSelect: |-
-                        =If(Connection.Connected,
-                        Patch(coleccionOffline, Defaults(coleccionOffline),{
-                            Fecha: DataCardValue1.SelectedDate,
-                            Ciudad: DataCardValue2.Text,
-                            Area: DataCardValue3.Text,
-                            CargoTrabajo: DataCardValue4.Text,
-                            NombreTrabajador: DataCardValue5.Text,
-                            Identificacion: DataCardValue6.Text,
-                            Genero: DataCardValue7.Selected.Value,
-                            Edad: edadDigito.Value,
-                            Turno: DataCardValue7.Selected.Value,
-                            TipoDeCargp:DataCardValue12.Selected.Value,
-                            PredominacionManual:DataCardValue13.Selected.Value,
-                            Estatura: DataCardValue14.Text,
-                            Peso: DataCardValue15.Text,
-                            PersonaFuma: DataCardValue17.Selected.Value,
-                            CigarrillosDia: DataCardValue18.Text,
-                            TiempoFumando:DataCardValue19.Text,
-                            RealizaActividadFisica:DataCardValue20.Selected.Value,
-                            CualActividadFisica: DataCardValue21.Text,
-                            FrecuenciaActividadFisica: DataCardValue22.Text,
-                            TiempoActividadFisica: DataCardValue23.Text,
-                            MolestiaOsteomuscular:DataCardValue26.Selected.Value,
-                            EnfeOsteo:DataCardValue27.Selected.Value,
-                            NomEnfeOsteo:DataCardValue28.Text,
-                            OjosF:DataCardValue29.Value,
-                            OjosS:DataCardValue30.Value,
-                            
-                            CuelloF:DataCardValue33.Value,
-                            CuelloS:DataCardValue34.Value,
-                            
-                            HombroIzquierdoF:DataCardValue35.Value,
-                            HombroIzquierdoS:DataCardValue36.Value,
-                            
-                            HombroDerechoF:DataCardValue38.Value,
-                            HombroDerechoS:DataCardValue39.Value,
-                            
-                            BrazoDerechoF:DataCardValue41.Value,
-                            BrazoDerechoS:DataCardValue42.Value,
-                            
-                            BrazoIzquierdoF:Dropdown12.Value,
-                            BrazoIzquierdoS:DataCardValue45.Value,
-                            
-                            ABrazoDerechoF:DataCardValue47.Value,
-                            ABrazoDerechoS:DataCardValue48.Value,
-                           
-                            AntebrazoIzquierdoF:DataCardValue50.Value,
-                            ABrazoIzquierdoS:DataCardValue51.Value,
-                          
-                            MuñecaDerechaF:DataCardValue53.Value,
-                            MuñecaDerechaS:DataCardValue54.Value,
-                            
-                            MuñecaIzquierdaF:DataCardValue56.Value,
-                            MuñecaIzquierdaS:DataCardValue57.Value,
-                           
-                            ManoDerechaF:DataCardValue59.Value,
-                            ManoDerechaS:DataCardValue60.Value,
-                            
-                            ManoIzquierdaF:DataCardValue62.Value,
-                            ManoIzquierdaS:DataCardValue63.Value,
-                            
-                            ZonaDorsalF:DataCardValue65.Value,
-                            ZonaDorsalS:DataCardValue66.Value,
-                            
-                            ZonaLumbarF:DataCardValue68.Value,
-                            ZonaLumbarS:DataCardValue69.Value,
-                            
-                            NalgasCaderasF:DataCardValue71.Value,
-                            NalgasCaderasS:DataCardValue72.Value,
-                            
-                            MusloDerechoF:DataCardValue74.Value,
-                            MusloDerechoS:DataCardValue75.Value,
-                            
-                            MusloIzquierdoF:DataCardValue77.Value,
-                            MusloIzquierdoS:DataCardValue78.Value,
-                            
-                            RodillaDerechaF:DataCardValue80.Value,
-                            RodillaDerechaS:DataCardValue81.Value,
-                            
-                            RodillaIzquierdaF:DataCardValue83.Value,
-                            RodillaIzquierdaS:DataCardValue84.Value,
-                        
-                            PiernaDerechaF:DataCardValue86.Value,
-                            PiernaDerechaS:DataCardValue87.Value,
-                        
-                            PiernaIzquierdaF:DataCardValue89.Value,
-                            PiernaIzquierdaS:DataCardValue90.Value,
-                         
-                            PieTobDerechoF:DataCardValue92.Value,
-                            PieTobDerechoS:DataCardValue93.Value,
-                           
-                            PieTobilloIzquierdoF:DataCardValue95.Value,
-                            PieTobilloIzquierdoS:DataCardValue96.Value,
-                            
-                            CodoDerechoF:DataCardValue24.Value,
-                            CodoDerechoS:DataCardValue98.Value,
-                            
-                            CodoIzquierdoF:DataCardValue100.Value,
-                            CodoIzquierdoS:DataCardValue101.Value,
-                            
-                            Empresa:DataCardValue44.Text,
-                            Sede:DataCardValue104.Text,
-                        
-                            AntiguedadEmpresaMeses:Slider1.AccessibleLabel,
-                            AntiguedadCargoMeses:Slider2.AccessibleLabel
-                            
-                        
-                        }),
-                        Collect(coleccionOffline, {
+                    OnSelect: |
+                        =Collect(
+                            coleccionOffline, 
+                        {
                             Fecha: DataCardValue1.InputTextPlaceholder,
                             Ciudad: DataCardValue2.Text,
                             Area: DataCardValue3.Text,
@@ -365,10 +259,9 @@ FormularioSinotomatologia As screen:
                             AntiguedadEmpresaMeses:Slider1.AccessibleLabel,
                             AntiguedadCargoMeses:Slider2.AccessibleLabel
                             
-                            
-                        });
-                        SaveData(coleccionOffline,"coleccionOffline")
+                        }
                         );
+                        SaveData(coleccionOffline,"Cache")
                     PaddingRight: =10
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =RGBA(16, 110, 190, 1)

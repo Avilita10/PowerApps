@@ -1,78 +1,9 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |
-        =LoadData(coleccionOffline,"formularioSinCargar",true);
-        ClearCollect(coleccionOffline,{Fecha:"",Hallazgos1:"",Ciudad:"",Area:"",Hallazgos3:"",PuestoTrabajo:"",NombreTrabajador:"",Identificacion:"",Genero:"",Edad:"",EdadAgrupada:"",Turno:"",AntiguedadEnLaEmpresa:"",AntiguedadEnElCargo:"",TipoDeCargo:"",PredominacionManual:"",Estatura:"",Peso:"",PersonaFuma:"",CigarrillosDia:"",Hallazgos18:"",TiempoFumando:"",Hallazgos19:"",RealizaActividadFisica:"",Hallazgos20:"",CualActividadFisica:"",FrecuenciaActividadFisica:"",Hallazgos22:"",TiempoActividadFisica:"",Hallazgos23:"",EdadAG:"",Hallazgos24:"",EmpresaAG:"",Hallazgos25:"",CargoAG:"",MolestiaOsteomuscular:"",EnfeOsteo:"",NomEnfeOsteo:"",Hallazgos29:"",OjosF:"",Hallazgos30:"",OjosS:"",Hallazgos31:"",Ojos:"",Hallazgos32:"",CuelloF:"",Hallazgos33:"",CuelloS:"",Hallazgos34:"",Cuello:"",Hallazgos35:"",HombroIzquierdoF:"",Hallazgos36:"",HombroIzquierdoS:"",Hallazgos37:"",HombroIzquierdo:"",Hallazgos38:"",HombroDerechoF:"",Hallazgos39:"",HombroDerechoS:"",Hallazgos40:"",HombroDerecho:"",Hallazgos41:"",BrazoDerechoF:"",Hallazgos42:"",BrazoDerechoS:"",Hallazgos43:"",BrazoDerecho:"",Hallazgos44:"",BrazoIzquierdoF:"",Hallazgos45:"",BrazoIzquierdoS:"",Hallazgos46:"",BrazoIzquierdo:"",Hallazgos47:"",ABrazoDerechoF:"",Hallazgos48:"",ABrazoDerechoS:"",Hallazgos49:"",ABrazoDerecho:"",Hallazgos50:"",AntebrazoIzquierdoF:"",Hallazgos51:"",ABrazoIzquierdoS:"",Hallazgos52:"",ABrazoIzquierdo:"",Hallazgos53:"",MuñecaDerechaF:"",Hallazgos54:"",MuñecaDerechaS:"",Hallazgos55:"",MuñecaDerecha:"",Hallazgos56:"",MuñecaIzquierdaF:"",Hallazgos57:"",MuñecaIzquierdaS:"",Hallazgos58:"",MuñecaIzquierda:"",ManoDerechaF:"",Hallazgos60:"",ManoDerechaS:"",Hallazgos61:"",ManoDerecha:"",Hallazgos62:"",ManoIzquierdaF:"",Hallazgos63:"",ManoIzquierdaS:"",Hallazgos64:"",ManoIzquierda:"",Hallazgos65:"",ZonaDorsalF:"",Hallazgos66:"",ZonaDorsalS:"",Hallazgos67:"",ZonaDorsal:"",Hallazgos68:"",ZonaLumbarF:"",Hallazgos69:"",ZonaLumbarS:"",Hallazgos70:"",ZonaLumbar:"",NalgasCaderasF:"",NalgasCaderasS:"",NalgasCaderas:"",MusloDerechoF:"",MusloDerechoS:"",MulsoDerecho:"",MusloIzquierdoF:"",MusloIzquierdoS:"",MusloIzquierdo:"",RodillaDerechaF:"",RodillaDerechaS:"",RodillaDerecha:"",RodillaIzquierdaF:"",RodillaIzquierdaS:"",RodillaIzquierda:"",PiernaDerechaF:"",PiernaDerechaS:"",PiernaDerecha:"",PiernaIzquierdaF:"",PiernaIzquierdaS:"",PiernaIzquierda:"",PieTobDerechoF:"",PieTobDerechoS:"",PieTobilloDerecho:"",PieTobilloIzquierdoF:"",PieTobilloIzquierdoS:"",PieTobilloIzquierdo:"",CodoIzquierdoF:"",CodoIzquierdoS:"",CodoIzquierdo:"",CodoDerechoF:"",CodoDerechoS:"",CodoDerecho:"",PuntajeESintomas:"",ValoracionEPersonas:"",PuntajesEMiembroSuperior:"",ValoracionEMiembroSuperior:"",PuntajeEMiembroInferior:"",ValoracionEMiembroInferior:"",PuntajeESintomasColumna:"",ValoracionESintomasColumna:"",IndiceMasaCorporal:"",Empresa:"",Sede:"",AntiguedadEmpresaMeses:"",AntiguedadCargoMeses:"",ExistenPosturasHombros45º:"",EvidenciaHombrosMayor45º:"",ExistenPosturasAbduccionHombro:"",EvidenciaHombroAbduccion:"",ExistenPosturasCodosMayor90º:"",EvidenciaCodosMayor90º:"",ExistenPosturasTroncoGravedad:"",EvidenciaTroncoGravedad:"",ExistenPosturasMiembrosSuperioresGravedad:"",EvidenciaMiembrosSuperiroresGravedad:"",SeObservaPosicionCodoPronacionExtrema:"",EvidenciaSeObservaPosicionCodoPronacionExtrema:"",HayDesviacionesEnManosEjeNeutro:"",EvidenciaHayDesviacionesEnManosEjeNeutro:""});
-        
-        Set(text_categoriaCargo,"");
-        
-        Set(text_categoriaEmpresa,"");
-        
-        Set(text_EdadAsignada,"");
-        
-        
-        Set(text_ojos,"");
-        
-        Set(text_cuello,"");
-        
-        Set(text_hombroIzq,"");
-        
-        Set(text_hombroDere,"");
-        
-        Set(text_brazoDere,"");
-        
-        Set(text_brazoIzq,"");
-        
-        Set(text_antebrazoDere,"");
-        
-        Set(text_antebrazoIzq,"");
-        
-        Set(text_muñecaDere,"");
-        
-        Set(text_muñecaIzq,"");
-        
-        Set(text_manoDere,"");
-        
-        Set(text_manoIzq,"");
-        
-        Set(text_zonaDorsal,"");
-        
-        Set(text_zonaLumbar,"");
-        
-        Set(text_nalgasCaderas,"");
-        
-        Set(text_musloDere,"");
-        
-        Set(text_musloIzq,"");
-        
-        Set(text_rodillaDere,"");
-        
-        Set(text_rodillaIzq,"");
-        
-        Set(text_piernaDere,"");
-        
-        Set(text_piernaIzq,"");
-        
-        Set(text_pieTobilloDere,"");
-        
-        Set(text_pieTobilloIzq,"");
-        
-        Set(text_codoDere,"");
-        
-        Set(text_codoIzq,"");
-        
-        
-        
-        Set(text_valoracion,"");
-        
-        Set(text_IndiceMasaCorporal,"");
-        
-        Set(text_AntiguedadEmpresaMeses,"");
-        
-        Set(text_AntiguedadCargoMeses,"");
-        
-        LoadData(ColeccionOffline2,"formularioSinCargar",true);
-        ClearCollect(ColeccionOffline2,{Ciudad:"",Fecha:"",NombreEmpresa:"",NIT:"",NombreTrabajador:"",Cedula:"",SeccionArea:"",Cargo:"",NombreTecnicoPersona:"",Sector:"",NombrePuestoTrabajo:"",ListaHerramientasUtilizadas:"",DescribirBrvementeTarea:"",ExisteProgramaSaludOcupacional:"",SeRealizaMantenimientoMaquinas:"",ElPuestoTrabajoManualFunciones:"",SeRealizaInuccionPuestoTrabajo:"",SeRealizaPausasTrabajo:"",ElTrabajadorExpuestoTemperaturas:"",ExistenVariacionesExtremas:"",EsBajoNivelIluminacion:"",EvidenciaIluminacion:"",ExisteDeslumbramientosAreaTrabajo:"",ExistenSombrasFaltaIluminacion:"",EvidenciaSombrasFaltaIluminacion:"",HayRuidoMolesto:"",HayVibracionCuerpo:"",LaCirculacionAireInsuficiente:"",ElTrabajadorPosturaProlongada:"",EvidenciaPosturaTrabajador:"",ExistenRotacionesIportantesCuello:"",EvidenciaRotacionesCuello:"",HayFlexionesImportantesEspalda:"",EvidenciaFlexionEspalda:"",HayRotacionEspalda:"",EvidenciaRotacionEspalda:"",ElTrabajadorRealizaCuclillas:"",EvidenciaTrabajoCuclillas:"",ExistenPosturasHombros45º:"",EvidenciaHombrosMayor45º:"",ExistenPosturasAbduccionHombro:"",EvidenciaHombroAbduccion:"",ExistenPosturasCodosMayor90º:"",EvidenciaCodosMayor90º:"",ExistenPosturasTroncoGravedad:"",EvidenciaTroncoGravedad:"",ExistenPosturasMiembrosSuperioresGravedad:"",EvidenciaMiembrosSuperiroresGravedad:"",SeObservaPosicionCodoPronacionExtrema:"",EvidenciaSeObservaPosicionCodoPronacionExtrema:"",HayDesviacionesEnManosEjeNeutro:"",EvidenciaHayDesviacionesEnManosEjeNeutro:"",HayRepetitividadMovimientosMiembrosSuperiores:"",HayMovimientosTroncoCombinacionFuerza:"",HayMovimientosMiembroSuperioresCombinacionFuerza:"",LaTareaInvolucraMovimientosRapidosMiembroSuperior:"",LaTareaInvolucraMovimientosRapidosEpalda:"",Hallazgos1:"", Hallazgos2:"", Hallazgos3:"", Hallazgos4:"", Hallazgos5:"", Hallazgos6:"", Hallazgos7:"", Hallazgos8:"", Hallazgos9:"", Hallazgos10:"", Hallazgos11:"", Hallazgos12:"", Hallazgos13:"", Hallazgos14:"", Hallazgos15:"", Hallazgos16:"", Hallazgos17:"", Hallazgos18:"", Hallazgos19:"", Hallazgos20:"", Hallazgos21:"", Hallazgos22:"", Hallazgos23:"", Hallazgos24:"", Hallazgos25:"", Hallazgos26:"", Hallazgos27:"", Hallazgos28:"", Hallazgos29:"", Hallazgos30:"", Hallazgos31:"", Hallazgos32:"", Hallazgos33:"", Hallazgos34:"", Hallazgos35:"", Hallazgos36:"", Hallazgos37:"", Hallazgos38:"", Hallazgos39:"", Hallazgos40:"", Hallazgos41:"", Hallazgos42:"", Hallazgos43:"", Hallazgos44:"", Hallazgos45:"", Hallazgos46:"", Hallazgos47:"", Hallazgos48:"", Hallazgos49:"", Hallazgos50:"", Hallazgos51:"", Hallazgos52:"", Hallazgos53:"", Hallazgos54:"", Hallazgos55:"", Hallazgos56:"", Hallazgos57:"", Hallazgos58:"", Hallazgos59:"", Hallazgos60:"", Hallazgos61:"", Hallazgos62:"", Hallazgos63:"", Hallazgos64:"", Hallazgos65:"", Hallazgos66:"", Hallazgos67:"", Hallazgos68:"", Hallazgos69:"", Hallazgos70:"", Hallazgos71:"", Hallazgos72:""});
+    OnStart: |-
+        =LoadData(
+            coleccionOffline,"Cache",true
+        )
     StartScreen: =
     Theme: =PowerAppsTheme
 
