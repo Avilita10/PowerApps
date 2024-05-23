@@ -125,23 +125,6 @@ FormularioIPTOPBOLIVAR As screen:
                     PressedFill: =RGBA(0, 0, 0, 0)
                     ZIndex: =3
 
-                Icon5_1 As icon.Check:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    Color: =RGBA(72, 178, 194, 1)
-                    DisabledBorderColor: =RGBA(245, 245, 245, 1)
-                    DisabledColor: =RGBA(225, 223, 221, 1)
-                    DisabledFill: =RGBA(0, 0, 0, 0)
-                    FocusedBorderThickness: =4
-                    HoverBorderColor: =RGBA(0, 0, 0, 0)
-                    HoverColor: =RGBA(16, 110, 190, 1)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Icon: =Icon.Check
-                    OnSelect: =SubmitForm(Form1_1)
-                    PressedBorderColor: =RGBA(0, 0, 0, 0)
-                    PressedColor: =RGBA(16, 110, 190, 1)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    ZIndex: =4
-
                 Icon2_1 As icon.GlobeChangesPending:
                     BorderColor: =RGBA(0, 0, 0, 0)
                     Color: =RGBA(72, 178, 194, 1)
@@ -202,6 +185,23 @@ FormularioIPTOPBOLIVAR As screen:
                     PressedColor: =RGBA(16, 110, 190, 1)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     ZIndex: =6
+
+                Icon3 As icon.Check:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    Color: =RGBA(0, 120, 212, 1)
+                    DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                    DisabledColor: =RGBA(225, 223, 221, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(16, 110, 190, 1)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.Check
+                    OnSelect: =SubmitForm(Form1_1)
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =RGBA(16, 110, 190, 1)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    ZIndex: =7
 
             Container2 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.Light

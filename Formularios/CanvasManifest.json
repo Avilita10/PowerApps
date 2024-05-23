@@ -99,7 +99,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 43,
+    "BindingErrorCount": 42,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -123,7 +123,7 @@
   },
   "PublishInfo": {
     "AppName": "b03d452e-25cf-4b20-bac7-23947c9bcb92",
-    "BackgroundColor": "rgba(221, 79, 14, 1)",
+    "BackgroundColor": "rgba(251, 188, 159, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "FavoriteStarFill",
     "LogoFileName": "logo.jpg",
