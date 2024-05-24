@@ -176,14 +176,41 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         EvidenciasLuminariasDifusores:AddPicture58_1.Media,
                         
                         DeslumbramientosArea:DataCardValue181_1.SelectedText,
+                        HallazgosDeslumbramientosArea:DataCardValue8_1.Text,
+                        EvidenciasDeslumbramientosArea:AddPicture18_1.Media,
+                        
+                        SombrasIluminacionArea:DataCardValue183_1.SelectedText,
+                        HallazgosSombrasIluminacionArea:DataCardValue184_1.Text,
+                        EvidenciasSombrasIluminacionArea:AddPicture19_1.Media,
+                        
+                        RuidoExcesivo:DataCardValue185_1.SelectedText,
+                        HallazgosRuidoExcesivo:DataCardValue186_1.Text,
+                        
+                        CirculacionAire:DataCardValue187_1.SelectedText,
+                        HallazgosCirculacionAire:DataCardValue188_1.Text,
+                        
+                        TrabajadorPostura75:DataCardValue241_1.SelectedText,
+                        HallazgosTrabajadorPostura75:DataCardValue242_1.Text,
+                        EvidenciasTrabajadorPostura75:AddPicture25_1.Media,
+                        
+                        RotacionesInclinacionCuello:DataCardValue243_1.SelectedText,
+                        HallazgosRotacionesInclinacionCuello:DataCardValue244_1.Text,
+                        EvidenciasRotacionesInclinacionCuello:AddPicture30_1.Media,
+                        
+                        RotacionEspaldaTronco:DataCardValue245_1.SelectedText,
+                        HallazgosEspaldaTronco:DataCardValue246_1.Text,
+                        EvidenciasEspaldaTronco:AddPicture31_1.Media;
                         
                         
-                        SeRealizaInduccionPuestoTrabajo:DataCardValue117.SelectedText,
-                        SeRealizaPausasTrabajo:DataCardValue118.SelectedText,
-                        ElTrabajadorExpuestoTemperaturas:DataCardValue114.SelectedText,
-                        ExistenVariacionesExtremas:DataCardValue120.SelectedText,
-                        EsBajoNivelIluminacion:DataCardValue121.SelectedText,
-                        EvidenciaIluminacion:AddPicture1.Media
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         });
                         SaveData(ColeccionOffline3,"Cache3")
                     PaddingRight: =10
