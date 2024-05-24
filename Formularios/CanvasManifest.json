@@ -99,7 +99,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 43,
+    "BindingErrorCount": 48,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -118,14 +118,14 @@
     "ManualOfflineProfileId": "",
     "Name": "APLICACION AUTO-REPORTE DE SINTOMATOLOGÍA",
     "OriginatingVersion": "1.337",
-    "ParserErrorCount": 3,
+    "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
     "AppName": "b03d452e-25cf-4b20-bac7-23947c9bcb92",
-    "BackgroundColor": "rgba(184, 0, 0, 1)",
+    "BackgroundColor": "rgba(255, 255, 255, 1)",
     "IconColor": "RGBA(255,255,255,1)",
-    "IconName": "Edit",
+    "IconName": "",
     "LogoFileName": "logo.jpg",
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
