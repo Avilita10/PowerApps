@@ -123,9 +123,9 @@
   },
   "PublishInfo": {
     "AppName": "b03d452e-25cf-4b20-bac7-23947c9bcb92",
-    "BackgroundColor": "rgba(255, 255, 255, 1)",
+    "BackgroundColor": "rgba(255, 255, 0, 1)",
     "IconColor": "RGBA(255,255,255,1)",
-    "IconName": "",
+    "IconName": "ChevronDownSmall",
     "LogoFileName": "logo.jpg",
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,

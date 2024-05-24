@@ -267,6 +267,116 @@ FormularioIPTADMBOLIVAR_1 As screen:
                     Width: =640
                     ZIndex: =1
 
+                    FECHA_DataCard3 As typedDataCard.dateEditCard:
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="FECHA"
+                        Default: =ThisItem.FECHA
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales'],DataSourceInfo.DisplayName,FECHA)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =false
+                        Update: =DataCardValue270.SelectedDate
+                        Width: =640
+                        X: =0
+                        Y: =0
+                        ZIndex: =1
+
+                        DataCardKey462 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =48
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue270 As datepicker:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            CalendarHeaderFill: =RGBA(16, 110, 190, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DefaultDate: =Parent.Default
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            DisplayMode: =Parent.DisplayMode
+                            EndYear: =Year(Today())+100
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =70
+                            HoverDateFill: =RGBA(184, 187, 184, 1)
+                            IconBackground: =RGBA(0, 120, 212, 1)
+                            IsEditable: =true
+                            PaddingBottom: =0
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            SelectedDateFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            StartYear: =1899
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey462.Y + DataCardKey462.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage457 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =21
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue270.Y + DataCardValue270.Height
+                            ZIndex: =3
+
+                        StarVisible457 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey462.Height
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey462.Y
+                            ZIndex: =4
+
                     "'NOMBRE EMPRESA_DataCard2_1' As typedDataCard.textualEditCard":
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -16543,116 +16653,6 @@ FormularioIPTADMBOLIVAR_1 As screen:
                             Wrap: =false
                             Y: =DataCardKey461.Y
                             ZIndex: =5
-
-                    FECHA_DataCard3 As typedDataCard.dateEditCard:
-                        BorderColor: =RGBA(245, 245, 245, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="FECHA"
-                        Default: =ThisItem.FECHA
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales'],DataSourceInfo.DisplayName,FECHA)
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        Required: =false
-                        Update: =DataCardValue270.SelectedDate
-                        Width: =640
-                        X: =0
-                        Y: =0
-                        ZIndex: =1
-
-                        DataCardKey462 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =48
-                            PaddingLeft: =0
-                            Size: =21
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue270 As datepicker:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            CalendarHeaderFill: =RGBA(16, 110, 190, 1)
-                            Color: =RGBA(50, 49, 48, 1)
-                            DefaultDate: =Parent.Default
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            EndYear: =Year(Today())+100
-                            Fill: =RGBA(245, 245, 245, 1)
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverDateFill: =RGBA(184, 187, 184, 1)
-                            IconBackground: =RGBA(0, 120, 212, 1)
-                            IsEditable: =true
-                            PaddingBottom: =0
-                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                            SelectedDateFill: =RGBA(0, 120, 212, 1)
-                            Size: =21
-                            StartYear: =1899
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey462.Y + DataCardKey462.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage457 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(168, 0, 0, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(168, 0, 0, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =21
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue270.Y + DataCardValue270.Height
-                            ZIndex: =3
-
-                        StarVisible457 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =DataCardKey462.Height
-                            PaddingLeft: =0
-                            Size: =21
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey462.Y
-                            ZIndex: =4
 
                     CIUDAD_DataCard3_1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)

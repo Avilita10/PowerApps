@@ -246,7 +246,7 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                         'Inspección de puesto de trabajo (Operativo)_2', // Tu fuente de datos
                                         Defaults('Inspección de puesto de trabajo (Operativo)_2'), // Crear un nuevo registro
                                         {
-                                            Ciudad: DataCardValue16  // Campo 1
+                                            CIUDAD: DataCardValue16  // Campo 1
                                            
                                         }
                                     )
