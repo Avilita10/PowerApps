@@ -246,7 +246,7 @@ CarpetaSinConexionSintomatologia As screen:
                                         'Base de datos formulario prueba', // Tu fuente de datos
                                         Defaults('Base de datos formulario prueba'), // Crear un nuevo registro
                                         {
-                                            FECHA: ThisRecord.Fecha,  // Campo 1
+                                            Fecha_1: ThisRecord.Fecha_1_DataCard1,  // Campo 1
                                             CIUDAD: ThisRecord.Ciudad,
                                             ÁREA: ThisRecord.Area,
                                             'CARGO O PUESTO DE TRABAJO': ThisRecord.CargoTrabajo,
