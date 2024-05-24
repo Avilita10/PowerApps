@@ -329,7 +329,9 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosDigitarMouseAntebrazo:DataCardValue310_1.Text,
                         EvidenciasDigitarMouseAntebrazo:AddPicture49.Media,
                         
-                        
+                        UbicacionManipulacionMouse:DataCardValue311_1.SelectedText,
+                        HallazgosUbicacionManipulacionMouse:DataCardValue312_1.Text,
+                        EvidenciasUbicacionManipulacionMouse:AddPicture66.Media
                         
                         
                         
