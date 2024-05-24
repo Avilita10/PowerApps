@@ -14,6 +14,128 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 18,
+                  "charOffset": 310,
+                  "snippet": {
+                    "text": ".Fecha_1_DataCard1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "CarpetaSinConexionSintomatologia",
+                "type": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Fecha_1_DataCard1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 101,
+                  "snippet": {
+                    "text": "Patch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "CarpetaSinConexionSintomatologia",
+                "type": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 292,
+                  "charOffset": 273,
+                  "snippet": {
+                    "text": "{\n                Fecha_1: ThisRecord.Fecha_1_DataCard1;  // Campo 1\n                CIUDAD: ThisRecord.Ciudad;\n                ÁREA: ThisRecord.Area;\n                'CARGO O PUESTO DE TRABAJO': ThisRecord.CargoTrabajo;\n                IDENTIFICACIÓN: ThisRecord.Identificacion\n            }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "CarpetaSinConexionSintomatologia",
+                "type": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Fecha_1",
+              "Date",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "FormularioIPTADMBOLIVAR.Container3_7.Container7_3.Container9_3.Form1_2.'Las luminarias carecen de difusores ó se encuentran en mal estado_DataCard1'.Default"
                 }
               ],
@@ -48,7 +170,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -89,7 +211,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -130,7 +252,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -171,7 +293,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -212,7 +334,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -253,7 +375,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -294,7 +416,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -335,7 +457,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -376,7 +498,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -416,7 +538,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -457,7 +579,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -498,7 +620,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -538,7 +660,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -579,7 +701,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -620,7 +742,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -660,7 +782,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -701,7 +823,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -742,7 +864,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -782,7 +904,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -823,7 +945,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -864,7 +986,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -904,7 +1026,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -945,7 +1067,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -986,7 +1108,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1026,7 +1148,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1067,7 +1189,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1108,7 +1230,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1148,7 +1270,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1189,246 +1311,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 2122,
-                  "snippet": {
-                    "text": ":"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Colon",
-              "CurlyClose"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 2122,
-                  "snippet": {
-                    "text": ":"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Colon",
-              "ParenClose"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 2122,
-                  "snippet": {
-                    "text": ":"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
           "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": "ColeccionOffline3"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ColeccionOffline3"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 21,
-                  "charOffset": 2101,
-                  "snippet": {
-                    "text": "HallazgosPosicionCodo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "HallazgosPosicionCodo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Collect"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Collect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1469,7 +1352,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1510,7 +1393,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1551,7 +1434,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1592,7 +1475,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1633,7 +1516,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1674,7 +1557,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1715,7 +1598,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1756,39 +1639,39 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.'Hombro izquierdo_DataCard1'.DataCardValue37.Text"
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.'Hombro izquierdo_DataCard1'.DataCardValue37.Text",
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 14,
-                  "charOffset": 0,
+                  "charOffset": 57,
                   "snippet": {
-                    "text": "text_hombroIzq"
+                    "text": "DataCardValue1"
                   }
                 }
               },
               "properties": {
-                "member": "Text",
+                "member": "OnSelect",
                 "module": "FormularioSinotomatologia",
-                "type": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.'Hombro izquierdo_DataCard1'.DataCardValue37"
+                "type": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2"
               }
             }
           ],
           "message": {
             "arguments": [
-              "text_hombroIzq"
+              "DataCardValue1"
             ],
             "id": "issue"
           },
@@ -1796,6 +1679,120 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 71,
+                  "snippet": {
+                    "text": ".SelectedDate"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "FormularioSinotomatologia",
+                "type": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.Fecha_1_DataCard1.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.Fecha_1_DataCard1.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FormularioSinotomatologia",
+                "type": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.Fecha_1_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.Fecha_1_DataCard1.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.Fecha_1_DataCard1.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 14,
+                  "snippet": {
+                    "text": ".SelectedDate"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FormularioSinotomatologia",
+                "type": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.Fecha_1_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 6
         },
         {
@@ -1836,7 +1833,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1876,7 +1873,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1916,7 +1913,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1956,7 +1953,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1996,7 +1993,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2036,7 +2033,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2076,7 +2073,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2116,7 +2113,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2156,7 +2153,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2196,7 +2193,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2236,7 +2233,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2276,7 +2273,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2316,7 +2313,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2356,7 +2353,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2396,7 +2393,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2436,7 +2433,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2476,7 +2473,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2516,7 +2513,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2556,7 +2553,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2596,7 +2593,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2885,36 +2882,6 @@
                 "member": "TabIndex",
                 "module": "CarpetaSinConexionSintomatologia",
                 "type": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "CarpetaSinConexionSintomatologia",
-                "type": "CarpetaSinConexionSintomatologia.Container3_1.Container7_1.Container9_1.Gallery1.NextArrow1"
               }
             }
           ],
@@ -7282,6 +7249,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FormularioIPTADMBOLIVAR_1",
+                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "FormularioIPTADMBOLIVAR_1",
+                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon1_3.AccessibleLabel"
                 }
               ],
@@ -9352,19 +9379,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard1_1'.DataCardValue240_1.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard2'.DataCardValue273.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard1_1'.DataCardValue240_1.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard2'.DataCardValue273.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard1_1'.DataCardValue240_1"
+                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard2'.DataCardValue273"
               }
             }
           ],
@@ -17602,66 +17629,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioSinotomatologia",
-                "type": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "FormularioSinotomatologia",
-                "type": "FormularioSinotomatologia.Container3.Container7.Container8.Icon2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container8.Icon1.AccessibleLabel"
                 }
               ],
@@ -17716,36 +17683,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.FECHA_DataCard1.DataCardValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.FECHA_DataCard1.DataCardValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FormularioSinotomatologia",
-                "type": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.FECHA_DataCard1.DataCardValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
         },
         {
           "locations": [
@@ -20480,6 +20417,51 @@
           "name": "PowerApps app checker",
           "rules": [
             {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrTypeError-Arg-Expected-Found",
+              "messageStrings": {
+                "issue": {
+                  "text": "The type of this argument '{0}' does not match the expected type '{1}'. Found type '{2}'."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
               "id": "app-WarnBooleanExpected",
               "messageStrings": {
                 "issue": {
@@ -20508,20 +20490,6 @@
               }
             },
             {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
               "messageStrings": {
                 "issue": {
@@ -20539,51 +20507,14 @@
               }
             },
             {
-              "id": "app-ErrExpectedFound-Ex-Fnd",
+              "id": "app-ErrInvalidDot",
               "messageStrings": {
                 "issue": {
-                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
+                  "text": "Invalid use of '.'"
                 }
               },
               "properties": {
                 "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters with an expected character."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrBadToken",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""

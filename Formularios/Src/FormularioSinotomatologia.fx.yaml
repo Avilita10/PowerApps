@@ -403,6 +403,22 @@ FormularioSinotomatologia As screen:
                             Y: =DataCardKey114.Y
                             ZIndex: =4
 
+                    Fecha_1_DataCard1 As typedDataCard.dateEditCard:
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Fecha_1"
+                        Default: =ThisItem.Fecha_1
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,Fecha_1)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =false
+                        Update: =DataCardValue1.SelectedDate
+                        Width: =740
+                        X: =0
+                        Y: =2
+                        ZIndex: =1
+
                     "'Datos personales_DataCard1' As typedDataCard.textualEditCard":
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -10978,22 +10994,6 @@ FormularioSinotomatologia As screen:
                             Wrap: =false
                             Y: =DataCardKey109.Y
                             ZIndex: =4
-
-                    Fecha_1_DataCard1 As typedDataCard.dateEditCard:
-                        BorderColor: =RGBA(245, 245, 245, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Fecha_1"
-                        Default: =ThisItem.Fecha_1
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,Fecha_1)
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        Required: =false
-                        Update: =DataCardValue1.SelectedDate
-                        Width: =740
-                        X: =0
-                        Y: =2
-                        ZIndex: =1
 
                     CIUDAD_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
