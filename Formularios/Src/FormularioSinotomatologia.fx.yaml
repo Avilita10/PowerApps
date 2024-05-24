@@ -165,7 +165,7 @@ FormularioSinotomatologia As screen:
                             NombreTrabajador: DataCardValue5.Text,
                             Identificacion: DataCardValue6.Text,
                             Genero: DataCardValue7.Selected.Value,
-                            Edad: edadDigito.AccessibleLabel,
+                            Edad: edadDigito.Value,
                             Turno: DataCardValue7.Selected.Value,
                             TipoDeCargp:DataCardValue12.Selected.Value,
                             PredominacionManual:DataCardValue13.Selected.Value,
@@ -182,84 +182,86 @@ FormularioSinotomatologia As screen:
                             EnfeOsteo:DataCardValue27.Selected.Value,
                             NomEnfeOsteo:DataCardValue28.Text,
                             
-                            OjosF:DataCardValue29.AccessibleLabel,
-                            OjosS:DataCardValue30.AccessibleLabel,
+                            OjosF:DataCardValue29.Value,
+                            OjosS:DataCardValue30.Value,
                         
-                            CuelloF:DataCardValue33.AccessibleLabel,
-                            CuelloS:DataCardValue34.AccessibleLabel,
+                            CuelloF:DataCardValue33.Value,
+                            CuelloS:DataCardValue34.Value,
                         
-                            HombroIzquierdoF:DataCardValue35.AccessibleLabel,
-                            HombroIzquierdoS:DataCardValue36.AccessibleLabel,
+                            HombroIzquierdoF:DataCardValue35.Value,
+                            HombroIzquierdoS:DataCardValue36.Value,
                            
-                            HombroDerechoF:DataCardValue38.AccessibleLabel,
-                            HombroDerechoS:DataCardValue39.AccessibleLabel,
+                            HombroDerechoF:DataCardValue38.Value,
+                            HombroDerechoS:DataCardValue39.Value,
                             
-                            BrazoDerechoF:DataCardValue41.AccessibleLabel,
-                            BrazoDerechoS:DataCardValue42.AccessibleLabel,
+                            BrazoDerechoF:DataCardValue41.Value,
+                            BrazoDerechoS:DataCardValue42.Value,
                            
-                            BrazoIzquierdoF:Dropdown12.AccessibleLabel,
-                            BrazoIzquierdoS:DataCardValue45.AccessibleLabel,
+                            BrazoIzquierdoF:Dropdown12.Value,
+                            BrazoIzquierdoS:DataCardValue45.Value,
                             
-                            ABrazoDerechoF:DataCardValue47.AccessibleLabel,
-                            ABrazoDerechoS:DataCardValue48.AccessibleLabel,
+                            ABrazoDerechoF:DataCardValue47.Value,
+                            ABrazoDerechoS:DataCardValue48.Value,
                             
-                            AntebrazoIzquierdoF:DataCardValue50.AccessibleLabel,
-                            ABrazoIzquierdoS:DataCardValue51.AccessibleLabel,
+                            AntebrazoIzquierdoF:DataCardValue50.Value,
+                            ABrazoIzquierdoS:DataCardValue51.Value,
                             
-                            MuñecaDerechaF:DataCardValue53.AccessibleLabel,
-                            MuñecaDerechaS:DataCardValue54.AccessibleLabel,
+                            MuñecaDerechaF:DataCardValue53.Value,
+                            MuñecaDerechaS:DataCardValue54.Value,
                         
-                            MuñecaIzquierdaF:DataCardValue56.AccessibleLabel,
-                            MuñecaIzquierdaS:DataCardValue57.AccessibleLabel,
+                            MuñecaIzquierdaF:DataCardValue56.Value,
+                            MuñecaIzquierdaS:DataCardValue57.Value,
                         
-                            ManoDerechaF:DataCardValue59.AccessibleLabel,
-                            ManoDerechaS:DataCardValue60.AccessibleLabel,
+                            ManoDerechaF:DataCardValue59.Value,
+                            ManoDerechaS:DataCardValue60.Value,
                         
-                            ManoIzquierdaF:DataCardValue62.AccessibleLabel,
-                            ManoIzquierdaS:DataCardValue63.AccessibleLabel,
+                            ManoIzquierdaF:DataCardValue62.Value,
+                            ManoIzquierdaS:DataCardValue63.Value,
                         
-                            ZonaDorsalF:DataCardValue65.AccessibleLabel,
-                            ZonaDorsalS:DataCardValue66.AccessibleLabel,
+                            ZonaDorsalF:DataCardValue65.Value,
+                            ZonaDorsalS:DataCardValue66.Value,
                         
-                            ZonaLumbarF:DataCardValue68.AccessibleLabel,
-                            ZonaLumbarS:DataCardValue69.AccessibleLabel,
+                            ZonaLumbarF:DataCardValue68.Value,
+                            ZonaLumbarS:DataCardValue69.Value,
                         
-                            NalgasCaderasF:DataCardValue71.AccessibleLabel,
-                            NalgasCaderasS:DataCardValue72.AccessibleLabel,
+                            NalgasCaderasF:DataCardValue71.Value,
+                            NalgasCaderasS:DataCardValue72.Value,
                         
-                            MusloDerechoF:DataCardValue74.AccessibleLabel,
-                            MusloDerechoS:DataCardValue75.AccessibleLabel,
+                            MusloDerechoF:DataCardValue74.Value,
+                            MusloDerechoS:DataCardValue75.Value,
                         
-                            MusloIzquierdoF:DataCardValue77.AccessibleLabel,
-                            MusloIzquierdoS:DataCardValue78.AccessibleLabel,
+                            MusloIzquierdoF:DataCardValue77.Value,
+                            MusloIzquierdoS:DataCardValue78.Value,
                         
-                            RodillaDerechaF:DataCardValue80.AccessibleLabel,
-                            RodillaDerechaS:DataCardValue81.AccessibleLabel,
+                            RodillaDerechaF:DataCardValue80.Value,
+                            RodillaDerechaS:DataCardValue81.Value,
                         
-                            RodillaIzquierdaF:DataCardValue83.AccessibleLabel,
-                            RodillaIzquierdaS:DataCardValue84.AccessibleLabel,
+                            RodillaIzquierdaF:DataCardValue83.Value,
+                            RodillaIzquierdaS:DataCardValue84.Value,
                         
-                            PiernaDerechaF:DataCardValue86.AccessibleLabel,
-                            PiernaDerechaS:DataCardValue87.AccessibleLabel,
+                            PiernaDerechaF:DataCardValue86.Value,
+                            PiernaDerechaS:DataCardValue87.Value,
                         
-                            PiernaIzquierdaF:DataCardValue89.AccessibleLabel,
-                            PiernaIzquierdaS:DataCardValue90.AccessibleLabel,
+                            PiernaIzquierdaF:DataCardValue89.Value,
+                            PiernaIzquierdaS:DataCardValue90.Value,
                         
-                            PieTobDerechoF:DataCardValue92.AccessibleLabel,
-                            PieTobDerechoS:DataCardValue93.AccessibleLabel,
+                            PieTobDerechoF:DataCardValue92.Value,
+                            PieTobDerechoS:DataCardValue93.Value,
                         
-                            PieTobilloIzquierdoF:DataCardValue95.AccessibleLabel,
-                            PieTobilloIzquierdoS:DataCardValue96.AccessibleLabel,
+                            PieTobilloIzquierdoF:DataCardValue95.Value,
+                            PieTobilloIzquierdoS:DataCardValue96.Value,
                             
-                            CodoDerechoF:DataCardValue24.AccessibleLabel,
-                            CodoDerechoS:DataCardValue98.AccessibleLabel,
+                            CodoDerechoF:DataCardValue24.Value,
+                            CodoDerechoS:DataCardValue98.Value,
                             
-                            CodoIzquierdoF:DataCardValue100.AccessibleLabel,
-                            CodoIzquierdoS:DataCardValue101.AccessibleLabel,
+                            CodoIzquierdoF:DataCardValue100.Value,
+                            CodoIzquierdoS:DataCardValue101.Value,
                         
-                            AntiguedadEmpresaMeses:Slider1.AccessibleLabel,
-                            AntiguedadCargoMeses:Slider2.AccessibleLabel
+                            AntiguedadEmpresaMeses:Slider1.Value,
+                            AntiguedadCargoMeses:Slider2.Value,
                             
+                            AntiguedadEmpresaAños:DataCardValue10.Value,
+                            AntiguedadCargoAños: DataCardValue11.Value
                         }
                         );
                         SaveData(coleccionOffline,"Cache")
@@ -308,116 +310,6 @@ FormularioSinotomatologia As screen:
                     LayoutMinWidth: =320
                     Width: =640
                     ZIndex: =1
-
-                    Fecha_1_DataCard1 As typedDataCard.dateEditCard:
-                        BorderColor: =RGBA(245, 245, 245, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Fecha_1"
-                        Default: =ThisItem.Fecha_1
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,Fecha_1)
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        Required: =false
-                        Update: =DataCardValue1.SelectedDate
-                        Width: =740
-                        X: =0
-                        Y: =2
-                        ZIndex: =1
-
-                        DataCardKey1 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =48
-                            PaddingLeft: =0
-                            Size: =21
-                            Text: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            Wrap: =false
-                            X: =30
-                            Y: =10
-                            ZIndex: =1
-
-                        DataCardValue1 As datepicker:
-                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            CalendarHeaderFill: =RGBA(16, 110, 190, 1)
-                            Color: =RGBA(50, 49, 48, 1)
-                            DefaultDate: =Parent.Default
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            DisabledFill: =RGBA(242, 242, 241, 0)
-                            DisplayMode: =Parent.DisplayMode
-                            EndYear: =Year(Today())+100
-                            Fill: =RGBA(245, 245, 245, 1)
-                            Font: =Font.'Segoe UI'
-                            Height: =70
-                            HoverDateFill: =RGBA(184, 187, 184, 1)
-                            IconBackground: =RGBA(0, 120, 212, 1)
-                            IsEditable: =true
-                            PaddingBottom: =0
-                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                            SelectedDateFill: =RGBA(0, 120, 212, 1)
-                            Size: =21
-                            StartYear: =1899
-                            Tooltip: =Parent.DisplayName
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardKey1.Y + DataCardKey1.Height + 5
-                            ZIndex: =2
-
-                        ErrorMessage1 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(168, 0, 0, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(168, 0, 0, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =21
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =DataCardValue1.Y + DataCardValue1.Height
-                            ZIndex: =3
-
-                        StarVisible1 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =DataCardKey1.Height
-                            PaddingLeft: =0
-                            Size: =21
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey1.Y
-                            ZIndex: =4
 
                     "'Habeas data_DataCard1' As typedDataCard.textualEditCard":
                         BorderColor: =RGBA(245, 245, 245, 1)
@@ -551,6 +443,116 @@ FormularioSinotomatologia As screen:
                             X: =10
                             Y: =10
                             ZIndex: =1
+
+                    Fecha_1_DataCard1 As typedDataCard.dateEditCard:
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Fecha_1"
+                        Default: =ThisItem.Fecha_1
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,Fecha_1)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =false
+                        Update: =DataCardValue1.SelectedDate
+                        Width: =740
+                        X: =0
+                        Y: =2
+                        ZIndex: =1
+
+                        DataCardKey1 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =48
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue1 As datepicker:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            CalendarHeaderFill: =RGBA(16, 110, 190, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DefaultDate: =Parent.Default
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            DisplayMode: =Parent.DisplayMode
+                            EndYear: =Year(Today())+100
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =70
+                            HoverDateFill: =RGBA(184, 187, 184, 1)
+                            IconBackground: =RGBA(0, 120, 212, 1)
+                            IsEditable: =true
+                            PaddingBottom: =0
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            SelectedDateFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            StartYear: =1899
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage1 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =21
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue1.Y + DataCardValue1.Height
+                            ZIndex: =3
+
+                        StarVisible1 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey1.Height
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey1.Y
+                            ZIndex: =4
 
                     EMPRESA_DataCard1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
