@@ -254,7 +254,12 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                             'CC (CEDULA)':ThisRecord.Cedula,
                                             'SECCIÓN O AREA':ThisRecord.SeccionArea,
                                             CARGO:ThisRecord.Cargo,
-                                            'NOMBRE TÉCNICO DE LA PERSONA QUE ELABORA LA INSPECCIÓN':thisre
+                                            'NOMBRE TÉCNICO DE LA PERSONA QUE ELABORA LA INSPECCIÓN':ThisRecord.NombreTecnicoPersona,
+                                            SECTOR:ThisRecord.Sector,
+                                            'NOMBRE PUESTO DE TRABAJO':ThisRecord.NombrePuestoTrabajo,
+                                            'LISTA DE HERRAMIENTAS UTILIZADAS PARA LA TAREA': ThisRecord.ListaHerramientasUtilizadas,
+                                            'DESCRIBIR BREVEMENTE LOS PASOS DE LA TAREA':ThisRecord.DescribirBrevementeTarea,
+                                            'Existe programa de salud ocupacional en la empresa ':ThisRecord.ExisteProgramaSaludOcupacional
                                         }
                                     )
                                 )
