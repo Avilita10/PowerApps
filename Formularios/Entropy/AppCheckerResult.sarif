@@ -1206,9 +1206,9 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2122,
+                  "charOffset": 3416,
                   "snippet": {
-                    "text": ":"
+                    "text": ";"
                   }
                 }
               },
@@ -1220,16 +1220,12 @@
             }
           ],
           "message": {
-            "arguments": [
-              "Colon",
-              "CurlyClose"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleId": "app-ErrColonExpected",
           "ruleIndex": 4
         },
         {
@@ -1247,9 +1243,9 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2122,
+                  "charOffset": 3423,
                   "snippet": {
-                    "text": ":"
+                    "text": "}"
                   }
                 }
               },
@@ -1262,8 +1258,8 @@
           ],
           "message": {
             "arguments": [
-              "Colon",
-              "ParenClose"
+              "CurlyClose",
+              "Ident"
             ],
             "id": "issue"
           },
@@ -1271,43 +1267,6 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 2122,
-                  "snippet": {
-                    "text": ":"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
           "ruleIndex": 5
         },
         {
@@ -1364,10 +1323,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 21,
-                  "charOffset": 2101,
+                  "charLength": 7,
+                  "charOffset": 0,
                   "snippet": {
-                    "text": "HallazgosPosicionCodo"
+                    "text": "Collect"
                   }
                 }
               },
@@ -1380,7 +1339,47 @@
           ],
           "message": {
             "arguments": [
-              "HallazgosPosicionCodo"
+              "Collect"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 3437,
+                  "snippet": {
+                    "text": "ColeccionOffline3"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "FormularioIPTADMBOLIVAR_1",
+                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ColeccionOffline3"
             ],
             "id": "issue"
           },
@@ -1404,10 +1403,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
+                  "charLength": 8,
+                  "charOffset": 3428,
                   "snippet": {
-                    "text": "Collect"
+                    "text": "SaveData"
                   }
                 }
               },
@@ -1420,7 +1419,7 @@
           ],
           "message": {
             "arguments": [
-              "Collect"
+              "SaveData"
             ],
             "id": "issue"
           },
@@ -9352,19 +9351,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard1_1'.DataCardValue240_1.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard2'.DataCardValue273.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard1_1'.DataCardValue240_1.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard2'.DataCardValue273.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard1_1'.DataCardValue240_1"
+                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container9_4.Form1_3.'La tarea tiene un grado alto de coplejidad_DataCard2'.DataCardValue273"
               }
             }
           ],
@@ -20539,6 +20538,23 @@
               }
             },
             {
+              "id": "app-ErrColonExpected",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected colon. We expect a colon (:) at this point in the formula."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit your formula so that it includes a colon."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
               "id": "app-ErrExpectedFound-Ex-Fnd",
               "messageStrings": {
                 "issue": {
@@ -20549,23 +20565,6 @@
                 "componentType": "app",
                 "howToFix": [
                   "Remove or replace the unexpected characters with an expected character."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrBadToken",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters."
                 ],
                 "level": "High",
                 "primaryCategory": "formula",
