@@ -123,7 +123,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =RGBA(16, 110, 190, 1)
                     PressedFill: =RGBA(0, 0, 0, 0)
-                    ZIndex: =3
+                    ZIndex: =2
 
                 Icon5_3 As icon.Check:
                     BorderColor: =RGBA(0, 0, 0, 0)
@@ -137,6 +137,23 @@ FormularioIPTADMBOLIVAR_1 As screen:
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Icon: =Icon.Check
                     OnSelect: =SubmitForm(Form1_3)
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =RGBA(16, 110, 190, 1)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    ZIndex: =3
+
+                Icon1_3 As icon.Folder:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    Color: =RGBA(72, 178, 194, 1)
+                    DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                    DisabledColor: =RGBA(225, 223, 221, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(16, 110, 190, 1)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.Folder
+                    OnSelect: =Navigate(CarpetaSinConexionSintomatologia)
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =RGBA(16, 110, 190, 1)
                     PressedFill: =RGBA(0, 0, 0, 0)
@@ -270,7 +287,49 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosDescansoJornadaLaboral:DataCardValue290_1.Text,
                         
                         RitmoTrabajo:DataCardValue289_1.SelectedText,
-                        HallazgosRitmoTrabajo:DataCardValue291_1.Text
+                        HallazgosRitmoTrabajo:DataCardValue291_1.Text,
+                        
+                        DimensionPlanoTrabajo:DataCardValue293_1.SelectedText,
+                        HallazgosDimensionPlanoTrabajo:DataCardValue294_1.Text,
+                        EvidenciasDimensionPlanoTrabajo:AddPicture40_1.Media,
+                        
+                        SuperficieInestable:DataCardValue295_1.SelectedText,
+                        HallazgosSuperficieInestable:DataCardValue296_1.Text,
+                        EvidenciasSuperficieInestable:AddPicture41_1.Media,
+                        
+                        EspacioMesa:DataCardValue297_1.SelectedText,
+                        HallazgosEspacioMesa:DataCardValue298_1.Text,
+                        EvidenciasEspacioMesa:AddPicture42_1.Media,
+                        
+                        TrabajoLimitaMovimiento:DataCardValue299_1.SelectedText,
+                        HallazgosTrabajoLimitaMovimiento:DataCardValue300_1.Text,
+                        EvidenciasTrabajoLimitaMovimiento:AddPicture43_1.Media,
+                        
+                        InclinacionDificilRegular:DataCardValue182_1.SelectedText,
+                        HallazgosInclinacionDificilRegular:DataCardValue111_1.Text,
+                        EvidenciasInclinacionDificilRegular:AddPicture44_1.Media,
+                        
+                        PantallaDistancia:DataCardValue301_1.SelectedText,
+                        HallazgosPantallaDistancia:DataCardValue302_1.Text,
+                        EvidenciasPantallaDistancia:AddPicture45_1.Media,
+                        
+                        BordePantallaHorizontal:DataCardValue303_1.SelectedText,
+                        HallazgosBordePantallaHorizontal:DataCardValue304_1.Text,
+                        EvidenciasBordePantallaHorizontal:AddPicture46_1.Media,
+                        
+                        TecladoMouseNivel:DataCardValue305_1.SelectedText,
+                        HallazgosTecladoMouseNivel:DataCardValue263_1.Text,
+                        EvidenciasTecladoMouseNivel:AddPicture47_1.Media,
+                        
+                        AlturaTeclado90:DataCardValue307_1.SelectedText,
+                        HallazgosAlturaTeclado90:DataCardValue308_1.Text,
+                        EvidenciasAlturaTeclado90:AddPicture48_1.Media,
+                        
+                        DigitarMouseAntebrazo:DataCardValue309_1.SelectedText,
+                        HallazgosDigitarMouseAntebrazo:DataCardValue310_1.Text,
+                        EvidenciasDigitarMouseAntebrazo:AddPicture49.Media,
+                        
+                        
                         
                         
                         
@@ -281,23 +340,6 @@ FormularioIPTADMBOLIVAR_1 As screen:
                     PressedColor: =RGBA(16, 110, 190, 1)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     ZIndex: =5
-
-                Icon1_3 As icon.Folder:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    Color: =RGBA(72, 178, 194, 1)
-                    DisabledBorderColor: =RGBA(245, 245, 245, 1)
-                    DisabledColor: =RGBA(225, 223, 221, 1)
-                    DisabledFill: =RGBA(0, 0, 0, 0)
-                    FocusedBorderThickness: =4
-                    HoverBorderColor: =RGBA(0, 0, 0, 0)
-                    HoverColor: =RGBA(16, 110, 190, 1)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Icon: =Icon.Folder
-                    OnSelect: =Navigate(CarpetaSinConexionSintomatologia)
-                    PressedBorderColor: =RGBA(0, 0, 0, 0)
-                    PressedColor: =RGBA(16, 110, 190, 1)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    ZIndex: =6
 
             Container2_2 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.Light
