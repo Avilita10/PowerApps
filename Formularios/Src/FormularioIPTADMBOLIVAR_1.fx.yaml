@@ -323,7 +323,14 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         
                         AlturaTeclado90:DataCardValue307_1.SelectedText,
                         HallazgosAlturaTeclado90:DataCardValue308_1.Text,
-                        EvidenciasAlturaTeclado90:AddPicture48_1.Media
+                        EvidenciasAlturaTeclado90:AddPicture48_1.Media,
+                        
+                        DigitarMouseAntebrazo:DataCardValue309_1.SelectedText,
+                        HallazgosDigitarMouseAntebrazo:DataCardValue310_1.Text,
+                        EvidenciasDigitarMouseAntebrazo:AddPicture49.Media,
+                        
+                        
+                        
                         
                         
                         });
