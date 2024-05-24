@@ -246,12 +246,22 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                         'Inspección de puesto de trabajo (Operativo)_2', // Tu fuente de datos
                                         Defaults('Inspección de puesto de trabajo (Operativo)_2'), // Crear un nuevo registro
                                         {
-                                            CIUDAD: DataCardValue16  // Campo 1
-                                           
+                                            CIUDAD:ThisRecord.Ciudad,
+                                            FECHA:ThisRecord.Fecha,
+                                            'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa,
+                                            NIT:ThisRecord.NIT,
+                                            'NOMBRE DEL TRABAJADOR':ThisRecord.NombreTrabajador,
+                                            'CC (CEDULA)':ThisRecord.Cedula,
+                                            'SECCIÓN O AREA':ThisRecord.SeccionArea,
+                                            CARGO:ThisRecord.Cargo,
+                                            'NOMBRE TÉCNICO DE LA PERSONA QUE ELABORA LA INSPECCIÓN':thisre
                                         }
                                     )
                                 )
-                            )
+                            );
+                            Clear(ColeccionOffline2); // Limpia la colección local
+                                SaveData(ColeccionOffline2, "Cache2"); // Guarda la colección vacía
+                                Notify("Datos enviados correctamente", NotificationType.Success)
                             
                         PaddingBottom: =16
                         PaddingLeft: =16

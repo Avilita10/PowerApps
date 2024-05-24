@@ -311,6 +311,139 @@ FormularioSinotomatologia As screen:
                     Width: =640
                     ZIndex: =1
 
+                    "'Habeas data_DataCard1' As typedDataCard.textualEditCard":
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Habeasdata"
+                        Default: =ThisItem.'Habeas data'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,'Habeas data')
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =131
+                        MaxLength: =DataSourceInfo([@'Base de datos formulario prueba'], DataSourceInfo.MaxLength, 'Habeas data')
+                        Required: =false
+                        Update: =
+                        Width: =740
+                        X: =0
+                        Y: =0
+                        ZIndex: =1
+
+                        DataCardKey114 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =48
+                            PaddingLeft: =0
+                            Size: =20
+                            Text: |-
+                                ="
+                                De acuerdo con la Constitución Política 
+                                (artículos 15 y 20), la Ley 1581 de 2012 y sus 
+                                decretos reglamentarios, sus datos personales serán 
+                                tratados según nuestra Política de tratamiento y 
+                                protección de datos personales. Estos datos se 
+                                usarán para el reporte de asistencia en actividades 
+                                de prevención dentro de nuestros programas. 
+                                Por favor, asegúrese de proporcionar información
+                                precisa y segura."
+                            Width: =697
+                            Wrap: =false
+                            X: =12
+                            Y: =10
+                            ZIndex: =1
+
+                        ErrorMessage109 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =21
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =
+                            ZIndex: =3
+
+                        StarVisible109 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey114.Height
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey114.Y
+                            ZIndex: =4
+
+                    "'Datos personales_DataCard1' As typedDataCard.textualEditCard":
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Datospersonales"
+                        Default: =ThisItem.'Datos personales'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,'Datos personales')
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        MaxLength: =DataSourceInfo([@'Base de datos formulario prueba'], DataSourceInfo.MaxLength, 'Datos personales')
+                        Required: =false
+                        Update: =
+                        Width: =740
+                        X: =0
+                        Y: =1
+                        ZIndex: =1
+
+                        DataCardKey17 As label:
+                            Align: =Align.Center
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Patrick Hand'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =48
+                            PaddingLeft: =0
+                            Size: =35
+                            Text: =Parent.DisplayName
+                            Width: =594
+                            Wrap: =false
+                            X: =10
+                            Y: =10
+                            ZIndex: =1
+
                     Fecha_1_DataCard1 As typedDataCard.dateEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -652,139 +785,6 @@ FormularioSinotomatologia As screen:
                             Wrap: =false
                             Y: =DataCardKey122.Y
                             ZIndex: =4
-
-                    "'Habeas data_DataCard1' As typedDataCard.textualEditCard":
-                        BorderColor: =RGBA(245, 245, 245, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Habeasdata"
-                        Default: =ThisItem.'Habeas data'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,'Habeas data')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =131
-                        MaxLength: =DataSourceInfo([@'Base de datos formulario prueba'], DataSourceInfo.MaxLength, 'Habeas data')
-                        Required: =false
-                        Update: =
-                        Width: =740
-                        X: =0
-                        Y: =0
-                        ZIndex: =1
-
-                        DataCardKey114 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =48
-                            PaddingLeft: =0
-                            Size: =20
-                            Text: |-
-                                ="
-                                De acuerdo con la Constitución Política 
-                                (artículos 15 y 20), la Ley 1581 de 2012 y sus 
-                                decretos reglamentarios, sus datos personales serán 
-                                tratados según nuestra Política de tratamiento y 
-                                protección de datos personales. Estos datos se 
-                                usarán para el reporte de asistencia en actividades 
-                                de prevención dentro de nuestros programas. 
-                                Por favor, asegúrese de proporcionar información
-                                precisa y segura."
-                            Width: =697
-                            Wrap: =false
-                            X: =12
-                            Y: =10
-                            ZIndex: =1
-
-                        ErrorMessage109 As label:
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(168, 0, 0, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(168, 0, 0, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =10
-                            Live: =Live.Assertive
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =21
-                            Text: =Parent.Error
-                            Visible: =Parent.DisplayMode=DisplayMode.Edit
-                            Width: =Parent.Width - 60
-                            X: =30
-                            Y: =
-                            ZIndex: =3
-
-                        StarVisible109 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =DataCardKey114.Height
-                            PaddingLeft: =0
-                            Size: =21
-                            Text: ="*"
-                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                            Width: =30
-                            Wrap: =false
-                            Y: =DataCardKey114.Y
-                            ZIndex: =4
-
-                    "'Datos personales_DataCard1' As typedDataCard.textualEditCard":
-                        BorderColor: =RGBA(245, 245, 245, 1)
-                        BorderStyle: =BorderStyle.Solid
-                        DataField: ="Datospersonales"
-                        Default: =ThisItem.'Datos personales'
-                        DisplayMode: =Parent.DisplayMode
-                        DisplayName: =DataSourceInfo([@'Base de datos formulario prueba'],DataSourceInfo.DisplayName,'Datos personales')
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
-                        MaxLength: =DataSourceInfo([@'Base de datos formulario prueba'], DataSourceInfo.MaxLength, 'Datos personales')
-                        Required: =false
-                        Update: =
-                        Width: =740
-                        X: =0
-                        Y: =1
-                        ZIndex: =1
-
-                        DataCardKey17 As label:
-                            Align: =Align.Center
-                            AutoHeight: =true
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(50, 49, 48, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(161, 159, 157, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.'Patrick Hand'
-                            FontWeight: =FontWeight.Semibold
-                            Height: =48
-                            PaddingLeft: =0
-                            Size: =35
-                            Text: =Parent.DisplayName
-                            Width: =594
-                            Wrap: =false
-                            X: =10
-                            Y: =10
-                            ZIndex: =1
 
                     IDENTIFICACION_DataCard1 As typedDataCard.numberEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
