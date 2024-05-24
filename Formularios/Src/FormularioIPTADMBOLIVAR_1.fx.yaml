@@ -331,9 +331,33 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         
                         UbicacionManipulacionMouse:DataCardValue311_1.SelectedText,
                         HallazgosUbicacionManipulacionMouse:DataCardValue312_1.Text,
-                        EvidenciasUbicacionManipulacionMouse:AddPicture66.Media
+                        EvidenciasUbicacionManipulacionMouse:AddPicture66.Media,
                         
+                        SillaEstatica:DataCardValue313_1.SelectedText,
+                        HallazgosSillaEstatica:DataCardValue314_1.Text,
+                        EvidenciasSillaEstatica:AddPicture67.Media,
                         
+                        SistemaRegulacionSilla:DataCardValue315_1.SelectedText,
+                        HallazgosSistemaRegulacionSilla:DataCardValue316_1.Text,
+                        EvidenciasSistemaRegulacionSilla:AddPicture68.Media,
+                        
+                        SistemaRegulacionEspaldar:DataCardValue317_1.SelectedText,
+                        HallazgosSistemaRegulacionEspaldar:DataCardValue318_1.Text,
+                        EvidenciasSistemasRegulacionEspaldar:AddPicture69.Media,
+                        
+                        EspaldarSilla:DataCardValue319_1.SelectedText,
+                        HallazgosEspaldarSilla:DataCardValue320_1.Text,
+                        EvidenciasEspaldarSilla:AddPicture70.Media,
+                        
+                        AsientoInadecuado:DataCardValue321_1.SelectedText,
+                        HallazgosAsientoInadecuado:DataCardValue322_1.Text,
+                        EvidenciasAsientoInadecuado:AddPicture71.Media,
+                        
+                        SillaIncomoda:DataCardValue323_1.SelectedText,
+                        HallazgosSillaIncomoda:DataCardValue324_1.Text,
+                        EvidenciasSillaIncomoda:AddPicture72.Media,
+                        
+                        Observaciones:DataCardValue325_1.Text
                         
                         });
                         SaveData(ColeccionOffline3,"Cache3")
