@@ -209,9 +209,31 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosPosturasMiembrosSuperiores:DataCardValue250_1.Text,
                         EvidenciasPosturasMiembrosSuperiores:AddPicture33_1.Media,
                         
-                        PosicionCodo:
-                        HallazgosPosicionCodo:
-                        EvidenciasPosicionCodo:
+                        PosicionCodo:DataCardValue251_1.SelectedText,
+                        HallazgosPosicionCodo:DataCardValue252_1.Text,
+                        EvidenciasPosicionCodo:AddPicture34_1.Media,
+                        
+                        DesviacionesMuñeca:DataCardValue253_1.SelectedText,
+                        HallazgosDesviacionesMuñeca:DataCardValue254_1.Text,
+                        EvidenciasDesviacionMuñeca:AddPicture35_1.Media,
+                        
+                        ManoMuñeca:DataCardValue255_1.SelectedText,
+                        HallazgosMañoMuñeca:DataCardValue256_1.Text,
+                        EvidenciasManoMuñeca:AddPicture36_1.Media,
+                        
+                        MovimientosForzados:DataCardValue257_1.SelectedText,
+                        HallazgosMovimientosForzados:DataCardValue258_1.Text,
+                        EvidenciasMovimientosForzados:AddPicture37_1.Media,
+                        
+                        RodillasNivelCadera:DataCardValue259_1.SelectedText,
+                        HallazgosRodillasNivelCadera:DataCardValue260_1.Text,
+                        EvidenciasRodillasNivelCadera:AddPicture38_1.Media,
+                        
+                        ApoyarPies:DataCardValue261_1.SelectedText,
+                        HallazgosApoyarPies:DataCardValue262_1.Text,
+                        EvidenciasApoyarPies:AddPicture39_1.Media;
+                        
+                        
                         
                         });
                         SaveData(ColeccionOffline3,"Cache3")
