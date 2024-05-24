@@ -246,109 +246,11 @@ CarpetaSinConexionSintomatologia As screen:
                                         'Base de datos formulario prueba', // Tu fuente de datos
                                         Defaults('Base de datos formulario prueba'), // Crear un nuevo registro
                                         {
-                                            FECHA: DataCardValue1.SelectedDate,  // Campo 1
-                                            CIUDAD: DataCardValue2.Text,
-                                            ÁREA: DataCardValue3.Text,
-                                            'CARGO O PUESTO DE TRABAJO': DataCardValue4.Text,
-                                            IDENTIFICACIÓN: DataCardValue5.Text,
-                                            GÉNERO: DataCardValue7.Selected.Value,
-                                            EDAD: edadDigito.Value,
-                                            EMPRESA:DataCardValue44,
-                                            SEDE:DataCardKey104.Text,
-                                            TURNO: DataCardValue9.Selected.Value,
-                                            'ANTIGUEDAD EN LA EMPRESA MESES':Slider1.Value,
-                                            'ANTIGÜEDAD EN LA EMPRESA':DataCardValue10.Value,
-                                            'ANTIGUEDAD DEL CARGO MESES':Slider2.Value,
-                                            'ANTIGÜEDAD EN EL CARGO':DataCardValue11.Value,
-                                            'TIPO DE CARGO':DataCardValue12.Selected.Value,
-                                            'PREDOMINANCIA MANUAL':DataCardValue13.Selected.Value,
-                                            'ESTATURA (cm)': DataCardValue14.Text,
-                                            'PESO (kg)': DataCardValue15.Text,
-                                            '¿LA PERSONA FUMA?': DataCardValue17.Selected.Value,
-                                            '¿CUANTOS CIGARRILLOS AL DIA?': DataCardValue18.Text,
-                                            '¿HACE CUANTO FUMA? (meses)':DataCardValue19.Text,
-                                            '¿REALIZA ACTIVIDAD FISICA?':DataCardValue20.Selected.Value,
-                                            '¿CUAL ACTIVIDAD FISICA REALIZA?': DataCardValue21.Text,
-                                            '¿CON QUE FRECUENCIA REALIZA ACTIVIDAD FISICA? (días x semana)': DataCardValue22.Text,
-                                            '¿PRESENTA DOLOR O MOLESTIA A NIVEL OSTEOMUSCULAR?':DataCardValue26.Selected.Value,
-                                            '¿PRESENTA ALGUNA ENFERMEDAD OSTEOMUSCULAR ACTUALMENTE?':DataCardValue27.Selected.Value,
-                                            'NOMBRE DE LA ENFERMEDAD OSTEOMUSCULAR':DataCardValue28.Text,
-                                            'Ojos F':DataCardValue29.Value,
-                                            'Ojos S':DataCardValue30.Value,
-                                            
-                                            'Cuello F':DataCardValue33.Value,
-                                            'Cuello S':DataCardValue34.Value,
-                                            
-                                            'Hombro izquierdo F':DataCardValue35.Value,
-                                            'Hombro izquierdo S':DataCardValue36.Value,
-                                            
-                                            'Hombro derecho F':DataCardValue38.Value,
-                                            'Hombro derecho A':DataCardValue39.Value,
-                                            
-                                            'Brazo derecho F':DataCardValue41.Value,
-                                            'Brazo derecho S':DataCardValue42.Value,
-                                            
-                                            'Brazo izquierdo S':Dropdown12.Value,
-                                            'Brazo izquierdo F':DataCardValue45.Value,
-                                            
-                                            'Antebrazo derecho F':DataCardValue47.Value,
-                                            'Antebrazo derecho S':DataCardValue48.Value,
-                                        
-                                            'Antebrazo izquierdo F':DataCardValue50.Value,
-                                            'Antebrazo izquierdo S':DataCardValue51.Value,
-                                        
-                                            'Muñeca derecha F':DataCardValue53.Value,
-                                            'Muñeca derecha S':DataCardValue54.Value,
-                                            
-                                            'Muñeca izquierda F':DataCardValue56.Value,
-                                            'Muñeca izquierda S':DataCardValue57.Value,
-                                        
-                                            'Mano derecha F':DataCardValue59.Value,
-                                            'Mano derecha S':DataCardValue60.Value,
-                                            
-                                            'Mano izquierda F':DataCardValue62.Value,
-                                            'Mano izquierda S':DataCardValue63.Value,
-                                            
-                                            'Zona dorsal F':DataCardValue65.Value,
-                                            'Zona dorsal S':DataCardValue66.Value,
-                                            
-                                            'Zona lumbar F':DataCardValue68.Value,
-                                            'Zona lumbar S':DataCardValue69.Value,
-                                            
-                                            'Nalgas y/o caderas F':DataCardValue71.Value,
-                                            'Nalgas y/o caderas S':DataCardValue72.Value,
-                                            
-                                            'Muslo derecho F':DataCardValue74.Value,
-                                            'Muslo derecho S':DataCardValue75.Value,
-                                            
-                                            'Muslo izquierdo F':DataCardValue77.Value,
-                                            'Muslo izquierdo S':DataCardValue78.Value,
-                                            
-                                            'Rodilla derecha F':DataCardValue80.Value,
-                                            'Rodilla derecha S':DataCardValue81.Value,
-                                            
-                                            'Rodilla izquierda F':DataCardValue83.Value,
-                                            'Rodilla izquierda S':DataCardValue84.Value,
-                            
-                                            'Pierna derecha F':DataCardValue86.Value,
-                                            'Pierna derecha S':DataCardValue87.Value,
-                            
-                                            'Pierna izquierda F':DataCardValue89.Value,
-                                            'Pierna izquierda S':DataCardValue90.Value,
-                                        
-                                            'Pie y/o tobillo derecho F':DataCardValue92.Value,
-                                            'Pie y/o tobillo derecho S':DataCardValue93.Value,
-                                        
-                                            'Pie y/o tobillo izquierdo F':DataCardValue95.Value,
-                                            'Pie y/o tobillo izquierdo S':DataCardValue96.Value,
-                                            
-                                            'Codo derecho F':DataCardValue24.Value,
-                                            'Codo derecho S':DataCardValue98.Value,
-                                            
-                                            'Codo izquierdo F':DataCardValue100.Value,
-                                            'Codo izquierdo S':DataCardValue101.Value
-                                            
-                                          
+                                            FECHA: ThisRecord.Fecha,  // Campo 1
+                                            CIUDAD: ThisRecord.Ciudad,
+                                            ÁREA: ThisRecord.Area,
+                                            'CARGO O PUESTO DE TRABAJO': ThisRecord.CargoTrabajo,
+                                            IDENTIFICACIÓN: ThisRecord.Identificacion
                                         }
                                     )
                                 )
