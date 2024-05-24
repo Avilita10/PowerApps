@@ -319,7 +319,6 @@ CarpetaSinConexionSintomatologia As screen:
                                             'Pie y/o tobillo derecho S': ThisRecord.PieTobDerechoS,
                                             'Pie y/o tobillo izquierdo F':ThisRecord.PiernaIzquierdaF,
                                             'Pie y/o tobillo izquierdo S':ThisRecord.PieTobilloIzquierdoS
-                            
                                         }
                                     )
                                 )
