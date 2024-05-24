@@ -153,7 +153,39 @@ FormularioIPTADMBOLIVAR_1 As screen:
                     HoverColor: =RGBA(16, 110, 190, 1)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Icon: =Icon.GlobeChangesPending
-                    OnSelect: =
+                    OnSelect: |-
+                        =Collect(ColeccionOffline3,
+                         {
+                        Fecha:DataCardValue270.InputTextPlaceholder,
+                        Ciudad:DataCardValue113_1.Text,
+                        NombreEmpresa:DataCardValue178_1.Text,
+                        NIT:DataCardValue142_1.AccessibleLabel,
+                        NombreTrabajador:DataCardValue143_1,
+                        Identificacion:DataCardValue144_1.AccessibleLabel,
+                        SeccionArea:DataCardValue172_1.Text,
+                        Cargo:DataCardValue173_1.Text,
+                        NombreElaboraInspeccion:DataCardValue174_1.Text,
+                        Correo:DataCardValue175_1.Text,
+                        
+                        ExisteReflejosBrillos:DataCardValue177_1.SelectedText,
+                        HallazgosReflejosBrillos:DataCardValue326_1.Text,
+                        EvidenciasReflejosBrillos:AddPicture57_1.Media,
+                        
+                        LuminariasDifusores:DataCardValue179_1.SelectedText,
+                        HallazgosLuminariasDifusores:DataCardValue327_1.Text,
+                        EvidenciasLuminariasDifusores:AddPicture58_1.Media,
+                        
+                        DeslumbramientosArea:DataCardValue181_1.SelectedText,
+                        
+                        
+                        SeRealizaInduccionPuestoTrabajo:DataCardValue117.SelectedText,
+                        SeRealizaPausasTrabajo:DataCardValue118.SelectedText,
+                        ElTrabajadorExpuestoTemperaturas:DataCardValue114.SelectedText,
+                        ExistenVariacionesExtremas:DataCardValue120.SelectedText,
+                        EsBajoNivelIluminacion:DataCardValue121.SelectedText,
+                        EvidenciaIluminacion:AddPicture1.Media
+                        });
+                        SaveData(ColeccionOffline3,"Cache3")
                     PaddingRight: =10
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =RGBA(16, 110, 190, 1)
@@ -249,7 +281,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue178_1.Text
                         Width: =640
                         X: =0
-                        Y: =1
+                        Y: =2
                         ZIndex: =1
 
                         DataCardKey213_1 As label:
@@ -365,7 +397,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue173_1.Text
                         Width: =640
                         X: =0
-                        Y: =6
+                        Y: =7
                         ZIndex: =1
 
                         DataCardKey204_1 As label:
@@ -481,7 +513,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue174_1.Text
                         Width: =640
                         X: =0
-                        Y: =7
+                        Y: =8
                         ZIndex: =1
 
                         DataCardKey205_1 As label:
@@ -597,7 +629,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue175_1.Text
                         Width: =640
                         X: =0
-                        Y: =8
+                        Y: =9
                         ZIndex: =1
 
                         DataCardKey206_1 As label:
@@ -714,7 +746,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                             =
                         Width: =640
                         X: =0
-                        Y: =9
+                        Y: =10
                         ZIndex: =1
 
                         DataCardKey207_1 As label:
@@ -798,7 +830,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue177_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =10
+                        Y: =11
                         ZIndex: =1
 
                         DataCardKey208_1 As label:
@@ -919,7 +951,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue177_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =11
+                        Y: =12
                         ZIndex: =1
 
                         DataCardKey402_1 As label:
@@ -1034,7 +1066,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image61_1.Image
                         Width: =640
                         X: =0
-                        Y: =12
+                        Y: =13
                         ZIndex: =1
 
                         DataCardKey403_1 As label:
@@ -1160,7 +1192,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue179_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =13
+                        Y: =14
                         ZIndex: =1
 
                         DataCardKey211_1 As label:
@@ -1281,7 +1313,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue179_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =14
+                        Y: =15
                         ZIndex: =1
 
                         DataCardKey405_1 As label:
@@ -1396,7 +1428,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image62_1.Image
                         Width: =640
                         X: =0
-                        Y: =15
+                        Y: =16
                         ZIndex: =1
 
                         DataCardKey404_1 As label:
@@ -1522,7 +1554,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue181_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =16
+                        Y: =17
                         ZIndex: =1
 
                         DataCardKey214_1 As label:
@@ -1643,7 +1675,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue181_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =17
+                        Y: =18
                         ZIndex: =1
 
                         DataCardKey215_1 As label:
@@ -1758,7 +1790,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image22_1.Image
                         Width: =640
                         X: =0
-                        Y: =18
+                        Y: =19
                         ZIndex: =1
 
                         DataCardKey216_1 As label:
@@ -1884,7 +1916,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue183_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =19
+                        Y: =20
                         ZIndex: =1
 
                         DataCardKey217_1 As label:
@@ -2005,7 +2037,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue183_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =20
+                        Y: =21
                         ZIndex: =1
 
                         DataCardKey218_1 As label:
@@ -2120,7 +2152,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image23_1.Image
                         Width: =640
                         X: =0
-                        Y: =21
+                        Y: =22
                         ZIndex: =1
 
                         DataCardKey219_1 As label:
@@ -2246,7 +2278,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue185_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =22
+                        Y: =23
                         ZIndex: =1
 
                         DataCardKey220_1 As label:
@@ -2367,7 +2399,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue185_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =23
+                        Y: =24
                         ZIndex: =1
 
                         DataCardKey221_1 As label:
@@ -2482,7 +2514,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue187_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =24
+                        Y: =25
                         ZIndex: =1
 
                         DataCardKey222_1 As label:
@@ -2603,7 +2635,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue187_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =25
+                        Y: =26
                         ZIndex: =1
 
                         DataCardKey238_1 As label:
@@ -2719,7 +2751,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =26
+                        Y: =27
                         ZIndex: =1
 
                         DataCardKey239_1 As label:
@@ -2803,7 +2835,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =27
+                        Y: =28
                         ZIndex: =1
 
                         DataCardKey286_1 As label:
@@ -2887,7 +2919,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue241_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =28
+                        Y: =29
                         ZIndex: =1
 
                         DataCardKey288_1 As label:
@@ -3009,7 +3041,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue241_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =29
+                        Y: =30
                         ZIndex: =1
 
                         DataCardKey289_1 As label:
@@ -3124,7 +3156,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image29_1.Image
                         Width: =640
                         X: =0
-                        Y: =30
+                        Y: =31
                         ZIndex: =1
 
                         DataCardKey287_1 As label:
@@ -3251,7 +3283,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue243_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =31
+                        Y: =32
                         ZIndex: =1
 
                         DataCardKey290_1 As label:
@@ -3373,7 +3405,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue243_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =32
+                        Y: =33
                         ZIndex: =1
 
                         DataCardKey291_1 As label:
@@ -3488,7 +3520,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image34_1.Image
                         Width: =640
                         X: =0
-                        Y: =33
+                        Y: =34
                         ZIndex: =1
 
                         DataCardKey292_1 As label:
@@ -3615,7 +3647,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue245_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =34
+                        Y: =35
                         ZIndex: =1
 
                         DataCardKey293_1 As label:
@@ -3737,7 +3769,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue245_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =35
+                        Y: =36
                         ZIndex: =1
 
                         DataCardKey294_1 As label:
@@ -3852,7 +3884,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image35_1.Image
                         Width: =640
                         X: =0
-                        Y: =36
+                        Y: =37
                         ZIndex: =1
 
                         DataCardKey295_1 As label:
@@ -3979,7 +4011,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue247_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =37
+                        Y: =38
                         ZIndex: =1
 
                         DataCardKey296_1 As label:
@@ -4100,7 +4132,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue247_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =38
+                        Y: =39
                         ZIndex: =1
 
                         DataCardKey297_1 As label:
@@ -4215,7 +4247,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image36_1.Image
                         Width: =640
                         X: =0
-                        Y: =39
+                        Y: =40
                         ZIndex: =1
 
                         DataCardKey298_1 As label:
@@ -4342,7 +4374,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue249_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =40
+                        Y: =41
                         ZIndex: =1
 
                         DataCardKey299_1 As label:
@@ -4463,7 +4495,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue249_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =41
+                        Y: =42
                         ZIndex: =1
 
                         DataCardKey300_1 As label:
@@ -4578,7 +4610,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image37_1.Image
                         Width: =640
                         X: =0
-                        Y: =42
+                        Y: =43
                         ZIndex: =1
 
                         DataCardKey301_1 As label:
@@ -4705,7 +4737,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue251_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =43
+                        Y: =44
                         ZIndex: =1
 
                         DataCardKey302_1 As label:
@@ -4827,7 +4859,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue251_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =44
+                        Y: =45
                         ZIndex: =1
 
                         DataCardKey303_1 As label:
@@ -4942,7 +4974,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image38_1.Image
                         Width: =640
                         X: =0
-                        Y: =45
+                        Y: =46
                         ZIndex: =1
 
                         DataCardKey304_1 As label:
@@ -5069,7 +5101,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue253_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =46
+                        Y: =47
                         ZIndex: =1
 
                         DataCardKey305_1 As label:
@@ -5192,7 +5224,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue253_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =47
+                        Y: =48
                         ZIndex: =1
 
                         DataCardKey306_1 As label:
@@ -5307,7 +5339,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image39_1.Image
                         Width: =640
                         X: =0
-                        Y: =48
+                        Y: =49
                         ZIndex: =1
 
                         DataCardKey307_1 As label:
@@ -5434,7 +5466,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue255_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =49
+                        Y: =50
                         ZIndex: =1
 
                         DataCardKey308_1 As label:
@@ -5556,7 +5588,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue255_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =50
+                        Y: =51
                         ZIndex: =1
 
                         DataCardKey309_1 As label:
@@ -5671,7 +5703,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image40_1.Image
                         Width: =640
                         X: =0
-                        Y: =51
+                        Y: =52
                         ZIndex: =1
 
                         DataCardKey310_1 As label:
@@ -5798,7 +5830,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue257_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =52
+                        Y: =53
                         ZIndex: =1
 
                         DataCardKey311_1 As label:
@@ -5920,7 +5952,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue257_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =53
+                        Y: =54
                         ZIndex: =1
 
                         DataCardKey312_1 As label:
@@ -6035,7 +6067,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image41_1.Image
                         Width: =640
                         X: =0
-                        Y: =54
+                        Y: =55
                         ZIndex: =1
 
                         DataCardKey313_1 As label:
@@ -6162,7 +6194,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue259_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =55
+                        Y: =56
                         ZIndex: =1
 
                         DataCardKey314_1 As label:
@@ -6283,7 +6315,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue259_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =56
+                        Y: =57
                         ZIndex: =1
 
                         DataCardKey315_1 As label:
@@ -6398,7 +6430,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image42_1.Image
                         Width: =640
                         X: =0
-                        Y: =57
+                        Y: =58
                         ZIndex: =1
 
                         DataCardKey316_1 As label:
@@ -6525,7 +6557,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue261_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =58
+                        Y: =59
                         ZIndex: =1
 
                         DataCardKey317_1 As label:
@@ -6646,7 +6678,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue261_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =59
+                        Y: =60
                         ZIndex: =1
 
                         DataCardKey318_1 As label:
@@ -6761,7 +6793,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image43_1.Image
                         Width: =640
                         X: =0
-                        Y: =60
+                        Y: =61
                         ZIndex: =1
 
                         DataCardKey319_1 As label:
@@ -6888,7 +6920,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =61
+                        Y: =62
                         ZIndex: =1
 
                         DataCardKey320_1 As label:
@@ -6972,7 +7004,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue264_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =62
+                        Y: =63
                         ZIndex: =1
 
                         DataCardKey321_1 As label:
@@ -7094,7 +7126,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue264_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =63
+                        Y: =64
                         ZIndex: =1
 
                         DataCardKey322_1 As label:
@@ -7210,7 +7242,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue266_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =64
+                        Y: =65
                         ZIndex: =1
 
                         DataCardKey323_1 As label:
@@ -7331,7 +7363,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue266_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =65
+                        Y: =66
                         ZIndex: =1
 
                         DataCardKey324_1 As label:
@@ -7447,7 +7479,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue268_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =66
+                        Y: =67
                         ZIndex: =1
 
                         DataCardKey325_1 As label:
@@ -7570,7 +7602,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue268_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =67
+                        Y: =68
                         ZIndex: =1
 
                         DataCardKey326_1 As label:
@@ -7686,7 +7718,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =68
+                        Y: =69
                         ZIndex: =1
 
                         DataCardKey327_1 As label:
@@ -7770,7 +7802,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue271_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =69
+                        Y: =70
                         ZIndex: =1
 
                         DataCardKey328_1 As label:
@@ -7891,7 +7923,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue271_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =70
+                        Y: =71
                         ZIndex: =1
 
                         DataCardKey329_1 As label:
@@ -8007,7 +8039,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue240_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =71
+                        Y: =72
                         ZIndex: =1
 
                         DataCardValue240_1 As dropdown:
@@ -8059,7 +8091,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue240_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =72
+                        Y: =73
                         ZIndex: =1
 
                         DataCardKey331_1 As label:
@@ -8175,7 +8207,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue275_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =73
+                        Y: =74
                         ZIndex: =1
 
                         DataCardKey332_1 As label:
@@ -8296,7 +8328,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue275_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =74
+                        Y: =75
                         ZIndex: =1
 
                         DataCardKey333_1 As label:
@@ -8412,7 +8444,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue277_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =75
+                        Y: =76
                         ZIndex: =1
 
                         DataCardKey334_1 As label:
@@ -8533,7 +8565,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue277_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =76
+                        Y: =77
                         ZIndex: =1
 
                         DataCardKey335_1 As label:
@@ -8649,7 +8681,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue279_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =77
+                        Y: =78
                         ZIndex: =1
 
                         DataCardKey336_1 As label:
@@ -8768,7 +8800,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue279_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =78
+                        Y: =79
                         ZIndex: =1
 
                         DataCardKey337_1 As label:
@@ -8884,7 +8916,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =79
+                        Y: =80
                         ZIndex: =1
 
                         DataCardKey338_1 As label:
@@ -8968,7 +9000,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue282_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =80
+                        Y: =81
                         ZIndex: =1
 
                         DataCardKey339_1 As label:
@@ -9087,7 +9119,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue282_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =81
+                        Y: =82
                         ZIndex: =1
 
                         DataCardKey340_1 As label:
@@ -9203,7 +9235,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue284_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =82
+                        Y: =83
                         ZIndex: =1
 
                         DataCardKey341_1 As label:
@@ -9324,7 +9356,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue284_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =83
+                        Y: =84
                         ZIndex: =1
 
                         DataCardKey342_1 As label:
@@ -9440,7 +9472,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue286_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =84
+                        Y: =85
                         ZIndex: =1
 
                         DataCardKey343_1 As label:
@@ -9561,7 +9593,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue286_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =85
+                        Y: =86
                         ZIndex: =1
 
                         DataCardKey344_1 As label:
@@ -9677,7 +9709,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue288_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =86
+                        Y: =87
                         ZIndex: =1
 
                         DataCardKey345_1 As label:
@@ -9798,7 +9830,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue288_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =87
+                        Y: =88
                         ZIndex: =1
 
                         DataCardKey347_1 As label:
@@ -9914,7 +9946,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue289_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =88
+                        Y: =89
                         ZIndex: =1
 
                         DataCardKey346_1 As label:
@@ -10035,7 +10067,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue289_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =89
+                        Y: =90
                         ZIndex: =1
 
                         DataCardKey348_1 As label:
@@ -10151,7 +10183,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =
                         Width: =640
                         X: =0
-                        Y: =90
+                        Y: =91
                         ZIndex: =1
 
                         DataCardKey349_1 As label:
@@ -10237,7 +10269,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue293_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =91
+                        Y: =92
                         ZIndex: =1
 
                         DataCardKey350_1 As label:
@@ -10360,7 +10392,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue293_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =92
+                        Y: =93
                         ZIndex: =1
 
                         DataCardKey351_1 As label:
@@ -10475,7 +10507,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image44_1.Image
                         Width: =640
                         X: =0
-                        Y: =93
+                        Y: =94
                         ZIndex: =1
 
                         DataCardKey352_1 As label:
@@ -10602,7 +10634,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue295_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =94
+                        Y: =95
                         ZIndex: =1
 
                         DataCardKey353_1 As label:
@@ -10721,7 +10753,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue295_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =95
+                        Y: =96
                         ZIndex: =1
 
                         DataCardKey354_1 As label:
@@ -10836,7 +10868,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image45_1.Image
                         Width: =640
                         X: =0
-                        Y: =96
+                        Y: =97
                         ZIndex: =1
 
                         DataCardKey355_1 As label:
@@ -10963,7 +10995,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue297_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =97
+                        Y: =98
                         ZIndex: =1
 
                         DataCardKey356_1 As label:
@@ -11084,7 +11116,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue297_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =98
+                        Y: =99
                         ZIndex: =1
 
                         DataCardKey357_1 As label:
@@ -11199,7 +11231,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image46_1.Image
                         Width: =640
                         X: =0
-                        Y: =99
+                        Y: =100
                         ZIndex: =1
 
                         DataCardKey358_1 As label:
@@ -11326,7 +11358,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue299_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =100
+                        Y: =101
                         ZIndex: =1
 
                         DataCardKey359_1 As label:
@@ -11445,7 +11477,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue299_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =101
+                        Y: =102
                         ZIndex: =1
 
                         DataCardKey360_1 As label:
@@ -11560,7 +11592,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image47_1.Image
                         Width: =640
                         X: =0
-                        Y: =102
+                        Y: =103
                         ZIndex: =1
 
                         DataCardKey361_1 As label:
@@ -11687,7 +11719,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue182_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =103
+                        Y: =104
                         ZIndex: =1
 
                         DataCardKey362_1 As label:
@@ -11808,7 +11840,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue182_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =104
+                        Y: =105
                         ZIndex: =1
 
                         DataCardKey124_1 As label:
@@ -11923,7 +11955,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image48_1.Image
                         Width: =640
                         X: =0
-                        Y: =105
+                        Y: =106
                         ZIndex: =1
 
                         DataCardKey364_1 As label:
@@ -12050,7 +12082,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue301_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =106
+                        Y: =107
                         ZIndex: =1
 
                         DataCardKey365_1 As label:
@@ -12172,7 +12204,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue301_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =107
+                        Y: =108
                         ZIndex: =1
 
                         DataCardKey366_1 As label:
@@ -12287,7 +12319,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image49_1.Image
                         Width: =640
                         X: =0
-                        Y: =108
+                        Y: =109
                         ZIndex: =1
 
                         DataCardKey367_1 As label:
@@ -12414,7 +12446,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue303_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =109
+                        Y: =110
                         ZIndex: =1
 
                         DataCardKey368_1 As label:
@@ -12536,7 +12568,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue303_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =110
+                        Y: =111
                         ZIndex: =1
 
                         DataCardKey369_1 As label:
@@ -12651,7 +12683,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image50_1.Image
                         Width: =640
                         X: =0
-                        Y: =111
+                        Y: =112
                         ZIndex: =1
 
                         DataCardKey370_1 As label:
@@ -12778,7 +12810,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue305_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =112
+                        Y: =113
                         ZIndex: =1
 
                         DataCardKey371_1 As label:
@@ -12899,7 +12931,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue305_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =113
+                        Y: =114
                         ZIndex: =1
 
                         DataCardKey330_1 As label:
@@ -13014,7 +13046,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image51_1.Image
                         Width: =640
                         X: =0
-                        Y: =114
+                        Y: =115
                         ZIndex: =1
 
                         DataCardKey373_1 As label:
@@ -13141,7 +13173,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue307_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =115
+                        Y: =116
                         ZIndex: =1
 
                         DataCardKey374_1 As label:
@@ -13262,7 +13294,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue307_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =116
+                        Y: =117
                         ZIndex: =1
 
                         DataCardKey375_1 As label:
@@ -13377,7 +13409,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image52_1.Image
                         Width: =640
                         X: =0
-                        Y: =117
+                        Y: =118
                         ZIndex: =1
 
                         DataCardKey376_1 As label:
@@ -13504,7 +13536,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue309_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =118
+                        Y: =119
                         ZIndex: =1
 
                         DataCardKey377_1 As label:
@@ -13627,7 +13659,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue309_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =119
+                        Y: =120
                         ZIndex: =1
 
                         DataCardKey378_1 As label:
@@ -13742,7 +13774,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image53.Image
                         Width: =640
                         X: =0
-                        Y: =120
+                        Y: =121
                         ZIndex: =1
 
                         DataCardKey363 As label:
@@ -13869,7 +13901,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue311_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =121
+                        Y: =122
                         ZIndex: =1
 
                         DataCardKey380_1 As label:
@@ -13991,7 +14023,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue311_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =122
+                        Y: =123
                         ZIndex: =1
 
                         DataCardKey381_1 As label:
@@ -14342,7 +14374,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue315_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =127
+                        Y: =126
                         ZIndex: =1
 
                         DataCardKey386_1 As label:
@@ -14464,7 +14496,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue315_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =128
+                        Y: =127
                         ZIndex: =1
 
                         DataCardKey387_1 As label:
@@ -14580,7 +14612,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue317_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =130
+                        Y: =128
                         ZIndex: =1
 
                         DataCardKey389_1 As label:
@@ -14703,7 +14735,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue317_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =131
+                        Y: =129
                         ZIndex: =1
 
                         DataCardKey390_1 As label:
@@ -14819,7 +14851,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue319_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =133
+                        Y: =130
                         ZIndex: =1
 
                         DataCardKey392_1 As label:
@@ -14940,7 +14972,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue319_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =134
+                        Y: =131
                         ZIndex: =1
 
                         DataCardKey393_1 As label:
@@ -15056,7 +15088,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue321_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =136
+                        Y: =132
                         ZIndex: =1
 
                         DataCardKey395_1 As label:
@@ -15177,7 +15209,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue321_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =137
+                        Y: =133
                         ZIndex: =1
 
                         DataCardKey396_1 As label:
@@ -15293,7 +15325,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue323_1.Selected.Value
                         Width: =640
                         X: =0
-                        Y: =139
+                        Y: =134
                         ZIndex: =1
 
                         DataCardKey398_1 As label:
@@ -15412,7 +15444,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Visible: =If(DataCardValue323_1.Selected.Value = "Si",true,false)
                         Width: =640
                         X: =0
-                        Y: =140
+                        Y: =135
                         ZIndex: =1
 
                         DataCardKey399_1 As label:
@@ -15528,7 +15560,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue325_1.Text
                         Width: =640
                         X: =0
-                        Y: =142
+                        Y: =136
                         ZIndex: =1
 
                         DataCardKey401_1 As label:
@@ -15643,7 +15675,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image70.Image
                         Width: =640
                         X: =0
-                        Y: =123
+                        Y: =137
                         ZIndex: =1
 
                         DataCardKey372 As label:
@@ -15769,7 +15801,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image71.Image
                         Width: =640
                         X: =0
-                        Y: =126
+                        Y: =138
                         ZIndex: =1
 
                         DataCardKey379 As label:
@@ -15895,7 +15927,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image72.Image
                         Width: =640
                         X: =0
-                        Y: =129
+                        Y: =139
                         ZIndex: =1
 
                         DataCardKey457 As label:
@@ -16021,7 +16053,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image73.Image
                         Width: =640
                         X: =0
-                        Y: =132
+                        Y: =140
                         ZIndex: =1
 
                         DataCardKey458 As label:
@@ -16147,7 +16179,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image74.Image
                         Width: =640
                         X: =0
-                        Y: =135
+                        Y: =141
                         ZIndex: =1
 
                         DataCardKey459 As label:
@@ -16273,7 +16305,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image75.Image
                         Width: =640
                         X: =0
-                        Y: =138
+                        Y: =142
                         ZIndex: =1
 
                         DataCardKey460 As label:
@@ -16399,7 +16431,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Image76.Image
                         Width: =640
                         X: =0
-                        Y: =141
+                        Y: =143
                         ZIndex: =1
 
                         DataCardKey461 As label:
@@ -16512,6 +16544,116 @@ FormularioIPTADMBOLIVAR_1 As screen:
                             Y: =DataCardKey461.Y
                             ZIndex: =5
 
+                    FECHA_DataCard3 As typedDataCard.dateEditCard:
+                        BorderColor: =RGBA(245, 245, 245, 1)
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="FECHA"
+                        Default: =ThisItem.FECHA
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales'],DataSourceInfo.DisplayName,FECHA)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =false
+                        Update: =DataCardValue270.SelectedDate
+                        Width: =640
+                        X: =0
+                        Y: =0
+                        ZIndex: =1
+
+                        DataCardKey462 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =48
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue270 As datepicker:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            CalendarHeaderFill: =RGBA(16, 110, 190, 1)
+                            Color: =RGBA(50, 49, 48, 1)
+                            DefaultDate: =Parent.Default
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            DisabledFill: =RGBA(242, 242, 241, 0)
+                            DisplayMode: =Parent.DisplayMode
+                            EndYear: =Year(Today())+100
+                            Fill: =RGBA(245, 245, 245, 1)
+                            Font: =Font.'Segoe UI'
+                            Height: =70
+                            HoverDateFill: =RGBA(184, 187, 184, 1)
+                            IconBackground: =RGBA(0, 120, 212, 1)
+                            IsEditable: =true
+                            PaddingBottom: =0
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            SelectedDateFill: =RGBA(0, 120, 212, 1)
+                            Size: =21
+                            StartYear: =1899
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey462.Y + DataCardKey462.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage457 As label:
+                            AutoHeight: =true
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(168, 0, 0, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(168, 0, 0, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Size: =21
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue270.Y + DataCardValue270.Height
+                            ZIndex: =3
+
+                        StarVisible457 As label:
+                            Align: =Align.Center
+                            BorderColor: =RGBA(0, 0, 0, 0)
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(50, 49, 48, 1)
+                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                            DisabledColor: =RGBA(161, 159, 157, 1)
+                            FocusedBorderThickness: =4
+                            Font: =Font.'Segoe UI'
+                            FontWeight: =FontWeight.Semibold
+                            Height: =DataCardKey462.Height
+                            PaddingLeft: =0
+                            Size: =21
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey462.Y
+                            ZIndex: =4
+
                     CIUDAD_DataCard3_1 As typedDataCard.textualEditCard:
                         BorderColor: =RGBA(245, 245, 245, 1)
                         BorderStyle: =BorderStyle.Solid
@@ -16526,7 +16668,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue113_1.Text
                         Width: =640
                         X: =0
-                        Y: =0
+                        Y: =1
                         ZIndex: =2
 
                         DataCardKey169_1 As label:
@@ -16641,7 +16783,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Value(DataCardValue142_1.Text)
                         Width: =640
                         X: =0
-                        Y: =2
+                        Y: =3
                         ZIndex: =2
 
                         DataCardKey173_1 As label:
@@ -16757,7 +16899,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue143_1.Text
                         Width: =640
                         X: =0
-                        Y: =3
+                        Y: =4
                         ZIndex: =2
 
                         DataCardKey174_1 As label:
@@ -16872,7 +17014,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =Value(DataCardValue144_1.Text)
                         Width: =640
                         X: =0
-                        Y: =4
+                        Y: =5
                         ZIndex: =2
 
                         DataCardKey175_1 As label:
@@ -16988,7 +17130,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Update: =DataCardValue172_1.Text
                         Width: =640
                         X: =0
-                        Y: =5
+                        Y: =6
                         ZIndex: =2
 
                         DataCardKey203_1 As label:
