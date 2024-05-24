@@ -1205,10 +1205,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 2122,
+                  "charLength": 2,
+                  "charOffset": 2964,
                   "snippet": {
-                    "text": ":"
+                    "text": ";;"
                   }
                 }
               },
@@ -1221,7 +1221,7 @@
           ],
           "message": {
             "arguments": [
-              "Colon",
+              "Semicolon",
               "CurlyClose"
             ],
             "id": "issue"
@@ -1247,9 +1247,9 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2122,
+                  "charOffset": 2970,
                   "snippet": {
-                    "text": ":"
+                    "text": "}"
                   }
                 }
               },
@@ -1262,7 +1262,7 @@
           ],
           "message": {
             "arguments": [
-              "Colon",
+              "CurlyClose",
               "ParenClose"
             ],
             "id": "issue"
@@ -1288,9 +1288,9 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2122,
+                  "charOffset": 2970,
                   "snippet": {
-                    "text": ":"
+                    "text": "}"
                   }
                 }
               },
@@ -1341,46 +1341,6 @@
           "message": {
             "arguments": [
               "ColeccionOffline3"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 21,
-                  "charOffset": 2101,
-                  "snippet": {
-                    "text": "HallazgosPosicionCodo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "HallazgosPosicionCodo"
             ],
             "id": "issue"
           },
@@ -1757,46 +1717,6 @@
           },
           "ruleId": "app-WarnBooleanExpected",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.'Hombro izquierdo_DataCard1'.DataCardValue37.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.'Hombro izquierdo_DataCard1'.DataCardValue37.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "text_hombroIzq"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "FormularioSinotomatologia",
-                "type": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.'Hombro izquierdo_DataCard1'.DataCardValue37"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "text_hombroIzq"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 6
         },
         {
           "locations": [
@@ -17722,19 +17642,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.FECHA_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.Fecha_1_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.FECHA_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.Fecha_1_DataCard1.DataCardValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FormularioSinotomatologia",
-                "type": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.FECHA_DataCard1.DataCardValue1"
+                "type": "FormularioSinotomatologia.Container3.Container7.Container9.Form1.Fecha_1_DataCard1.DataCardValue1"
               }
             }
           ],
