@@ -173,12 +173,12 @@ FormularioIPTADMBOLIVAR_1 As screen:
                     OnSelect: |-
                         =Collect(ColeccionOffline3,
                          {
-                        Fecha:DataCardValue270.InputTextPlaceholder,
+                        Fecha:DataCardValue270.SelectedDate,
                         Ciudad:DataCardValue113_1.Text,
                         NombreEmpresa:DataCardValue178_1.Text,
-                        NIT:DataCardValue142_1.AccessibleLabel,
+                        NIT:Value(DataCardValue142_1.Text),
                         NombreTrabajador:DataCardValue143_1,
-                        Identificacion:DataCardValue144_1.AccessibleLabel,
+                        Identificacion:Value(DataCardValue144_1.Text),
                         SeccionArea:DataCardValue172_1.Text,
                         Cargo:DataCardValue173_1.Text,
                         NombreElaboraInspeccion:DataCardValue174_1.Text,
