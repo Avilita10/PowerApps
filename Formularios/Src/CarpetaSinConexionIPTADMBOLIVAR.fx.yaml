@@ -241,21 +241,20 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                             If(
                                 Connection.Connected,
                                 ForAll(
-                                    coleccionOffline,
+                                    colec,
                                     Patch(
-                                        'Base de datos formulario prueba', // Tu fuente de datos
-                                        Defaults('Base de datos formulario prueba'), // Crear un nuevo registro
+                                        'Inspección de puesto de trabajo (Operativo)_2', // Tu fuente de datos
+                                        Defaults('Inspección de puesto de trabajo (Operativo)_2'), // Crear un nuevo registro
                                         {
-                                            Fecha_1:ThisRecord.Fecha,
-                                            CIUDAD:ThisRecord.Ciudad,
                                             
                                         }
                                     )
                                 )
                             );
-                            Clear(coleccionOffline); // Limpia la colección local
-                                SaveData(coleccionOffline, "Cache"); // Guarda la colección vacía
-                                Notify("Datos enviados correctamente", NotificationType.Success)
+                            Clear(ColeccionOffline3); // Limpia la colección local
+                                SaveData(ColeccionOffline3, "Cache3"); // Guarda la colección vacía
+                                Notify("Datos enviados correctamente", NotificationType.Success) //Notifica el estado del envio del formulario Offline
+                            
                             
                         PaddingBottom: =16
                         PaddingLeft: =16
