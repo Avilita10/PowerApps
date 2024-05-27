@@ -160,7 +160,7 @@ FormularioIPTOPBOLIVAR As screen:
                         ElTrabajadorExpuestoTemperaturas:DataCardValue114.SelectedText,
                         ExistenVariacionesExtremas:DataCardValue120.SelectedText,
                         EsBajoNivelIluminacion:DataCardValue121.SelectedText,
-                        EvidenciaIluminacion:AddPicture1.Media
+                        EvidenciaIluminacion:.Media
                         });
                         SaveData(ColeccionOffline2,"Cache2")
                     PaddingRight: =10

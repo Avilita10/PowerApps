@@ -248,8 +248,7 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                         {
                                             CIUDAD:ThisRecord.Ciudad,
                                             FECHA:ThisRecord.Fecha,
-                                            'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa,
-                                            evideci
+                                            'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa
                                         }
                                     )
                                 )
