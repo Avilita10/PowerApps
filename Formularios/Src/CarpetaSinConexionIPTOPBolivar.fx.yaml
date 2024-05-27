@@ -237,20 +237,41 @@ CarpetaSinConexionIPTOPBolivar As screen:
                         HoverFill: =RGBA(0, 0, 0, 0)
                         Icon: =Icon.ChevronRight
                         OnSelect: |+
-                            =// En el botón de enviar
+                            =Set(imagen, AsType(ThisRecord.Evidencias, Image));
+                            
+                            // En el botón de enviar
                             If(
                                 Connection.Connected,
                                 ForAll(
                                     coleccionOffline2,
-                                    Patch(
+                                    Patch(  
                                         'Inspección de puesto de trabajo (Operativo)_2', // Tu fuente de datos
                                         Defaults('Inspección de puesto de trabajo (Operativo)_2'), // Crear un nuevo registro
                                         {
-                                            CIUDAD:ThisRecord.Ciudad,
+                                            CIUDAD:ThisRecord.Ciudad, //Registro de datos ("Nombre original de sharepoint":ThisRecord."Nombre como esta en BD Offline o coleccio")
                                             FECHA:ThisRecord.Fecha,
                                             'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa,
                                             NIT:ThisRecord.NIT,
-                                            'NOMBRE DEL TRABAJADOR':ThisRecord.NombreTrabajador
+                                            'NOMBRE DEL TRABAJADOR':ThisRecord.NombreTrabajador,
+                                            'CC (CEDULA)':ThisRecord.Cedula,
+                                            'SECCIÓN O AREA':ThisRecord.SeccionArea,
+                                            CARGO:ThisRecord.Cargo,
+                                            'NOMBRE TÉCNICO DE LA PERSONA QUE ELABORA LA INSPECCIÓN':ThisRecord.NombreTecnicoPersona,
+                                            SECTOR:ThisRecord.Sector,
+                                            'NOMBRE PUESTO DE TRABAJO':ThisRecord.NombrePuestoTrabajo,
+                                            'LISTA DE HERRAMIENTAS UTILIZADAS PARA LA TAREA': ThisRecord.ListaHerramientasUtilizadas,
+                                            'DESCRIBIR BREVEMENTE LOS PASOS DE LA TAREA':ThisRecord.DescribirBrevementeTarea,
+                                            'Existe programa de salud ocupacional en la empresa ':ThisRecord.ExisteProgramaSaludOcupacional,
+                                            HALLAZGOS: ThisRecord.Hallazgo,
+                                            HALLAZGOS1:ThisRecord.Hallazgo1,
+                                            HALLAZGOS2:ThisRecord.Hallazgo2,
+                                            HALLAZGOS3: ThisRecord.Hallazgo3,
+                                            HALLAZGOS4:ThisRecord.Hallazgo4,
+                                            HALLAZGOS5: ThisRecord.Hallazgo5,
+                                            HALLAZGOS6: ThisRecord.Hallazgo6,
+                                            HALLAZGOS7:ThisRecord.Hallazgo7,
+                                            EVIDENCIAS: 
+                            
                                         }
                                     )
                                 )
