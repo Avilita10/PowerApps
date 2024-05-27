@@ -136,7 +136,7 @@ FormularioIPTOPBOLIVAR As screen:
                     HoverColor: =RGBA(16, 110, 190, 1)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Icon: =Icon.GlobeChangesPending
-                    OnSelect: |
+                    OnSelect: |-
                         =Collect(
                             coleccionOffline2, 
                         {
@@ -171,12 +171,59 @@ FormularioIPTOPBOLIVAR As screen:
                                 Hallazgo7: DataCardValue150.Text,
                                 Evidencia: Image5.Image,
                                 ExistenDeslumbramientosAreaTrabajo: Text(DataCardValue122.Selected.Value),
-                                HALLAZGOS8: DataCardValue151.Text,
-                                Evidencias1: Image6.Image,
-                                ExistenSombrasFaltaIluminacion: Text(DataCardValue123.Selected.Value)
+                                Hallazgo8: DataCardValue151.Text,
+                                Evidencia1: Image6.Image,
+                                ExistenSombrasFaltaIluminacion: Text(DataCardValue123.Selected.Value),
+                                Hallazgo9: DataCardValue152.Text,
+                                Evidencia2: Image7.Image,
+                                HayRuidoExcesivoMolesto: Text(DataCardValue124.Selected.Value),
+                                Hallazgo10: DataCardValue153.Text,
+                                HayVibracionCuerpoCompleto: Text(DataCardValue125.Selected.Value),
+                                Hallazgo11: DataCardValue154.Text,
+                                LaCirulacionAireInsuficiente: Text(DataCardValue126.Selected.Value),
+                                Hallazgo12: DataCardValue155.Text,
+                                ElTrabajadorMantienePosturaPronlongada: Text(DataCardValue128.Selected.Value),
+                                Hallazgo13: DataCardValue156.Text,
+                                Evidencia3: Image8.Image,
+                                ExistenRotacionesInclinaciones: Text(DataCardValue129.Selected.Value),
+                                Hallazgo14: DataCardValue157.Text,
+                                Evidencia4: Image9.Image,
+                                HayFlexionesImportantesEspaldaTronco: Text(DataCardValue130.Selected.Value),
+                                Hallazgo15: DataCardValue158.Text,
+                                Evidencia5: Image10.Image,
+                                HayRotacionesEspaldaTronco: Text(DataCardValue131.Selected.Value),
+                                Hallazgo16: DataCardValue159.Text,
+                                Evidencia6: Image11.Image,
+                                ElTrabajoRealizaTrabajoArrodillado: Text(DataCardValue132.Selected.Value),
+                                Hallazgo17: DataCardValue160.Text,
+                                Evidencia7: Image12.Image,
+                                ExistenPosturasHombrosFlexion: Text(DataCardValue133.Selected.Value),
+                                Hallazgo18: DataCardValue161.Text,
+                                Evidencia8: Image13.Image,
+                                ExistenPosturasHombroAbduccion: Text(DataCardValue134.Selected.Value),
+                                Hallazgo19: DataCardValue162.Text,
+                                Evidencia9: Image14.Image,
+                                ExistenPosturasCodosFlexionMayor90:Text(DataCardValue135.Selected.Value),
+                                Hallazgo20:DataCardValue163.Text,
+                                Evidencia10: Image15.Image,
+                                ExistenPosturasTroncoContraGravedad: Text(DataCardValue136.Selected.Value),
+                                Hallazgo21: DataCardValue164.Text,
+                                Evidencia11: Image16.Image,
+                                ExistenPosturasMiembrosSuperioresContraGravedad: Text(DataCardValue137.Selected.Value),
+                                Hallazgo22: DataCardValue165.Text,
+                                Evidencia12:Image17.Image,
+                                SeObservaPosicionCodoPronacionSupanacion:Text(DataCardValue138.Selected.Value),
+                                Hallazgo23:DataCardValue166.Text,
+                                Evidencia13: Image18.Image,
+                                HayDesviacionesManosEjeNeutro: Text(DataCardValue139.Selected.Value),
+                                Hallazgo24: DataCardValue167.Text,
+                                Evidencia14: Image19.Image
+                        
                             } 
                         );
                         SaveData(coleccionOffline2,"Cache2")
+                        
+                        //Base de datos Offline funcional
                     PaddingRight: =10
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =RGBA(16, 110, 190, 1)

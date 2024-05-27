@@ -237,9 +237,7 @@ CarpetaSinConexionIPTOPBolivar As screen:
                         HoverFill: =RGBA(0, 0, 0, 0)
                         Icon: =Icon.ChevronRight
                         OnSelect: |+
-                            =
-                            
-                            // En el botón de enviar
+                            =// En el botón de enviar
                             If(
                                 Connection.Connected,
                                 ForAll(
@@ -277,7 +275,19 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                             HALLAZGOS6: ThisRecord.Hallazgo6,
                                             'Es bajo el nivel de iluminación en el área de trabajo':ThisRecord.EsBajoNivelIluminacion,
                                             HALLAZGOS7:ThisRecord.Hallazgo7,
-                                            EVIDENCIAS:ThisRecord.Evidencia
+                                            EVIDENCIAS:ThisRecord.Evidencia,
+                                            'Existen deslumbramientos en el área de trabajo':ThisRecord.ExistenDeslumbramientosAreaTrabajo,
+                                            HALLAZGOS8:ThisRecord.Hallazgo8,
+                                            EVIDENCIAS1: ThisRecord.Evidencia1,
+                                            'Existen sombras por falta de iluminación en el área de trabajo': ThisRecord.ExistenSombrasFaltaIluminacion,
+                                            HALLAZGOS9:ThisRecord.Hallazgo9,
+                                            'EVIDENCIAS2 (EVIDENCIAS3)':ThisRecord.Evidencia2,
+                                            'Hay ruido excesivo que es molesto o aturdidor':ThisRecord.HayRuidoExcesivoMolesto,
+                                            HALLAZGOS10:ThisRecord.Hallazgo10,
+                                            'EVIDENCIAS3 (EVIDENCIAS30)': ThisRecord.Evidencia3,
+                                            'Hay vibración de cuerpo completo o de las extremidades superiores (de cuerpo entero o mano brazo)':ThisRecord.HayVibracionCuerpoCompleto,
+                                            HALLAZGOS11:ThisRecord.Hallazgo11,
+                                            EVIDENCIAS4: ThisRecord.Evidencia4
                             
                                         }
                                     )
@@ -286,6 +296,9 @@ CarpetaSinConexionIPTOPBolivar As screen:
                             Clear(coleccionOffline2); // Limpia la colección local
                                 SaveData(coleccionOffline2, "Cache2"); // Guarda la colección vacía
                                 Notify("Datos enviados correctamente", NotificationType.Success) //Notifica el estado del envio del formulario Offline
+                            
+                            
+                            //Boton para enviar de forma Offline
                             
                         PaddingBottom: =16
                         PaddingLeft: =16
