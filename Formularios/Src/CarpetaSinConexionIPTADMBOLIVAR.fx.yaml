@@ -246,6 +246,11 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                                         'Inspección puesto de trabajo video Terminales', // Tu fuente de datos
                                         Defaults('Inspección puesto de trabajo video Terminales'), // Crear un nuevo registro
                                         {
+                                            FECHA:ThisRecord.Fecha,
+                                            CIUDAD:ThisRecord.Ciudad,
+                                            'NOMBRE EMPRESA':ThisRecord.NombreEmpresa,
+                                            NIT:ThisRecord.NIT,
+                                            'NOMBRE TRABAJADOR':ThisRecord.NombreTrabajador
                                                
                                         }
                                     )
