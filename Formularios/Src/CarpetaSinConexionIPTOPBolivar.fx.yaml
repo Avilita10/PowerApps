@@ -154,7 +154,7 @@ CarpetaSinConexionIPTOPBolivar As screen:
                     BorderColor: =RGBA(245, 245, 245, 1)
                     DelayItemLoading: =true
                     Fill: =RGBA(255, 255, 255, 1)
-                    Items: =ColeccionOffline2
+                    Items: =coleccionOffline2
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
@@ -241,7 +241,7 @@ CarpetaSinConexionIPTOPBolivar As screen:
                             If(
                                 Connection.Connected,
                                 ForAll(
-                                    ColeccionOffline2,
+                                    coleccionOffline2,
                                     Patch(
                                         'Inspección de puesto de trabajo (Operativo)_2', // Tu fuente de datos
                                         Defaults('Inspección de puesto de trabajo (Operativo)_2'), // Crear un nuevo registro
@@ -253,8 +253,8 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                     )
                                 )
                             );
-                            Clear(ColeccionOffline2); // Limpia la colección local
-                                SaveData(ColeccionOffline2, "Cache2"); // Guarda la colección vacía
+                            Clear(coleccionOffline2); // Limpia la colección local
+                                SaveData(coleccionOffline2, "Cache2"); // Guarda la colección vacía
                                 Notify("Datos enviados correctamente", NotificationType.Success) //Notifica el estado del envio del formulario Offline
                             
                         PaddingBottom: =16

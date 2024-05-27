@@ -99,7 +99,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 75,
+    "BindingErrorCount": 43,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -112,13 +112,13 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "a74ffc4b-4d31-4302-b6b3-aa829074a00d",
-    "Id": "80153a42-1135-48ce-be1c-cface2ab70ec",
+    "Id": "17a365f2-61b5-4161-879c-60d3bbafedeb",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
     "Name": "APLICACION AUTO-REPORTE DE SINTOMATOLOGÍA",
     "OriginatingVersion": "1.337",
-    "ParserErrorCount": 4,
+    "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
