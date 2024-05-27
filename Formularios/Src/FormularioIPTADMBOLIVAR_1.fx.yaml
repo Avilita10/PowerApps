@@ -177,7 +177,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Ciudad:DataCardValue113_1.Text,
                         NombreEmpresa:DataCardValue178_1.Text,
                         NIT:Value(DataCardValue142_1.Text),
-                        NombreTrabajador:DataCardValue143_1,
+                        NombreTrabajador:DataCardValue143_1.Text,
                         Identificacion:Value(DataCardValue144_1.Text),
                         SeccionArea:DataCardValue172_1.Text,
                         Cargo:DataCardValue173_1.Text,
