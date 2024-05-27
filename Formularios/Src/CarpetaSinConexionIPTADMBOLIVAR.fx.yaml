@@ -251,7 +251,11 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                                             'NOMBRE EMPRESA':ThisRecord.NombreEmpresa,
                                             NIT:ThisRecord.NIT,
                                             'NOMBRE TRABAJADOR':ThisRecord.NombreTrabajador,
-                                            IDENTIFICACIÓN:ThisRecord.Identificacion 
+                                            IDENTIFICACIÓN:ThisRecord.Identificacion,
+                                            'SECCIÓN/AREA':ThisRecord.SeccionArea,
+                                            CARGO:ThisRecord.Cargo,
+                                            'NOMBRE QUIEN ELABORA LA INSPECCIÓN':ThisRecord.NombreElaboraInspeccion,
+                                            'CORREO ELECTRONICO DEL TRABAJADOR':ThisRecord.Correo
                                         }
                                     )
                                 )
