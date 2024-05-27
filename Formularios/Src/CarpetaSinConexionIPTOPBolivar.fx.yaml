@@ -237,7 +237,7 @@ CarpetaSinConexionIPTOPBolivar As screen:
                         HoverFill: =RGBA(0, 0, 0, 0)
                         Icon: =Icon.ChevronRight
                         OnSelect: |+
-                            =Set(imagen, AsType(ThisRecord.Evidencias, Image));
+                            =
                             
                             // En el botón de enviar
                             If(
@@ -263,14 +263,21 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                             'DESCRIBIR BREVEMENTE LOS PASOS DE LA TAREA':ThisRecord.DescribirBrevementeTarea,
                                             'Existe programa de salud ocupacional en la empresa ':ThisRecord.ExisteProgramaSaludOcupacional,
                                             HALLAZGOS: ThisRecord.Hallazgo,
+                                            'Se realiza mantenimiento a máquinas y/o herramientas':ThisRecord.SeRealizaMantenimientoMaquinas,
                                             HALLAZGOS1:ThisRecord.Hallazgo1,
+                                            'El puesto de trabajo cuentacon un manual de funciones':ThisRecord.ElPuestoTrabajoManualFunciones,
                                             HALLAZGOS2:ThisRecord.Hallazgo2,
+                                            'Se realiza inducción en el puesto de trabajo':ThisRecord.SeRealizaInduccionPuestoTrabajo,
                                             HALLAZGOS3: ThisRecord.Hallazgo3,
+                                            'Se realizan pausas de trabajo': ThisRecord.SeRealizaPausasTrabajo,
                                             HALLAZGOS4:ThisRecord.Hallazgo4,
+                                            'ASPECTO A EVALUAR  ':ThisRecord.SeRealizaPausasTrabajo,
                                             HALLAZGOS5: ThisRecord.Hallazgo5,
+                                            'Existen variaciones extremas de temperatura durante la jornada':ThisRecord.ExistenVariacionesExtremas,
                                             HALLAZGOS6: ThisRecord.Hallazgo6,
+                                            'Es bajo el nivel de iluminación en el área de trabajo':ThisRecord.EsBajoNivelIluminacion,
                                             HALLAZGOS7:ThisRecord.Hallazgo7,
-                                            EVIDENCIAS: 
+                                            EVIDENCIAS:ThisRecord.Evidencia
                             
                                         }
                                     )

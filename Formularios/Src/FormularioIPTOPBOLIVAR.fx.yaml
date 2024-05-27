@@ -159,18 +159,22 @@ FormularioIPTOPBOLIVAR As screen:
                                 Hallazgo1:DataCardValue145.Text, 
                                 ElPuestoTrabajoManualFunciones:Text(DataCardValue116.Selected.Value),
                                 Hallazgo2: DataCardValue146.Text,
-                                SeRealizaInduccionPuestoTrabajo:DataCardValue117.SelectedText,
+                                SeRealizaInduccionPuestoTrabajo:Text(DataCardValue117.Selected.Value),
                                 Hallazgo3: DataCardValue147.Text,
-                                SeRealizaPausasTrabajo:DataCardValue118.SelectedText,
+                                SeRealizaPausasTrabajo:Text(DataCardValue118.Selected.Value),
                                 Hallazgo4: DataCardValue148.Text,
-                                ElTrabajadorExpuestoTemperaturas:DataCardValue114.SelectedText,
+                                ElTrabajadorExpuestoTemperaturas:Text(DataCardValue114.Selected.Value),
                                 Hallazgo5: DataCardValue149.Text,
-                                ExistenVariacionesExtremas:DataCardValue120.SelectedText,
+                                ExistenVariacionesExtremas:Text(DataCardValue120.Selected.Value),
                                 Hallazgo6: DataCardValue169.Text,
-                                EsBajoNivelIluminacion:DataCardValue121.SelectedText,
+                                EsBajoNivelIluminacion:Text(DataCardValue121.Selected.Value),
                                 Hallazgo7: DataCardValue150.Text,
-                                Evidencia: AddPicture1.Media
-                        } 
+                                Evidencia: Image5.Image,
+                                ExistenDeslumbramientosAreaTrabajo: Text(DataCardValue122.Selected.Value),
+                                HALLAZGOS8: DataCardValue151.Text,
+                                Evidencias1: Image6.Image,
+                                ExistenSombrasFaltaIluminacion: Text(DataCardValue123.Selected.Value)
+                            } 
                         );
                         SaveData(coleccionOffline2,"Cache2")
                     PaddingRight: =10
