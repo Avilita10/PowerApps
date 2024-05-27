@@ -154,14 +154,23 @@ FormularioIPTOPBOLIVAR As screen:
                                 ListaHerramientasUtilizadas:DataCardValue110.Text,
                                 DescribirBrevementeTarea:DataCardValue112.Text,
                                 ExisteProgramaSaludOcupacional:Text(DataCardValue119.Selected.Value),
+                                Hallazgo:DataCardValue171.Text,
                                 SeRealizaMantenimientoMaquinas:Text(DataCardValue115.Selected.Value),
+                                Hallazgo1:DataCardValue145.Text, 
                                 ElPuestoTrabajoManualFunciones:Text(DataCardValue116.Selected.Value),
+                                Hallazgo2: DataCardValue146.Text,
                                 SeRealizaInduccionPuestoTrabajo:DataCardValue117.SelectedText,
+                                Hallazgo3: DataCardValue147.Text,
                                 SeRealizaPausasTrabajo:DataCardValue118.SelectedText,
+                                Hallazgo4: DataCardValue148.Text,
                                 ElTrabajadorExpuestoTemperaturas:DataCardValue114.SelectedText,
+                                Hallazgo5: DataCardValue149.Text,
                                 ExistenVariacionesExtremas:DataCardValue120.SelectedText,
-                                EsBajoNivelIluminacion:DataCardValue121.SelectedText
-                        }
+                                Hallazgo6: DataCardValue169.Text,
+                                EsBajoNivelIluminacion:DataCardValue121.SelectedText,
+                                Hallazgo7: DataCardValue150.Text,
+                                Evidencia: AddPicture1.Media
+                        } 
                         );
                         SaveData(coleccionOffline2,"Cache2")
                     PaddingRight: =10
