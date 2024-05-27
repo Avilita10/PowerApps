@@ -171,7 +171,7 @@ FormularioIPTADMBOLIVAR As screen:
                     HoverColor: =RGBA(16, 110, 190, 1)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Icon: =Icon.Folder
-                    OnSelect: =Navigate(CarpetaSinConexionSintomatologia)
+                    OnSelect: =Navigate(CarpetaSinConexionIPTADMBOLIVAR)
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =RGBA(16, 110, 190, 1)
                     PressedFill: =RGBA(0, 0, 0, 0)

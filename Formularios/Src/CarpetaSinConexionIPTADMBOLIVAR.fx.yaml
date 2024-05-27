@@ -130,7 +130,7 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                     HoverColor: =RGBA(16, 110, 190, 1)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Icon: =Icon.DocumentWithContent
-                    OnSelect: =Navigate(FormularioSinotomatologia)
+                    OnSelect: =Navigate(FormularioIPTADMBOLIVAR_1)
                     PressedBorderColor: =RGBA(0, 0, 0, 0)
                     PressedColor: =RGBA(16, 110, 190, 1)
                     PressedFill: =RGBA(0, 0, 0, 0)
@@ -236,27 +236,24 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                         HoverColor: =RGBA(16, 110, 190, 1)
                         HoverFill: =RGBA(0, 0, 0, 0)
                         Icon: =Icon.ChevronRight
-                        OnSelect: |+
+                        OnSelect: |-
                             =// En el botón de enviar
                             If(
                                 Connection.Connected,
                                 ForAll(
-                                    coleccionOffline,
+                                    ColeccionOffline3,
                                     Patch(
-                                        'Base de datos formulario prueba', // Tu fuente de datos
-                                        Defaults('Base de datos formulario prueba'), // Crear un nuevo registro
+                                        'Inspección puesto de trabajo video Terminales', // Tu fuente de datos
+                                        Defaults('Inspección puesto de trabajo video Terminales'), // Crear un nuevo registro
                                         {
-                                            Fecha_1:ThisRecord.Fecha,
-                                            CIUDAD:ThisRecord.Ciudad,
-                                            
+                                               
                                         }
                                     )
                                 )
                             );
-                            Clear(coleccionOffline); // Limpia la colección local
-                                SaveData(coleccionOffline, "Cache"); // Guarda la colección vacía
+                            Clear(ColeccionOffline3); // Limpia la colección local
+                                SaveData(ColeccionOffline3, "Cache3"); // Guarda la colección vacía
                                 Notify("Datos enviados correctamente", NotificationType.Success)
-                            
                         PaddingBottom: =16
                         PaddingLeft: =16
                         PaddingRight: =16
