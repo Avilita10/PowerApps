@@ -248,25 +248,14 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                         {
                                             CIUDAD:ThisRecord.Ciudad,
                                             FECHA:ThisRecord.Fecha,
-                                            'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa,
-                                            NIT:ThisRecord.NIT,
-                                            'NOMBRE DEL TRABAJADOR':ThisRecord.NombreTrabajador,
-                                            'CC (CEDULA)':ThisRecord.Cedula,
-                                            'SECCIÓN O AREA':ThisRecord.SeccionArea,
-                                            CARGO:ThisRecord.Cargo,
-                                            'NOMBRE TÉCNICO DE LA PERSONA QUE ELABORA LA INSPECCIÓN':ThisRecord.NombreTecnicoPersona,
-                                            SECTOR:ThisRecord.Sector,
-                                            'NOMBRE PUESTO DE TRABAJO':ThisRecord.NombrePuestoTrabajo,
-                                            'LISTA DE HERRAMIENTAS UTILIZADAS PARA LA TAREA': ThisRecord.ListaHerramientasUtilizadas,
-                                            'DESCRIBIR BREVEMENTE LOS PASOS DE LA TAREA':ThisRecord.DescribirBrevementeTarea,
-                                            'Existe programa de salud ocupacional en la empresa ':ThisRecord.ExisteProgramaSaludOcupacional
+                                            'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa
                                         }
                                     )
                                 )
                             );
                             Clear(ColeccionOffline2); // Limpia la colección local
                                 SaveData(ColeccionOffline2, "Cache2"); // Guarda la colección vacía
-                                Notify("Datos enviados correctamente", NotificationType.Success)
+                                Notify("Datos enviados correctamente", NotificationType.Success) //Notifica el estado del envio del formulario Offline
                             
                         PaddingBottom: =16
                         PaddingLeft: =16
