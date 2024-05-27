@@ -154,7 +154,7 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                     BorderColor: =RGBA(245, 245, 245, 1)
                     DelayItemLoading: =true
                     Fill: =RGBA(255, 255, 255, 1)
-                    Items: =coleccionOffline
+                    Items: =ColeccionOffline3
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
@@ -198,7 +198,7 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                         PaddingLeft: =12
                         PaddingRight: =0
                         PaddingTop: =0
-                        Text: =
+                        Text: =ThisItem.Cargo
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.TemplateWidth - 173
                         X: =103
@@ -217,7 +217,7 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                         PaddingRight: =0
                         PaddingTop: =0
                         Size: =12
-                        Text: =ThisItem.NombreTrabajador
+                        Text: =ThisItem.Identificacion
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Title1_2.Width
                         X: =Title1_2.X
@@ -250,8 +250,8 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                                             CIUDAD:ThisRecord.Ciudad,
                                             'NOMBRE EMPRESA':ThisRecord.NombreEmpresa,
                                             NIT:ThisRecord.NIT,
-                                            'NOMBRE TRABAJADOR':ThisRecord.NombreTrabajador
-                                               
+                                            'NOMBRE TRABAJADOR':ThisRecord.NombreTrabajador,
+                                            IDENTIFICACIÓN:ThisRecord.Identificacion 
                                         }
                                     )
                                 )
