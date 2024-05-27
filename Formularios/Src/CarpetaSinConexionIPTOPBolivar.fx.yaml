@@ -248,7 +248,9 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                         {
                                             CIUDAD:ThisRecord.Ciudad,
                                             FECHA:ThisRecord.Fecha,
-                                            'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa
+                                            'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa,
+                                            NIT:ThisRecord.NIT,
+                                            'NOMBRE DEL TRABAJADOR':ThisRecord.NombreTrabajador
                                         }
                                     )
                                 )

@@ -17235,7 +17235,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,IDENTIFICACIÓN)
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        Required: =true
+                        Required: =false
                         Update: =Value(DataCardValue144_1.Text)
                         Width: =640
                         X: =0
