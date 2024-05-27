@@ -177,7 +177,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         Ciudad:DataCardValue113_1.Text,
                         NombreEmpresa:DataCardValue178_1.Text,
                         NIT:Value(DataCardValue142_1.Text),
-                        NombreTrabajador:DataCardValue143_1,
+                        NombreTrabajador:DataCardValue143_1.Text,
                         Identificacion:Value(DataCardValue144_1.Text),
                         SeccionArea:DataCardValue172_1.Text,
                         Cargo:DataCardValue173_1.Text,
@@ -17235,7 +17235,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         DisplayName: =DataSourceInfo([@'Inspección puesto de trabajo video Terminales_3'],DataSourceInfo.DisplayName,IDENTIFICACIÓN)
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =50
-                        Required: =true
+                        Required: =false
                         Update: =Value(DataCardValue144_1.Text)
                         Width: =640
                         X: =0
