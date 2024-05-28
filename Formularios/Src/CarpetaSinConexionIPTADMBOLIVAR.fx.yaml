@@ -321,7 +321,59 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                             
                                             'Es dificil apoyar completamente los pies en la superficie':ThisRecord.ApoyarPies,
                                             HALLAZGOS16:ThisRecord.HallazgosApoyarPies,
-                                            EVIDENCIAS14:ThisRecord.EvidenciasApoyarPies
+                                            EVIDENCIAS14:ThisRecord.EvidenciasApoyarPies,
+                            
+                                            'Hay repetitividad de movimientos idénticos o similares efectuados cada pocos segundos en los miembros superiores':ThisRecord.MovimientosIdenticos,
+                                            HALLAZGOS17:ThisRecord.HallazgosMovimientosIdenticos,
+                            
+                                            'Hay moviminetos de los miembros superiores con combinación de fuerza':ThisRecord.MiembrosSuperioresFuerza,
+                                            HALLAZGOS18:ThisRecord.HallazgosMiembrosSuperioresFuerza,
+                            
+                                            'La tarea involucra movimientos rápidos, fuertes o repentinos de los miembros superiores en posiciones forzadas, especialmente a nivel de las manos':ThisRecord.TareaMovimientosRapidos,
+                                            HALLAZGOS19:ThisRecord.HallazgosTareaMovimientosRapidos,
+                            
+                                            'El trabajo exige simultaneamente varia tareas':ThisRecord.TrabajoVariasTareas,
+                                            HALLAZGOS20:ThisRecord.HallazgosTrabajoVariasTareas,
+                            
+                                            'La tarea tiene un grado alto de coplejidad':ThisRecord.TareaComplejidad,
+                                            HALLAZGOS21:ThisRecord.HallazgosTareaComplejidad,
+                            
+                                            'Se requiere velocidad en el proceso para la realización de la tarea':ThisRecord.VelocidadProceso,
+                                            HALLAZGOS22:ThisRecord.HallazgosVelocidadProceso,
+                            
+                                            'La tarea requiere de una elevada concentración ':ThisRecord.TareaConcentracion,
+                                            HALLAZGOS23:ThisRecord.HallazgosConcentracion,
+                            
+                                            'Se requiere atención sostenida y continua':ThisRecord.AtencionSostenida,
+                                            HALLAZGOS24:ThisRecord.HallazgosAtencionSostenida,
+                            
+                                            'La jornada laboral excede 8 horas diarias':ThisRecord.JornadaLaboral,
+                                            HALLAZGOS25:ThisRecord.HallazgosJornadaLaboral,
+                            
+                                            'Se realizan horas extras luego de la jornada de trabajo':ThisRecord.HorasExtras,
+                                            HALLAZGOS26:ThisRecord.HallazgosHorasExtras,
+                            
+                                            'El uso del computador es de 4 horas seguidas o más':ThisRecord.UsoComputador,
+                                            HALLAZGOS27:ThisRecord.HallazgosUsoComputador,
+                            
+                                            'Se prohibe mas de un descanso o pausa durante la jornada de trabajo':ThisRecord.DescansoJornadaLaboral,
+                                            HALLAZGOS28:ThisRecord.HallazgosDescansoJornadaLaboral,
+                            
+                                            'Se impone un ritmo de trabajo dificil de alcanzar para el trabajador':ThisRecord.RitmoTrabajo,
+                                            HALLAZGOS29:ThisRecord.HallazgosRitmoTrabajo,
+                            
+                                            'La dimensión del plano de trabajo impide la ubicación flexible de la pantalla, el teclado, los documentos y demás accesorios de la oficina':ThisRecord.DimensionPlanoTrabajo,
+                                            HALLAZGOS30:ThisRecord.HallazgosDimensionPlanoTrabajo,
+                                            EVIDENCIAS15:ThisRecord.EvidenciasDimensionPlanoTrabajo,
+                            
+                                            'La superficie de trabajo es inestable':ThisRecord.SuperficieInestable,
+                                            HALLAZGOS31:ThisRecord.HallazgosSuperficieInestable,
+                                            EVIDENCIAS16:ThisRecord.EvidenciasSuperficieInestable,
+                            
+                                            'El espacio debajo de la mesa obstaculiza el movimiento de las piernas':ThisRecord.EspacioMesa,
+                                            HALLAZGOS32:ThisRecord.HallazgosEspacioMesa,
+                                            EVIDENCIAS17:ThisRecord.EvidenciasEspacioMesa
+                            
                                         }
                                     )
                                 )
