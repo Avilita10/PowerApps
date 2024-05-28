@@ -247,6 +247,9 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosApoyarPies:DataCardValue262_1.Text,
                         EvidenciasApoyarPies:Image43_1.Image,
                         
+                        
+                        
+                        
                         MovimientosIdenticos:Text(DataCardValue264_1.Selected.Value),
                         HallazgosMovimientosIdenticos:DataCardValue265_1.Text,
                         
@@ -286,6 +289,10 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         RitmoTrabajo:Text(DataCardValue289_1.Selected.Value),
                         HallazgosRitmoTrabajo:DataCardValue291_1.Text,
                         
+                        
+                        
+                        
+                        
                         DimensionPlanoTrabajo:Text(DataCardValue293_1.Selected.Value),
                         HallazgosDimensionPlanoTrabajo:DataCardValue294_1.Text,
                         EvidenciasDimensionPlanoTrabajo:Image44_1.Image,
@@ -298,25 +305,25 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosEspacioMesa:DataCardValue298_1.Text,
                         EvidenciasEspacioMesa:Image46_1.Image,
                         
-                        TrabajoLimitaMovimiento:DataCardValue299_1.SelectedText,
+                        TrabajoLimitaMovimiento:Text(DataCardValue299_1.Selected.Value),
                         HallazgosTrabajoLimitaMovimiento:DataCardValue300_1.Text,
-                        EvidenciasTrabajoLimitaMovimiento:AddPicture43_1.Media,
+                        EvidenciasTrabajoLimitaMovimiento:Image47_1.Image,
                         
-                        InclinacionDificilRegular:DataCardValue182_1.SelectedText,
+                        InclinacionDificilRegular:Text(DataCardValue182_1.Selected.Value),
                         HallazgosInclinacionDificilRegular:DataCardValue111_1.Text,
-                        EvidenciasInclinacionDificilRegular:AddPicture44_1.Media,
+                        EvidenciasInclinacionDificilRegular:Image48_1.Image,
                         
-                        PantallaDistancia:DataCardValue301_1.SelectedText,
+                        PantallaDistancia:Text(DataCardValue301_1.Selected.Value),
                         HallazgosPantallaDistancia:DataCardValue302_1.Text,
-                        EvidenciasPantallaDistancia:AddPicture45_1.Media,
+                        EvidenciasPantallaDistancia:Image49_1.Image,
                         
-                        BordePantallaHorizontal:DataCardValue303_1.SelectedText,
+                        BordePantallaHorizontal:Text(DataCardValue303_1.Selected.Value),
                         HallazgosBordePantallaHorizontal:DataCardValue304_1.Text,
-                        EvidenciasBordePantallaHorizontal:AddPicture46_1.Media,
+                        EvidenciasBordePantallaHorizontal:Image50_1.Image,
                         
-                        TecladoMouseNivel:DataCardValue305_1.SelectedText,
+                        TecladoMouseNivel:Text(DataCardValue305_1.Selected.Value),
                         HallazgosTecladoMouseNivel:DataCardValue263_1.Text,
-                        EvidenciasTecladoMouseNivel:AddPicture47_1.Media,
+                        EvidenciasTecladoMouseNivel:Image51_1.Image,
                         
                         AlturaTeclado90:DataCardValue307_1.SelectedText,
                         HallazgosAlturaTeclado90:DataCardValue308_1.Text,
