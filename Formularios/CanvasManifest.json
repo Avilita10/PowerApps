@@ -99,7 +99,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 156,
+    "BindingErrorCount": 75,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -118,7 +118,7 @@
     "ManualOfflineProfileId": "",
     "Name": "APLICACION AUTO-REPORTE DE SINTOMATOLOGÍA",
     "OriginatingVersion": "1.337",
-    "ParserErrorCount": 1,
+    "ParserErrorCount": 2,
     "ShowStatusBar": false
   },
   "PublishInfo": {
@@ -138,7 +138,6 @@
     "FormularioSinotomatologia",
     "CarpetaSinConexionSintomatologia",
     "InicioFormularioIPTADMBOLIVAR",
-    "FormularioIPTADMBOLIVAR",
     "FormularioIPTADMBOLIVAR_1",
     "CarpetaSinConexionIPTADMBOLIVAR",
     "InicioFormularioIPTOPBOLIVAR",

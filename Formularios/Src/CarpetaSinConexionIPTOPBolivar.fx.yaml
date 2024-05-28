@@ -154,7 +154,6 @@ CarpetaSinConexionIPTOPBolivar As screen:
                     BorderColor: =RGBA(245, 245, 245, 1)
                     DelayItemLoading: =true
                     Fill: =RGBA(255, 255, 255, 1)
-                    Items: =coleccionOffline2
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
@@ -241,7 +240,7 @@ CarpetaSinConexionIPTOPBolivar As screen:
                             If(
                                 Connection.Connected,
                                 ForAll(
-                                    coleccionOffline2,
+                                    coleccionOffline,
                                     Patch(  
                                         'Inspección de puesto de trabajo (Operativo)_2', // Tu fuente de datos
                                         Defaults('Inspección de puesto de trabajo (Operativo)_2'), // Crear un nuevo registro

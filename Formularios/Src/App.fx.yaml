@@ -6,7 +6,9 @@ App As appinfo:
         );
         LoadData(
             coleccionOffline2,"Cache2",true
-        )
+        );
+        LoadData(
+            ColeccionOffline3,"Cache3",true
     StartScreen: =
     Theme: =PowerAppsTheme
 

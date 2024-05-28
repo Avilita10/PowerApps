@@ -138,7 +138,7 @@ FormularioIPTOPBOLIVAR As screen:
                     Icon: =Icon.GlobeChangesPending
                     OnSelect: |-
                         =Collect(
-                            ColeccionOffline2, 
+                            coleccionOffline2, 
                         {
                                 Ciudad:DataCardValue16.Text,
                                 Fecha:DataCardValue25.SelectedDate,
@@ -237,7 +237,7 @@ FormularioIPTOPBOLIVAR As screen:
                                 Hallazgo32: DataCardValue209.Text,
                                 Evidencia16: Image25.Image
                         );
-                        SaveData(ColeccionOffline2,"Cache2")
+                        SaveData(coleccionOffline2,"Cache2")
                         
                         //Base de datos Offline funcional
                     PaddingRight: =10
