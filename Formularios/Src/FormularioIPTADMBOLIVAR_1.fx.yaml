@@ -184,17 +184,17 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         NombreElaboraInspeccion:DataCardValue174_1.Text,
                         Correo:DataCardValue175_1.Text,
                         
-                        ExisteReflejosBrillos:DataCardValue177_1.SelectedText,
+                        ExisteReflejosBrillos:Text(DataCardValue177_1.Selected.Value),
                         HallazgosReflejosBrillos:DataCardValue326_1.Text,
-                        EvidenciasReflejosBrillos:AddPicture57_1.Media,
-                        
-                        LuminariasDifusores:DataCardValue179_1.SelectedText,
+                        EvidenciasReflejosBrillos:Image61_1.Image,
+                         
+                        LuminariasDifusores:Text(DataCardValue179_1.Selected.Value),
                         HallazgosLuminariasDifusores:DataCardValue327_1.Text,
-                        EvidenciasLuminariasDifusores:AddPicture58_1.Media,
-                        
-                        DeslumbramientosArea:DataCardValue181_1.SelectedText,
+                        EvidenciasLuminariasDifusores:Image62_1.Image,
+                         
+                        DeslumbramientosArea:Text(DataCardValue181_1.Selected.Value),
                         HallazgosDeslumbramientosArea:DataCardValue8_1.Text,
-                        EvidenciasDeslumbramientosArea:AddPicture18_1.Media,
+                        EvidenciasDeslumbramientosArea:Image22_1.Image,
                         
                         SombrasIluminacionArea:DataCardValue183_1.SelectedText,
                         HallazgosSombrasIluminacionArea:DataCardValue184_1.Text,
