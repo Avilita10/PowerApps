@@ -138,7 +138,7 @@ FormularioIPTOPBOLIVAR As screen:
                     Icon: =Icon.GlobeChangesPending
                     OnSelect: |-
                         =Collect(
-                            coleccionOffline2, 
+                            ColeccionOffline2, 
                         {
                                 Ciudad:DataCardValue16.Text,
                                 Fecha:DataCardValue25.SelectedDate,
@@ -185,7 +185,7 @@ FormularioIPTOPBOLIVAR As screen:
                                 ElTrabajadorMantienePosturaPronlongada: Text(DataCardValue128.Selected.Value),
                                 Hallazgo13: DataCardValue156.Text,
                                 Evidencia3: Image8.Image,
-                                ExistenRotacionesInclinaciones: Text(DataCardValue129.Selected.Value),
+                                ExistenRotacionesInclinacionesCuello: Text(DataCardValue129.Selected.Value),
                                 Hallazgo14: DataCardValue157.Text,
                                 Evidencia4: Image9.Image,
                                 HayFlexionesImportantesEspaldaTronco: Text(DataCardValue130.Selected.Value),
@@ -217,11 +217,27 @@ FormularioIPTOPBOLIVAR As screen:
                                 Evidencia13: Image18.Image,
                                 HayDesviacionesManosEjeNeutro: Text(DataCardValue139.Selected.Value),
                                 Hallazgo24: DataCardValue167.Text,
-                                Evidencia14: Image19.Image
-                        
-                            } 
+                                Evidencia14: Image19.Image,
+                                HayRepetitividadMovimientosSimilaresMiembrosSuperiores: Text(DataCardValue141.Selected.Value),
+                                Hallazgo25: DataCardValue168.Text,
+                                HayMovimientosTroncoCombinacionFuerza: Text(DataCardValue189.Selected.Value),
+                                Hallazgos26:DataCardValue190.Text,
+                                HayMovimientosMiembrosSuperioresCombinacionFuerza: Text(DataCardValue191.Selected.Value),
+                                Hallazgo27: DataCardValue192.Text,
+                                LaTareaMovimientosFuertesPosicionesForzadasMiembrosSuperirores: Text(DataCardValue193.Selected.Value),
+                                Hallazgo28: DataCardValue194.Text,
+                                LaTareaMovimientosFuertesPosicionesForzadasEspalda:Text(DataCardValue195.Selected.Value),
+                                Hallazgo29:DataCardValue196.Text,
+                                ElTrabajoRequiereLevantaPesoEnvion: Text(DataCardValue197.Selected.Value),
+                                Hallazgo30: DataCardValue198.Text,
+                                Evidencia15: Image24.Image,
+                                MaseDe10VecesAlDia:Text(DataCardValue206.Selected.Value),
+                                Hallazgo31: DataCardValue207.Text,
+                                ElTrabajadorLevantaPesoDebajoRodillas: Text(DataCardValue208.Selected.Value),
+                                Hallazgo32: DataCardValue209.Text,
+                                Evidencia16: Image25.Image
                         );
-                        SaveData(coleccionOffline2,"Cache2")
+                        SaveData(ColeccionOffline2,"Cache2")
                         
                         //Base de datos Offline funcional
                     PaddingRight: =10
