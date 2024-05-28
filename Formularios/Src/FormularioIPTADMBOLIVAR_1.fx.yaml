@@ -325,25 +325,25 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosTecladoMouseNivel:DataCardValue263_1.Text,
                         EvidenciasTecladoMouseNivel:Image51_1.Image,
                         
-                        AlturaTeclado90:DataCardValue307_1.SelectedText,
+                        AlturaTeclado90:Text(DataCardValue307_1.Selected.Value),
                         HallazgosAlturaTeclado90:DataCardValue308_1.Text,
-                        EvidenciasAlturaTeclado90:AddPicture48_1.Media,
+                        EvidenciasAlturaTeclado90:Image52_1.Image,
                         
-                        DigitarMouseAntebrazo:DataCardValue309_1.SelectedText,
+                        DigitarMouseAntebrazo:Text(DataCardValue309_1.Selected.Value),
                         HallazgosDigitarMouseAntebrazo:DataCardValue310_1.Text,
-                        EvidenciasDigitarMouseAntebrazo:AddPicture49.Media,
+                        EvidenciasDigitarMouseAntebrazo:Image53.Image,
                         
-                        UbicacionManipulacionMouse:DataCardValue311_1.SelectedText,
+                        UbicacionManipulacionMouse:Text(DataCardValue311_1.Selected.Value),
                         HallazgosUbicacionManipulacionMouse:DataCardValue312_1.Text,
-                        EvidenciasUbicacionManipulacionMouse:AddPicture66.Media,
+                        EvidenciasUbicacionManipulacionMouse:Image70.Image,
                         
-                        SillaEstatica:DataCardValue313_1.SelectedText,
+                        SillaEstatica:Text(DataCardValue313_1.Selected.Value),
                         HallazgosSillaEstatica:DataCardValue314_1.Text,
-                        EvidenciasSillaEstatica:AddPicture67.Media,
+                        EvidenciasSillaEstatica:Image71.Image,
                         
-                        SistemaRegulacionSilla:DataCardValue315_1.SelectedText,
+                        SistemaRegulacionSilla:Text(DataCardValue315_1.Selected.Value),
                         HallazgosSistemaRegulacionSilla:DataCardValue316_1.Text,
-                        EvidenciasSistemaRegulacionSilla:AddPicture68.Media,
+                        EvidenciasSistemaRegulacionSilla:Image72.Image,
                         
                         SistemaRegulacionEspaldar:DataCardValue317_1.SelectedText,
                         HallazgosSistemaRegulacionEspaldar:DataCardValue318_1.Text,

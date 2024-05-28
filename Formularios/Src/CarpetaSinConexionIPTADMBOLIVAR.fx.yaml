@@ -396,7 +396,27 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                             
                                             'El teclado y el mouse se encuentran a diferente nivel':ThisRecord.TecladoMouseNivel,
                                             HALLAZGOS37:ThisRecord.HallazgosTecladoMouseNivel,
-                                            EVIDENCIAS22:ThisRecord.EvidenciasTecladoMouseNivel
+                                            EVIDENCIAS22:ThisRecord.EvidenciasTecladoMouseNivel,
+                            
+                                            'La altura del teclado esta por encima o por debajo de los codos en 90º':ThisRecord.AlturaTeclado90,
+                                            HALLAZGOS38:ThisRecord.HallazgosAlturaTeclado90,
+                                            EVIDENCIAS23:ThisRecord.EvidenciasAlturaTeclado90,
+                            
+                                            'Al digitar y utilizar el mouse, los antebrazos quedan en el aire sin ningun soporte en la superficie de trabajo':ThisRecord.DigitarMouseAntebrazo,
+                                            HALLAZGOS39:ThisRecord.HallazgosDigitarMouseAntebrazo,
+                                            EVIDENCIAS24:ThisRecord.EvidenciasDigitarMouseAntebrazo,
+                            
+                                            'La ubicación y manipulación del mouse requiere de movimientos forzados para la muñeca':ThisRecord.UbicacionManipulacionMouse,
+                                            HALLAZGOS40:ThisRecord.HallazgosUbicacionManipulacionMouse,
+                                            EVIDENCIAS25:ThisRecord.EvidenciasUbicacionManipulacionMouse,
+                            
+                                            'La silla utilizada es estática':ThisRecord.SillaEstatica,
+                                            HALLAZGOS41:ThisRecord.HallazgosSillaEstatica,
+                                            EVIDENCIAS26:ThisRecord.EvidenciasSillaEstatica,
+                            
+                                            'El sistema de regulación de la altura de la silla, con respecto a las dimensiones del usuario es deficiente':ThisRecord.SistemaRegulacionSilla,
+                                            HALLAZGOS42:ThisRecord.HallazgosSistemaRegulacionSilla,
+                                            EVIDENCIAS27:ThisRecord.EvidenciasSistemaRegulacionSilla
                                         }
                                     )
                                 )
