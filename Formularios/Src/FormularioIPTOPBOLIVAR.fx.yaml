@@ -137,10 +137,9 @@ FormularioIPTOPBOLIVAR As screen:
                     HoverFill: =RGBA(0, 0, 0, 0)
                     Icon: =Icon.GlobeChangesPending
                     OnSelect: |-
-                        =Collect(
-                            ColeccionOffline2, 
-                        {
-                                Ciudad:DataCardValue16.Text,
+                        =Collect(ColecccionOffline2,
+                        
+                        {Ciudad:DataCardValue16.Text,
                                 Fecha:DataCardValue25.SelectedDate,
                                 NombreEmpresa:DataCardValue31.Text,
                                 NIT:Value(DataCardValue32.Text),
@@ -235,9 +234,31 @@ FormularioIPTOPBOLIVAR As screen:
                                 Hallazgo31: DataCardValue207.Text,
                                 ElTrabajadorLevantaPesoDebajoRodillas: Text(DataCardValue208.Selected.Value),
                                 Hallazgo32: DataCardValue209.Text,
-                                Evidencia16: Image25.Image
-                        );
-                        SaveData(ColeccionOffline2,"Cache2")
+                                Evidencia16: Image25.Image,
+                                MasDe25VecesDia: Text(DataCardValue210.Selected.Value),
+                                Hallazgo33: DataCardValue211.Text,
+                                ElTrabajadorEmpuja1KiloMas: Text(DataCardValue212.Selected.Value),
+                                Hallazgo34: DataCardValue213.Text,
+                                Evidencia17: Image26.Image,
+                                MasDeDosHorasDia: Text(DataCardValue214.Selected.Value),
+                                Hallazgo35: DataCardValue215.Text,
+                                ElTrabajadorManipulaHerramientasMayor2Kilos: Text(DataCardValue216.Selected.Value),
+                                Hallazgo36: DataCardValue217.Text,
+                                Evidencia18: Image27.Image,
+                                HayManipulacionHerramientasEncimaHombros: Text(DataCardValue218.Selected.Value),
+                                Hallazgo37: DataCardValue219.Text,
+                                Evidencia19: Image28.Image,
+                                HayManipulacionHerramientasDebajoCintura: Text(DataCardValue220.Selected.Value),
+                                Hallazgo38: DataCardValue221.Text,
+                                Evidencia20: Image31.Image,
+                                HayInclinacionTroncoManipularCargas: Text(DataCardValue222.Selected.Value),
+                                Hallazgo39: DataCardValue223.Text,
+                                
+                        
+                        
+                                });
+                                SaveData(ColecccionOffline2,"Cache2")
+                            
                         
                         //Base de datos Offline funcional
                     PaddingRight: =10
