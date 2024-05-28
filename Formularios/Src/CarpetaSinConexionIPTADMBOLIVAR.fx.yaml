@@ -289,7 +289,39 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                             
                                             'Hay rotaciones de la espada o tronco, por la ubicación de elementos de trabajo o del puesto de trabajo':ThisRecord.RotacionEspaldaTronco,
                                             '  HALLAZGOS8':ThisRecord.HallazgosEspaldaTronco,
-                                            EVIDENCIAS6:ThisRecord.EvidenciasEspaldaTronco
+                                            EVIDENCIAS6:ThisRecord.EvidenciasEspaldaTronco,
+                            
+                                            'Existen posturas donde los codos se encuentran en flexión mayor de 90°':ThisRecord.PosturasCodos90,
+                                            HALLAZGOS9:ThisRecord.HallazgosPosturasCodos90,
+                                            EVIDENCIAS7:ThisRecord.EvidenciasPosturasCodos90,
+                            
+                                            'Existen posturas de los miembros superiores en contra de la gravedad':ThisRecord.PosturasMiembrosSuperiores,
+                                            HALLAZGOS10:ThisRecord.HallazgosPosturasMiembrosSuperiores,
+                                            EVIDENCIAS8:ThisRecord.EvidenciasPosturasMiembrosSuperiores,
+                            
+                                            'Se observa posición del codo en pronación o supinación extrema durante periodos prolongados(mayor al 75% de la jornanda)':ThisRecord.PosicionCodo,
+                                            HALLAZGOS11:ThisRecord.HallazgosPosicionCodo,
+                                            EVIDENCIAS9:ThisRecord.EvidenciasPosicionCodo,
+                            
+                                            'Hay desviaciones en la muñeca con relación al eje neutro de la mano en procesos de utlización del mouse y digitación':ThisRecord.DesviacionesMuñeca,
+                                            HALLAZGOS12:ThisRecord.HallazgosDesviacionesMuñeca,
+                                            EVIDENCIAS10:ThisRecord.EvidenciasDesviacionMuñeca,
+                            
+                                            'La mano recibe presión en la base de la muñeca por contacto con la superficie de trabajo':ThisRecord.ManoMuñeca,
+                                            HALLAZGOS13:ThisRecord.HallazgosMañoMuñeca,
+                                            EVIDENCIAS11:ThisRecord.EvidenciasManoMuñeca,
+                            
+                                            'Existen movimientos forzados de espalda y miembros superiores por la ubicación de los elementos de trabajo':ThisRecord.MovimientosForzados,
+                                            HALLAZGOS14:ThisRecord.HallazgosMovimientosForzados,
+                                            EVIDENCIAS12:ThisRecord.EvidenciasMovimientosForzados,
+                            
+                                            'Las rodillas se encuentran encima o debajo del nivel de la cadera':ThisRecord.RodillasNivelCadera,
+                                            HALLAZGOS15:ThisRecord.HallazgosRodillasNivelCadera,
+                                            EVIDENCIAS13:ThisRecord.EvidenciasRodillasNivelCadera,
+                            
+                                            'Es dificil apoyar completamente los pies en la superficie':ThisRecord.ApoyarPies,
+                                            HALLAZGOS16:ThisRecord.HallazgosApoyarPies,
+                                            EVIDENCIAS14:ThisRecord.EvidenciasApoyarPies
                                         }
                                     )
                                 )

@@ -154,7 +154,6 @@ CarpetaSinConexionIPTOPBolivar As screen:
                     BorderColor: =RGBA(245, 245, 245, 1)
                     DelayItemLoading: =true
                     Fill: =RGBA(255, 255, 255, 1)
-                    Items: =coleccionOffline2
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
