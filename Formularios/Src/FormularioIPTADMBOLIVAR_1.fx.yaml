@@ -247,43 +247,43 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosApoyarPies:DataCardValue262_1.Text,
                         EvidenciasApoyarPies:Image43_1.Image,
                         
-                        MovimientosIdenticos:DataCardValue264_1.SelectedText,
+                        MovimientosIdenticos:Text(DataCardValue264_1.Selected.Value),
                         HallazgosMovimientosIdenticos:DataCardValue265_1.Text,
                         
-                        MiembrosSuperioresFuerza:DataCardValue266_1.SelectedText,
+                        MiembrosSuperioresFuerza:Text(DataCardValue266_1.Selected.Value),
                         HallazgosMiembrosSuperioresFuerza:DataCardValue267_1.Text,
                         
-                        TareaMovimientosRapidos:DataCardValue268_1.SelectedText,
+                        TareaMovimientosRapidos:Text(DataCardValue268_1.Selected.Value),
                         HallazgosTareaMovimientosRapidos:DataCardValue269_1.Text,
                         
-                        TrabajoVariasTareas:DataCardValue271_1.SelectedText,
+                        TrabajoVariasTareas:Text(DataCardValue271_1.Selected.Value),
                         HallazgosTrabajoVariasTareas:DataCardValue272_1.Text,
                         
-                        TareaComplejidad:DataCardValue273.SelectedText,
+                        TareaComplejidad:Text(DataCardValue273.Selected.Value),
                         HallazgosTareaComplejidad:DataCardValue274_1.Text,
                         
-                        VelocidadProceso:DataCardValue275_1.SelectedText,
+                        VelocidadProceso:Text(DataCardValue275_1.Selected.Value),
                         HallazgosVelocidadProceso:DataCardValue276_1.Text,
                         
-                        TareaConcentracion:DataCardValue277_1.SelectedText,
+                        TareaConcentracion:Text(DataCardValue277_1.Selected.Value),
                         HallazgosConcentracion:DataCardValue278_1.Text,
                         
-                        AtencionSostenida:DataCardValue279_1.SelectedText,
+                        AtencionSostenida:Text(DataCardValue279_1.Selected.Value),
                         HallazgosAtencionSostenida:DataCardValue280_1.Text,
                         
-                        JornadaLaboral:DataCardValue282_1.SelectedText,
+                        JornadaLaboral:Text(DataCardValue282_1.Selected.Value),
                         HallazgosJornadaLaboral:DataCardValue283_1.Text,
                         
-                        HorasExtras:DataCardValue284_1.SelectedText,
+                        HorasExtras:Text(DataCardValue284_1.Selected.Value),
                         HallazgosHorasExtras:DataCardValue285_1.Text,
                         
-                        UsoComputador:DataCardValue286_1.SelectedText,
+                        UsoComputador:Text(DataCardValue286_1.Selected.Value),
                         HallazgosUsoComputador:DataCardValue287_1.Text,
                         
-                        DescansoJornadaLaboral:DataCardValue288_1.SelectedText,
+                        DescansoJornadaLaboral:Text(DataCardValue288_1.Selected.Value),
                         HallazgosDescansoJornadaLaboral:DataCardValue290_1.Text,
                         
-                        RitmoTrabajo:DataCardValue289_1.SelectedText,
+                        RitmoTrabajo:Text(DataCardValue289_1.Selected.Value),
                         HallazgosRitmoTrabajo:DataCardValue291_1.Text,
                         
                         DimensionPlanoTrabajo:DataCardValue293_1.SelectedText,

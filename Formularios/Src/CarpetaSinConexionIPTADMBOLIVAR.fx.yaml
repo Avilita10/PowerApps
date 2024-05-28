@@ -321,7 +321,33 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                             
                                             'Es dificil apoyar completamente los pies en la superficie':ThisRecord.ApoyarPies,
                                             HALLAZGOS16:ThisRecord.HallazgosApoyarPies,
-                                            EVIDENCIAS14:ThisRecord.EvidenciasApoyarPies
+                                            EVIDENCIAS14:ThisRecord.EvidenciasApoyarPies,
+                            
+                                            'Hay repetitividad de movimientos idénticos o similares efectuados cada pocos segundos en los miembros superiores':ThisRecord.MovimientosIdenticos,
+                                            HALLAZGOS17:ThisRecord.HallazgosMovimientosIdenticos,
+                            
+                                            'Hay moviminetos de los miembros superiores con combinación de fuerza':ThisRecord.MiembrosSuperioresFuerza,
+                                            HALLAZGOS18:ThisRecord.HallazgosMiembrosSuperioresFuerza,
+                            
+                                            'La tarea involucra movimientos rápidos, fuertes o repentinos de los miembros superiores en posiciones forzadas, especialmente a nivel de las manos':ThisRecord.TareaMovimientosRapidos,
+                                            HALLAZGOS19:ThisRecord.HallazgosTareaMovimientosRapidos,
+                            
+                                            'El trabajo exige simultaneamente varia tareas':ThisRecord.TrabajoVariasTareas,
+                                            HALLAZGOS20:ThisRecord.HallazgosTrabajoVariasTareas,
+                            
+                                            'La tarea tiene un grado alto de coplejidad':ThisRecord.TareaComplejidad,
+                                            HALLAZGOS21:ThisRecord.HallazgosTareaComplejidad,
+                            
+                                            'Se requiere velocidad en el proceso para la realización de la tarea':ThisRecord.VelocidadProceso,
+                                            HALLAZGOS22:ThisRecord.HallazgosVelocidadProceso,
+                            
+                                            'La tarea requiere de una elevada concentración ':ThisRecord.TareaConcentracion,
+                                            HALLAZGOS23:ThisRecord.HallazgosConcentracion,
+                            
+                                            'Se requiere atención sostenida y continua':ThisRecord.AtencionSostenida,
+                                            HALLAZGOS24:ThisRecord.HallazgosAtencionSostenida
+                            
+                                        
                                         }
                                     )
                                 )
