@@ -1,14 +1,12 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
+    OnStart: |
         =LoadData(
             coleccionOffline,"Cache",true
         );
         LoadData(
             coleccionOffline2,"Cache2",true
         );
-        LoadData(
-            ColeccionOffline3,"Cache3",true
     StartScreen: =
     Theme: =PowerAppsTheme
 
