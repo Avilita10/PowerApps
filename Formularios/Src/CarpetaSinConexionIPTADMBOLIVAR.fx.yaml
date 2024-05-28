@@ -267,7 +267,17 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                              
                                             'Existen deslumbramientos en el área pouzr exceso de l':ThisRecord.DeslumbramientosArea,
                                             HALLAZGOS2:ThisRecord.HallazgosDeslumbramientosArea,
-                                            EVIDENCIAS2:ThisRecord.EvidenciasDeslumbramientosArea
+                                            EVIDENCIAS2:ThisRecord.EvidenciasDeslumbramientosArea,
+                            
+                                            'Existen sombras por falta de iluminación en el área de trabajo':ThisRecord.SombrasIluminacionArea,
+                                            HALLAZGOS3:ThisRecord.HallazgosSombrasIluminacionArea,
+                                            EVIDENCIAS3:ThisRecord.EvidenciasSombrasIluminacionArea,
+                            
+                                            'Hay ruido excesivo que es molesto o aturdidor':ThisRecord.RuidoExcesivo,
+                                            HALLAZGOS4:ThisRecord.HallazgosRuidoExcesivo,
+                            
+                                            'La circulación de aire en el área de trabajo es insuficiente':ThisRecord.CirculacionAire,
+                                            HALLAZGOS5:ThisRecord.HallazgosCirculacionAire
                                         }
                                     )
                                 )
