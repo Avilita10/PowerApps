@@ -277,7 +277,19 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                                             HALLAZGOS4:ThisRecord.HallazgosRuidoExcesivo,
                             
                                             'La circulación de aire en el área de trabajo es insuficiente':ThisRecord.CirculacionAire,
-                                            HALLAZGOS5:ThisRecord.HallazgosCirculacionAire
+                                            HALLAZGOS5:ThisRecord.HallazgosCirculacionAire,
+                            
+                                            'El trabajador mantiene una postura prolongada durante 75% o más de la jornada laboral sin alternarla(de pie o sentado)':ThisRecord.TrabajadorPostura75,
+                                            HALLAZGOS6:ThisRecord.HallazgosTrabajadorPostura75,
+                                            EVIDENCIAS4:ThisRecord.EvidenciasTrabajadorPostura75,
+                            
+                                            'Existen rotaciones e inclinaciones importantes en el cuello, por la ubicación de la pantalla':ThisRecord.RotacionesInclinacionCuello,
+                                            HALLAZGOS7:ThisRecord.HallazgosRotacionesInclinacionCuello,
+                                            EVIDENCIAS5:ThisRecord.EvidenciasRotacionesInclinacionCuello,
+                            
+                                            'Hay rotaciones de la espada o tronco, por la ubicación de elementos de trabajo o del puesto de trabajo':ThisRecord.RotacionEspaldaTronco,
+                                            '  HALLAZGOS8':ThisRecord.HallazgosEspaldaTronco,
+                                            EVIDENCIAS6:ThisRecord.EvidenciasEspaldaTronco
                                         }
                                     )
                                 )
