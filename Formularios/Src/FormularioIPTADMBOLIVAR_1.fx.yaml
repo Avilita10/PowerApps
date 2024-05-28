@@ -288,15 +288,15 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         
                         DimensionPlanoTrabajo:Text(DataCardValue293_1.Selected.Value),
                         HallazgosDimensionPlanoTrabajo:DataCardValue294_1.Text,
-                        EvidenciasDimensionPlanoTrabajo:AddPicture40_1.Media,
+                        EvidenciasDimensionPlanoTrabajo:Image44_1.Image,
                         
-                        SuperficieInestable:DataCardValue295_1.SelectedText,
+                        SuperficieInestable:Text(DataCardValue295_1.Selected.Value),
                         HallazgosSuperficieInestable:DataCardValue296_1.Text,
-                        EvidenciasSuperficieInestable:AddPicture41_1.Media,
+                        EvidenciasSuperficieInestable:Image45_1.Image,
                         
-                        EspacioMesa:DataCardValue297_1.SelectedText,
+                        EspacioMesa:Text(DataCardValue297_1.Selected.Value),
                         HallazgosEspacioMesa:DataCardValue298_1.Text,
-                        EvidenciasEspacioMesa:AddPicture42_1.Media,
+                        EvidenciasEspacioMesa:Image46_1.Image,
                         
                         TrabajoLimitaMovimiento:DataCardValue299_1.SelectedText,
                         HallazgosTrabajoLimitaMovimiento:DataCardValue300_1.Text,

@@ -360,9 +360,20 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                                             HALLAZGOS28:ThisRecord.HallazgosDescansoJornadaLaboral,
                             
                                             'Se impone un ritmo de trabajo dificil de alcanzar para el trabajador':ThisRecord.RitmoTrabajo,
-                                            HALLAZGOS29:ThisRecord.HallazgosRitmoTrabajo
+                                            HALLAZGOS29:ThisRecord.HallazgosRitmoTrabajo,
                             
-                                        
+                                            'La dimensión del plano de trabajo impide la ubicación flexible de la pantalla, el teclado, los documentos y demás accesorios de la oficina':ThisRecord.DimensionPlanoTrabajo,
+                                            HALLAZGOS30:ThisRecord.HallazgosDimensionPlanoTrabajo,
+                                            EVIDENCIAS15:ThisRecord.EvidenciasDimensionPlanoTrabajo,
+                            
+                                            'La superficie de trabajo es inestable':ThisRecord.SuperficieInestable,
+                                            HALLAZGOS31:ThisRecord.HallazgosSuperficieInestable,
+                                            EVIDENCIAS16:ThisRecord.EvidenciasSuperficieInestable,
+                            
+                                            'El espacio debajo de la mesa obstaculiza el movimiento de las piernas':ThisRecord.EspacioMesa,
+                                            HALLAZGOS32:ThisRecord.HallazgosEspacioMesa,
+                                            EVIDENCIAS17:ThisRecord.EvidenciasEspacioMesa
+                            
                                         }
                                     )
                                 )
