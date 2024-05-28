@@ -255,7 +255,19 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                                             'SECCIÓN/AREA':ThisRecord.SeccionArea,
                                             CARGO:ThisRecord.Cargo,
                                             'NOMBRE QUIEN ELABORA LA INSPECCIÓN':ThisRecord.NombreElaboraInspeccion,
-                                            'CORREO ELECTRONICO DEL TRABAJADOR':ThisRecord.Correo
+                                            'CORREO ELECTRONICO DEL TRABAJADOR':ThisRecord.Correo,
+                            
+                                              'Existen reflejos o brillos sobre la pantalla del computador':ThisRecord.ExisteReflejosBrillos,
+                                            HALLAZGOS:ThisRecord.HallazgosReflejosBrillos,
+                                            EVIDENCIAS:ThisRecord.EvidenciasReflejosBrillos,
+                             
+                                            'Las luminarias carecen de difusores ó se encuentran en mal estado':ThisRecord.LuminariasDifusores,
+                                            HALLAZGOS1:ThisRecord.HallazgosLuminariasDifusores,
+                                            EVIDENCIAS1:ThisRecord.EvidenciasLuminariasDifusores,
+                             
+                                            'Existen deslumbramientos en el área pouzr exceso de l':ThisRecord.DeslumbramientosArea,
+                                            HALLAZGOS2:ThisRecord.HallazgosDeslumbramientosArea,
+                                            EVIDENCIAS2:ThisRecord.EvidenciasDeslumbramientosArea
                                         }
                                     )
                                 )
