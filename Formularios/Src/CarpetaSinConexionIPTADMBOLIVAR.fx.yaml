@@ -332,6 +332,8 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                                             'La tarea involucra movimientos rápidos, fuertes o repentinos de los miembros superiores en posiciones forzadas, especialmente a nivel de las manos':ThisRecord.TareaMovimientosRapidos,
                                             HALLAZGOS19:ThisRecord.HallazgosTareaMovimientosRapidos,
                             
+                            
+                            
                                             'El trabajo exige simultaneamente varia tareas':ThisRecord.TrabajoVariasTareas,
                                             HALLAZGOS20:ThisRecord.HallazgosTrabajoVariasTareas,
                             
@@ -362,6 +364,8 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                                             'Se impone un ritmo de trabajo dificil de alcanzar para el trabajador':ThisRecord.RitmoTrabajo,
                                             HALLAZGOS29:ThisRecord.HallazgosRitmoTrabajo,
                             
+                                            
+                            
                                             'La dimensión del plano de trabajo impide la ubicación flexible de la pantalla, el teclado, los documentos y demás accesorios de la oficina':ThisRecord.DimensionPlanoTrabajo,
                                             HALLAZGOS30:ThisRecord.HallazgosDimensionPlanoTrabajo,
                                             EVIDENCIAS15:ThisRecord.EvidenciasDimensionPlanoTrabajo,
@@ -372,8 +376,27 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                             
                                             'El espacio debajo de la mesa obstaculiza el movimiento de las piernas':ThisRecord.EspacioMesa,
                                             HALLAZGOS32:ThisRecord.HallazgosEspacioMesa,
-                                            EVIDENCIAS17:ThisRecord.EvidenciasEspacioMesa
+                                            EVIDENCIAS17:ThisRecord.EvidenciasEspacioMesa,
                             
+                                            'El área de trabajo limita el libre movimiento':ThisRecord.TrabajoLimitaMovimiento,
+                                            HALLAZGOS33:ThisRecord.HallazgosTrabajoLimitaMovimiento,
+                                            EVIDENCIAS18:ThisRecord.EvidenciasTrabajoLimitaMovimiento,
+                            
+                                            'La inclinación y la altura de la pantalla son dificiles de regular':ThisRecord.InclinacionDificilRegular,
+                                            HALLAZGOS34:ThisRecord.HallazgosInclinacionDificilRegular,
+                                            EVIDENCIAS19:ThisRecord.EvidenciasInclinacionDificilRegular,
+                            
+                                            'La pantalla se encuentra a una distancia inferior a los 50 centimetros o superior a los 80 centimetros':ThisRecord.PantallaDistancia,
+                                            HALLAZGOS35:ThisRecord.HallazgosPantallaDistancia,
+                                            EVIDENCIAS20:ThisRecord.EvidenciasPantallaDistancia,
+                            
+                                            'El borde superior de la pantalla se encuentra por encima o debajo de la horizontal visual':ThisRecord.BordePantallaHorizontal,
+                                            HALLAZGOS36:ThisRecord.HallazgosBordePantallaHorizontal,
+                                            EVIDENCIAS21:ThisRecord.EvidenciasBordePantallaHorizontal,
+                            
+                                            'El teclado y el mouse se encuentran a diferente nivel':ThisRecord.TecladoMouseNivel,
+                                            HALLAZGOS37:ThisRecord.HallazgosTecladoMouseNivel,
+                                            EVIDENCIAS22:ThisRecord.EvidenciasTecladoMouseNivel
                                         }
                                     )
                                 )
