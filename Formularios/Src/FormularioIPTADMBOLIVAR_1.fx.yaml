@@ -215,37 +215,37 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosEspaldaTronco:DataCardValue246_1.Text,
                         EvidenciasEspaldaTronco:Image35_1.Image,
                         
-                        PosturasCodos90:DataCardValue247_1.SelectedText,
+                        PosturasCodos90:Text(DataCardValue247_1.Selected.Value),
                         HallazgosPosturasCodos90:DataCardValue248_1.Text,
-                        EvidenciasPosturasCodos90:AddPicture32_1.Media,
+                        EvidenciasPosturasCodos90:Image36_1.Image,
                         
-                        PosturasMiembrosSuperiores:DataCardValue249_1.SelectedText,
+                        PosturasMiembrosSuperiores:Text(DataCardValue249_1.Selected.Value),
                         HallazgosPosturasMiembrosSuperiores:DataCardValue250_1.Text,
-                        EvidenciasPosturasMiembrosSuperiores:AddPicture33_1.Media,
+                        EvidenciasPosturasMiembrosSuperiores:Image37_1.Image,
                         
                         PosicionCodo:Text(DataCardValue251_1.Selected.Value),
                         HallazgosPosicionCodo:DataCardValue252_1.Text,
-                        EvidenciasPosicionCodo:AddPicture34_1.Media,
+                        EvidenciasPosicionCodo:Image38_1.Image,
                         
-                        DesviacionesMuñeca:DataCardValue253_1.SelectedText,
+                        DesviacionesMuñeca:Text(DataCardValue253_1.Selected.Value),
                         HallazgosDesviacionesMuñeca:DataCardValue254_1.Text,
-                        EvidenciasDesviacionMuñeca:AddPicture35_1.Media,
+                        EvidenciasDesviacionMuñeca:Image39_1.Image,
                         
-                        ManoMuñeca:DataCardValue255_1.SelectedText,
+                        ManoMuñeca:Text(DataCardValue255_1.Selected.Value),
                         HallazgosMañoMuñeca:DataCardValue256_1.Text,
-                        EvidenciasManoMuñeca:AddPicture36_1.Media,
+                        EvidenciasManoMuñeca:Image40_1.Image,
                         
-                        MovimientosForzados:DataCardValue257_1.SelectedText,
+                        MovimientosForzados:Text(DataCardValue257_1.Selected.Value),
                         HallazgosMovimientosForzados:DataCardValue258_1.Text,
-                        EvidenciasMovimientosForzados:AddPicture37_1.Media,
+                        EvidenciasMovimientosForzados:Image41_1.Image,
                         
-                        RodillasNivelCadera:DataCardValue259_1.SelectedText,
+                        RodillasNivelCadera:Text(DataCardValue259_1.Selected.Value),
                         HallazgosRodillasNivelCadera:DataCardValue260_1.Text,
-                        EvidenciasRodillasNivelCadera:AddPicture38_1.Media,
+                        EvidenciasRodillasNivelCadera:Image42_1.Image,
                         
-                        ApoyarPies:DataCardValue261_1.SelectedText,
+                        ApoyarPies:Text(DataCardValue261_1.Selected.Value),
                         HallazgosApoyarPies:DataCardValue262_1.Text,
-                        EvidenciasApoyarPies:AddPicture39_1.Media,
+                        EvidenciasApoyarPies:Image43_1.Image,
                         
                         MovimientosIdenticos:DataCardValue264_1.SelectedText,
                         HallazgosMovimientosIdenticos:DataCardValue265_1.Text,
