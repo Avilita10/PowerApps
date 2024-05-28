@@ -235,7 +235,7 @@ CarpetaSinConexionIPTOPBolivar As screen:
                         HoverBorderColor: =RGBA(0, 0, 0, 0)
                         HoverColor: =RGBA(16, 110, 190, 1)
                         HoverFill: =RGBA(0, 0, 0, 0)
-                        Icon: =Icon.ChevronRight
+                        Icon: =Icon.Send
                         OnSelect: |+
                             =// En el botón de enviar
                             If(
@@ -287,7 +287,9 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                             'EVIDENCIAS3 (EVIDENCIAS30)': ThisRecord.Evidencia3,
                                             'Hay vibración de cuerpo completo o de las extremidades superiores (de cuerpo entero o mano brazo)':ThisRecord.HayVibracionCuerpoCompleto,
                                             HALLAZGOS11:ThisRecord.Hallazgo11,
-                                            EVIDENCIAS4: ThisRecord.Evidencia4
+                                            EVIDENCIAS4: ThisRecord.Evidencia4,
+                                            'La circulación de aire en el área de trabajo es insuficiente':ThisRecord.LaCirulacionAireInsuficiente,
+                                            'El trabajador mantiene un a postura prolongada durante 75% o mas de la jornada laboral sin alternarla (de pie o sentado) ':ThisRecord.ElTrabajadorMantienePosturaPronlongada
                             
                                         }
                                     )
