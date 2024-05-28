@@ -40,7 +40,6 @@ FormularioIPTADMBOLIVAR_1 As screen:
             ZIndex: =1
 
             Image2_8 As image:
-                AlignInContainer: =AlignInContainer.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -51,8 +50,6 @@ FormularioIPTADMBOLIVAR_1 As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverFill: =RGBA(0, 0, 0, 0)
                 Image: ='Logo_2 horizontal 2021'
-                LayoutMinHeight: =320
-                LayoutMinWidth: =320
                 PaddingLeft: =20
                 PaddingRight: =50
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
@@ -196,14 +193,14 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosDeslumbramientosArea:DataCardValue8_1.Text,
                         EvidenciasDeslumbramientosArea:Image22_1.Image,
                         
-                        SombrasIluminacionArea:DataCardValue183_1.SelectedText,
+                        SombrasIluminacionArea:Text(DataCardValue183_1.Selected.Value),
                         HallazgosSombrasIluminacionArea:DataCardValue184_1.Text,
-                        EvidenciasSombrasIluminacionArea:AddPicture19_1.Media,
+                        EvidenciasSombrasIluminacionArea:Image23_1.Image,
                         
-                        RuidoExcesivo:DataCardValue185_1.SelectedText,
+                        RuidoExcesivo:Text(DataCardValue185_1.Selected.Value),
                         HallazgosRuidoExcesivo:DataCardValue186_1.Text,
                         
-                        CirculacionAire:DataCardValue187_1.SelectedText,
+                        CirculacionAire:Text(DataCardValue187_1.Selected.Value),
                         HallazgosCirculacionAire:DataCardValue188_1.Text,
                         
                         TrabajadorPostura75:DataCardValue241_1.SelectedText,
