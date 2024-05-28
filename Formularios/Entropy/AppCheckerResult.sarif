@@ -23,46 +23,6 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 143,
-                  "snippet": {
-                    "text": ""
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnStart",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Eof",
-              "ParenClose"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.OnStart"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.OnStart",
-                  "relativeAddress": 0
-                },
-                "region": {
                   "charLength": 17,
                   "charOffset": 62,
                   "snippet": {
@@ -87,7 +47,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -127,1889 +87,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 545,
-                  "snippet": {
-                    "text": ".NombreEmpresa"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NombreEmpresa"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 591,
-                  "snippet": {
-                    "text": ".NIT"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NIT"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 706,
-                  "snippet": {
-                    "text": ".Cedula"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Cedula"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 758,
-                  "snippet": {
-                    "text": ".SeccionArea"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SeccionArea"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 804,
-                  "snippet": {
-                    "text": ".Cargo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Cargo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 21,
-                  "charOffset": 895,
-                  "snippet": {
-                    "text": ".NombreTecnicoPersona"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NombreTecnicoPersona"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 951,
-                  "snippet": {
-                    "text": ".Sector"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sector"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 20,
-                  "charOffset": 1013,
-                  "snippet": {
-                    "text": ".NombrePuestoTrabajo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NombrePuestoTrabajo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 28,
-                  "charOffset": 1111,
-                  "snippet": {
-                    "text": ".ListaHerramientasUtilizadas"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ListaHerramientasUtilizadas"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 25,
-                  "charOffset": 1212,
-                  "snippet": {
-                    "text": ".DescribirBrevementeTarea"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DescribirBrevementeTarea"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 31,
-                  "charOffset": 1319,
-                  "snippet": {
-                    "text": ".ExisteProgramaSaludOcupacional"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ExisteProgramaSaludOcupacional"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 1389,
-                  "snippet": {
-                    "text": ".Hallazgo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 31,
-                  "charOffset": 1481,
-                  "snippet": {
-                    "text": ".SeRealizaMantenimientoMaquinas"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SeRealizaMantenimientoMaquinas"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 1551,
-                  "snippet": {
-                    "text": ".Hallazgo1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 31,
-                  "charOffset": 1645,
-                  "snippet": {
-                    "text": ".ElPuestoTrabajoManualFunciones"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ElPuestoTrabajoManualFunciones"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 1715,
-                  "snippet": {
-                    "text": ".Hallazgo2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 32,
-                  "charOffset": 1800,
-                  "snippet": {
-                    "text": ".SeRealizaInduccionPuestoTrabajo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SeRealizaInduccionPuestoTrabajo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 1872,
-                  "snippet": {
-                    "text": ".Hallazgo3"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo3"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 1943,
-                  "snippet": {
-                    "text": ".SeRealizaPausasTrabajo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SeRealizaPausasTrabajo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 2005,
-                  "snippet": {
-                    "text": ".Hallazgo4"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo4"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 2065,
-                  "snippet": {
-                    "text": ".SeRealizaPausasTrabajo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SeRealizaPausasTrabajo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 2128,
-                  "snippet": {
-                    "text": ".Hallazgo5"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo5"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 2231,
-                  "snippet": {
-                    "text": ".ExistenVariacionesExtremas"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ExistenVariacionesExtremas"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 2298,
-                  "snippet": {
-                    "text": ".Hallazgo6"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo6"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 2392,
-                  "snippet": {
-                    "text": ".EsBajoNivelIluminacion"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "EsBajoNivelIluminacion"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 2454,
-                  "snippet": {
-                    "text": ".Hallazgo7"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo7"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 2503,
-                  "snippet": {
-                    "text": ".Evidencia"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Evidencia"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 35,
-                  "charOffset": 2590,
-                  "snippet": {
-                    "text": ".ExistenDeslumbramientosAreaTrabajo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ExistenDeslumbramientosAreaTrabajo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 2664,
-                  "snippet": {
-                    "text": ".Hallazgo8"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo8"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 2715,
-                  "snippet": {
-                    "text": ".Evidencia1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Evidencia1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 31,
-                  "charOffset": 2820,
-                  "snippet": {
-                    "text": ".ExistenSombrasFaltaIluminacion"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ExistenSombrasFaltaIluminacion"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 2890,
-                  "snippet": {
-                    "text": ".Hallazgo9"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo9"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 2956,
-                  "snippet": {
-                    "text": ".Evidencia2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Evidencia2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 24,
-                  "charOffset": 3043,
-                  "snippet": {
-                    "text": ".HayRuidoExcesivoMolesto"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "HayRuidoExcesivoMolesto"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 3107,
-                  "snippet": {
-                    "text": ".Hallazgo10"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo10"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 3176,
-                  "snippet": {
-                    "text": ".Evidencia3"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Evidencia3"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 3315,
-                  "snippet": {
-                    "text": ".HayVibracionCuerpoCompleto"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "HayVibracionCuerpoCompleto"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 3382,
-                  "snippet": {
-                    "text": ".Hallazgo11"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Hallazgo11"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 3434,
-                  "snippet": {
-                    "text": ".Evidencia4"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Evidencia4"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 29,
-                  "charOffset": 3536,
-                  "snippet": {
-                    "text": ".LaCirulacionAireInsuficiente"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LaCirulacionAireInsuficiente"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 39,
-                  "charOffset": 3717,
-                  "snippet": {
-                    "text": ".ElTrabajadorMantienePosturaPronlongada"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ElTrabajadorMantienePosturaPronlongada"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 101,
-                  "snippet": {
-                    "text": "Patch"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 3468,
-                  "charOffset": 303,
-                  "snippet": {
-                    "text": "{\n                CIUDAD:ThisRecord.Ciudad; //Registro de datos (\"Nombre original de sharepoint\":ThisRecord.\"Nombre como esta en BD Offline o coleccio\")\n                FECHA:ThisRecord.Fecha;\n                'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa;\n                NIT:ThisRecord.NIT;\n                'NOMBRE DEL TRABAJADOR':ThisRecord.NombreTrabajador;\n                'CC (CEDULA)':ThisRecord.Cedula;\n                'SECCIÓN O AREA':ThisRecord.SeccionArea;\n                CARGO:ThisRecord.Cargo;\n                'NOMBRE TÉCNICO DE LA PERSONA QUE ELABORA LA INSPECCIÓN':ThisRecord.NombreTecnicoPersona;\n                SECTOR:ThisRecord.Sector;\n                'NOMBRE PUESTO DE TRABAJO':ThisRecord.NombrePuestoTrabajo;\n                'LISTA DE HERRAMIENTAS UTILIZADAS PARA LA TAREA': ThisRecord.ListaHerramientasUtilizadas;\n                'DESCRIBIR BREVEMENTE LOS PASOS DE LA TAREA':ThisRecord.DescribirBrevementeTarea;\n                'Existe programa de salud ocupacional en la empresa ':ThisRecord.ExisteProgramaSaludOcupacional;\n                HALLAZGOS: ThisRecord.Hallazgo;\n                'Se realiza mantenimiento a máquinas y/o herramientas':ThisRecord.SeRealizaMantenimientoMaquinas;\n                HALLAZGOS1:ThisRecord.Hallazgo1;\n                'El puesto de trabajo cuentacon un manual de funciones':ThisRecord.ElPuestoTrabajoManualFunciones;\n                HALLAZGOS2:ThisRecord.Hallazgo2;\n                'Se realiza inducción en el puesto de trabajo':ThisRecord.SeRealizaInduccionPuestoTrabajo;\n                HALLAZGOS3: ThisRecord.Hallazgo3;\n                'Se realizan pausas de trabajo': ThisRecord.SeRealizaPausasTrabajo;\n                HALLAZGOS4:ThisRecord.Hallazgo4;\n                'ASPECTO A EVALUAR  ':ThisRecord.SeRealizaPausasTrabajo;\n                HALLAZGOS5: ThisRecord.Hallazgo5;\n                'Existen variaciones extremas de temperatura durante la jornada':ThisRecord.ExistenVariacionesExtremas;\n                HALLAZGOS6: ThisRecord.Hallazgo6;\n                'Es bajo el nivel de iluminación en el área de trabajo':ThisRecord.EsBajoNivelIluminacion;\n                HALLAZGOS7:ThisRecord.Hallazgo7;\n                EVIDENCIAS:ThisRecord.Evidencia;\n                'Existen deslumbramientos en el área de trabajo':ThisRecord.ExistenDeslumbramientosAreaTrabajo;\n                HALLAZGOS8:ThisRecord.Hallazgo8;\n                EVIDENCIAS1: ThisRecord.Evidencia1;\n                'Existen sombras por falta de iluminación en el área de trabajo': ThisRecord.ExistenSombrasFaltaIluminacion;\n                HALLAZGOS9:ThisRecord.Hallazgo9;\n                'EVIDENCIAS2 (EVIDENCIAS3)':ThisRecord.Evidencia2;\n                'Hay ruido excesivo que es molesto o aturdidor':ThisRecord.HayRuidoExcesivoMolesto;\n                HALLAZGOS10:ThisRecord.Hallazgo10;\n                'EVIDENCIAS3 (EVIDENCIAS30)': ThisRecord.Evidencia3;\n                'Hay vibración de cuerpo completo o de las extremidades superiores (de cuerpo entero o mano brazo)':ThisRecord.HayVibracionCuerpoCompleto;\n                HALLAZGOS11:ThisRecord.Hallazgo11;\n                EVIDENCIAS4: ThisRecord.Evidencia4;\n                'La circulación de aire en el área de trabajo es insuficiente':ThisRecord.LaCirulacionAireInsuficiente;\n                'El trabajador mantiene un a postura prolongada durante 75% o mas de la jornada laboral sin alternarla (de pie o sentado) ':ThisRecord.ElTrabajadorMantienePosturaPronlongada\n\n            }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ASPECTOAEVALUAR",
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 3798,
-                  "snippet": {
-                    "text": "coleccionOffline2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "coleccionOffline2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 3792,
-                  "snippet": {
-                    "text": "Clear"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Clear"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 3861,
-                  "snippet": {
-                    "text": "coleccionOffline2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "coleccionOffline2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 3852,
-                  "snippet": {
-                    "text": "SaveData"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "CarpetaSinConexionIPTOPBolivar",
-                "type": "CarpetaSinConexionIPTOPBolivar.Container3_9.Container7_5.Container9_5.Gallery1_1.NextArrow1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SaveData"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2049,7 +127,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2089,7 +167,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2130,7 +208,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2171,7 +249,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2212,7 +290,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2253,7 +331,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2294,7 +372,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2335,7 +413,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2376,7 +454,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2417,7 +495,7 @@
             "level": "Medium"
           },
           "ruleId": "app-WarnBooleanExpected",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2434,9 +512,9 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 5351,
+                  "charOffset": 6340,
                   "snippet": {
-                    "text": ")"
+                    "text": ";"
                   }
                 }
               },
@@ -2448,17 +526,13 @@
             }
           ],
           "message": {
-            "arguments": [
-              "ParenClose",
-              "CurlyClose"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 0
+          "ruleId": "app-ErrColonExpected",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2474,10 +548,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 17,
-                  "charOffset": 13,
+                  "charLength": 1,
+                  "charOffset": 6361,
                   "snippet": {
-                    "text": "coleccionOffline2"
+                    "text": "}"
                   }
                 }
               },
@@ -2490,7 +564,48 @@
           ],
           "message": {
             "arguments": [
-              "coleccionOffline2"
+              "CurlyClose",
+              "Ident"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container8_2.Icon2_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container8_2.Icon2_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 18,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "ColecccionOffline2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container8_2.Icon2_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ColecccionOffline2"
             ],
             "id": "issue"
           },
@@ -2498,7 +613,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2538,46 +653,6 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container8_2.Icon2_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container8_2.Icon2_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 5364,
-                  "snippet": {
-                    "text": "coleccionOffline2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "FormularioIPTOPBOLIVAR",
-                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container8_2.Icon2_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "coleccionOffline2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
         },
         {
@@ -2594,8 +669,48 @@
                   "relativeAddress": 0
                 },
                 "region": {
+                  "charLength": 18,
+                  "charOffset": 6383,
+                  "snippet": {
+                    "text": "ColecccionOffline2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "FormularioIPTOPBOLIVAR",
+                "type": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container8_2.Icon2_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ColecccionOffline2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container8_2.Icon2_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTOPBOLIVAR.Container3_5.Container7_2.Container8_2.Icon2_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
                   "charLength": 8,
-                  "charOffset": 5355,
+                  "charOffset": 6374,
                   "snippet": {
                     "text": "SaveData"
                   }
@@ -2618,7 +733,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2658,7 +773,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2698,7 +813,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2738,7 +853,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2778,7 +893,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2818,7 +933,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2858,7 +973,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2898,7 +1013,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2938,7 +1053,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2978,7 +1093,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3018,7 +1133,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3058,7 +1173,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3098,7 +1213,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3138,7 +1253,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3178,7 +1293,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3218,7 +1333,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3258,7 +1373,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3298,7 +1413,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3338,7 +1453,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3378,7 +1493,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -3418,7 +1533,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -4054,36 +2169,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "FormularioIPTADMBOLIVAR_1",
-                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.AccessibleLabel"
                 }
               ],
@@ -4108,6 +2193,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "FormularioIPTADMBOLIVAR_1",
+                "type": "FormularioIPTADMBOLIVAR_1.Container3_8.Container7_4.Container8_4.Icon2_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -17193,23 +15308,6 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrExpectedFound-Ex-Fnd",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters with an expected character."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrInvalidName",
               "messageStrings": {
                 "issue": {
@@ -17241,20 +15339,6 @@
               }
             },
             {
-              "id": "app-ErrTypeError-Arg-Expected-Found",
-              "messageStrings": {
-                "issue": {
-                  "text": "The type of this argument '{0}' does not match the expected type '{1}'. Found type '{2}'."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-WarnBooleanExpected",
               "messageStrings": {
                 "issue": {
@@ -17264,6 +15348,40 @@
               "properties": {
                 "componentType": "app",
                 "level": "Medium",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrColonExpected",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected colon. We expect a colon (:) at this point in the formula."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit your formula so that it includes a colon."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrExpectedFound-Ex-Fnd",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or replace the unexpected characters with an expected character."
+                ],
+                "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }

@@ -345,7 +345,22 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                                             HALLAZGOS23:ThisRecord.HallazgosConcentracion,
                             
                                             'Se requiere atención sostenida y continua':ThisRecord.AtencionSostenida,
-                                            HALLAZGOS24:ThisRecord.HallazgosAtencionSostenida
+                                            HALLAZGOS24:ThisRecord.HallazgosAtencionSostenida,
+                            
+                                            'La jornada laboral excede 8 horas diarias':ThisRecord.JornadaLaboral,
+                                            HALLAZGOS25:ThisRecord.HallazgosJornadaLaboral,
+                            
+                                            'Se realizan horas extras luego de la jornada de trabajo':ThisRecord.HorasExtras,
+                                            HALLAZGOS26:ThisRecord.HallazgosHorasExtras,
+                            
+                                            'El uso del computador es de 4 horas seguidas o más':ThisRecord.UsoComputador,
+                                            HALLAZGOS27:ThisRecord.HallazgosUsoComputador,
+                            
+                                            'Se prohibe mas de un descanso o pausa durante la jornada de trabajo':ThisRecord.DescansoJornadaLaboral,
+                                            HALLAZGOS28:ThisRecord.HallazgosDescansoJornadaLaboral,
+                            
+                                            'Se impone un ritmo de trabajo dificil de alcanzar para el trabajador':ThisRecord.RitmoTrabajo,
+                                            HALLAZGOS29:ThisRecord.HallazgosRitmoTrabajo
                             
                                         
                                         }

@@ -286,7 +286,7 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         RitmoTrabajo:Text(DataCardValue289_1.Selected.Value),
                         HallazgosRitmoTrabajo:DataCardValue291_1.Text,
                         
-                        DimensionPlanoTrabajo:DataCardValue293_1.SelectedText,
+                        DimensionPlanoTrabajo:Text(DataCardValue293_1.Selected.Value),
                         HallazgosDimensionPlanoTrabajo:DataCardValue294_1.Text,
                         EvidenciasDimensionPlanoTrabajo:AddPicture40_1.Media,
                         
