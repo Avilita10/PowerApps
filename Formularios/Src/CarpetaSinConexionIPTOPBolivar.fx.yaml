@@ -235,7 +235,84 @@ CarpetaSinConexionIPTOPBolivar As screen:
                         HoverColor: =RGBA(16, 110, 190, 1)
                         HoverFill: =RGBA(0, 0, 0, 0)
                         Icon: =Icon.Send
-                        OnSelect: =
+                        OnSelect: |+
+                            =// En el botón de enviar
+                            If(
+                                Connection.Connected,
+                                ForAll(
+                                    ColecccionOffline2,
+                                    Patch(  
+                                        'Inspección de puesto de trabajo (Operativo)_2', // Tu fuente de datos
+                                        Defaults('Inspección de puesto de trabajo (Operativo)_2'), // Crear un nuevo registro
+                                        {
+                                            CIUDAD:ThisRecord.Ciudad, //Registro de datos ("Nombre original de sharepoint":ThisRecord."Nombre como esta en BD Offline o coleccio")
+                                            FECHA:ThisRecord.Fecha,
+                                            'NOMBRE DE LA EMPRESA':ThisRecord.NombreEmpresa,
+                                            NIT:ThisRecord.NIT,
+                                            'NOMBRE DEL TRABAJADOR':ThisRecord.NombreTrabajador,
+                                            'CC (CEDULA)':ThisRecord.Cedula,
+                                            'SECCIÓN O AREA':ThisRecord.SeccionArea,
+                                            CARGO:ThisRecord.Cargo,
+                                            'NOMBRE TÉCNICO DE LA PERSONA QUE ELABORA LA INSPECCIÓN':ThisRecord.NombreTecnicoPersona,
+                                            SECTOR:ThisRecord.Sector,
+                                            'NOMBRE PUESTO DE TRABAJO':ThisRecord.NombrePuestoTrabajo,
+                                            'LISTA DE HERRAMIENTAS UTILIZADAS PARA LA TAREA': ThisRecord.ListaHerramientasUtilizadas,
+                                            'DESCRIBIR BREVEMENTE LOS PASOS DE LA TAREA':ThisRecord.DescribirBrevementeTarea,
+                                            'Existe programa de salud ocupacional en la empresa ':ThisRecord.ExisteProgramaSaludOcupacional,
+                                            HALLAZGOS: ThisRecord.Hallazgo,
+                                            'Se realiza mantenimiento a máquinas y/o herramientas':ThisRecord.SeRealizaMantenimientoMaquinas,
+                                            HALLAZGOS1:ThisRecord.Hallazgo1,
+                                            'El puesto de trabajo cuentacon un manual de funciones':ThisRecord.ElPuestoTrabajoManualFunciones,
+                                            HALLAZGOS2:ThisRecord.Hallazgo2,
+                                            'Se realiza inducción en el puesto de trabajo':ThisRecord.SeRealizaInduccionPuestoTrabajo,
+                                            HALLAZGOS3: ThisRecord.Hallazgo3,
+                                            'Se realizan pausas de trabajo': ThisRecord.SeRealizaPausasTrabajo,
+                                            HALLAZGOS4:ThisRecord.Hallazgo4,
+                                            'ASPECTO A EVALUAR  ':ThisRecord.SeRealizaPausasTrabajo,
+                                            HALLAZGOS5: ThisRecord.Hallazgo5,
+                                            'Existen variaciones extremas de temperatura durante la jornada':ThisRecord.ExistenVariacionesExtremas,
+                                            HALLAZGOS6: ThisRecord.Hallazgo6,
+                                            'Es bajo el nivel de iluminación en el área de trabajo':ThisRecord.EsBajoNivelIluminacion,
+                                            HALLAZGOS7:ThisRecord.Hallazgo7,
+                                            EVIDENCIAS:ThisRecord.Evidencia,
+                                            'Existen deslumbramientos en el área de trabajo':ThisRecord.ExistenDeslumbramientosAreaTrabajo,
+                                            HALLAZGOS8:ThisRecord.Hallazgo8,
+                                            EVIDENCIAS1: ThisRecord.Evidencia1,
+                                            'Existen sombras por falta de iluminación en el área de trabajo': ThisRecord.ExistenSombrasFaltaIluminacion,
+                                            HALLAZGOS9:ThisRecord.Hallazgo9,
+                                            'EVIDENCIAS2 (EVIDENCIAS3)':ThisRecord.Evidencia2,
+                                            'Hay ruido excesivo que es molesto o aturdidor':ThisRecord.HayRuidoExcesivoMolesto,
+                                            HALLAZGOS10:ThisRecord.Hallazgo10,
+                                            'EVIDENCIAS3 (EVIDENCIAS30)': ThisRecord.Evidencia3,
+                                            'Hay vibración de cuerpo completo o de las extremidades superiores (de cuerpo entero o mano brazo)':ThisRecord.HayVibracionCuerpoCompleto,
+                                            HALLAZGOS11:ThisRecord.Hallazgo11,
+                                            EVIDENCIAS4: ThisRecord.Evidencia4,
+                                            'La circulación de aire en el área de trabajo es insuficiente':ThisRecord.LaCirulacionAireInsuficiente,
+                                            'El trabajador mantiene un a postura prolongada durante 75% o mas de la jornada laboral sin alternarla (de pie o sentado) ':ThisRecord.ElTrabajadorMantienePosturaPronlongada,
+                                            'Existen rotaciones e inclinaciones importantes en cuello':ThisRecord.ExistenRotacionesInclinacionesCuello,
+                                            'Hay flexiones importantes de la espalda o tronco mayores de 30º': ThisRecord.HayFlexionesImportantesEspaldaTronco,
+                                            'Hay rotaciones de la espalda o tronco':ThisRecord.HayRotacionesEspaldaTronco,
+                                            'El trabajador realiza parte del trabajo arrodillado y/o en conclillas':ThisRecord.ElTrabajoRealizaTrabajoArrodillado,
+                                            'Existen posturas de los hombros en flexión mayor a 45º':ThisRecord.ExistenPosturasHombrosFlexion,
+                                            'Existen posturas donde el hombro se encuentra en abducción mayor de 45º':ThisRecord.ExistenPosturasHombroAbduccion,
+                                            'Existen posturas donde los codos se encuentren el flexión mayor de 90º':ThisRecord.ExistenPosturasCodosFlexionMayor90,
+                                            'Existen posturas del tronco en contra de la gravedad':ThisRecord.ExistenPosturasTroncoContraGravedad,
+                                            'Existen posturas de los Miembros superiores en contra de la gravedad':ThisRecord.ExistenPosturasTroncoContraGravedad,
+                                            'Se observa posición del codo en pronación ó supinación extrema durante periodos prolongados':ThisRecord.SeObservaPosicionCodoPronacionSupanacion
+                                        
+                                            
+                            
+                                        }
+                                    )
+                                )
+                            );
+                            Clear(coleccionOffline); // Limpia la colección local
+                                SaveData(ColecccionOffline2, "Cache2"); // Guarda la colección vacía
+                                Notify("Datos enviados correctamente", NotificationType.Success) //Notifica el estado del envio del formulario Offline
+                            
+                            
+                            //Boton para enviar de forma Offline
+                            
                         PaddingBottom: =16
                         PaddingLeft: =16
                         PaddingRight: =16
