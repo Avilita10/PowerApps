@@ -35,6 +35,7 @@
       "disableruntimepolicies": false,
       "dynamicschema": false,
       "enableappembeddingux": false,
+      "enablecanvasappruntimecopilot": false,
       "enablechatbotfeature": true,
       "enablecomponentnamemaps": false,
       "enablecomponentscopeoldbehavior": false,
@@ -99,7 +100,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 22,
+    "BindingErrorCount": 25,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -118,11 +119,11 @@
     "ManualOfflineProfileId": "",
     "Name": "APLICACION AUTO-REPORTE DE SINTOMATOLOGÍA",
     "OriginatingVersion": "1.337",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 1,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "b03d452e-25cf-4b20-bac7-23947c9bcb92",
+    "AppName": "APLICACION AUTO-REPORTE DE SINTOMATOLOGÍA",
     "BackgroundColor": "rgba(255, 255, 255, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "",

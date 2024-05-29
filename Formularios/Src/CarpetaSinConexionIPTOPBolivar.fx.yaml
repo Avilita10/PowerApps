@@ -483,7 +483,51 @@ CarpetaSinConexionIPTOPBolivar As screen:
                             
                                             'La manipulación de cargas se realiza sin ayudas mecánicas  ':ThisRecord.LaManipulacionCargasSinAyudasMecanicas,
                                             HALLAZGOS60:ThisRecord.Hallazgo60,
-                                            EVIDENCIAS25: ThisRecord.Evidencia25
+                                            EVIDENCIAS25: ThisRecord.Evidencia25,
+                            
+                                            'Se carece de elementos que permitan alternar posturas y/o que briden confort (Silla, reposa pies, apoya brazos)':ThisRecord.SeCareceDeElementosAlternarPosturasConfort,
+                                            HALLAZGOS61:ThisRecord.Hallazgo61,
+                                            EVIDENCIAS26:ThisRecord.Evidencia26,
+                            
+                                            'La silla utilizada es estática':ThisRecord.LaSillaUtilizadaEstatica,
+                                            HALLAZGOS62:ThisRecord.Hallazgo62,
+                                            EVIDENCIAS27: ThisRecord.Evidencia27,
+                            
+                                            'El sistema de regulación de la altura de la silla, con respecto a las dimensiones del usuario es deficiente  ':ThisRecord.ElSistemaDeRegulacionAlturaDimensionesDeficiente,
+                                            HALLAZGOS63:ThisRecord.Hallazgo63,
+                                            EVIDENCIAS28:ThisRecord.Evidencia28,
+                            
+                                            'El sistema de regulación del espaldar de la silla, con respecto a las dimensiones del usuario es deficiente (Inclinación, y longitud) )':ThisRecord.ElSistemaDeRegulacionEspaldaDimensionesDeficiente,
+                                            HALLAZGOS64:ThisRecord.Hallazgo64,
+                                            EVIDENCIAS29:ThisRecord.Evidencia29,
+                            
+                                            'El espaldar de la silla carece de soporte de zona lumbar ':ThisRecord.ElEspaldarCareceZonaLumbar,
+                                            HALLAZGOS65:ThisRecord.Hallazgo65,
+                                            'EVIDENCIAS30 (EVIDENCIAS300)':ThisRecord.Evidencia30,
+                            
+                                            'El asiento es inadecuado a las dimensiones del usuario (Profundidad y anchura))':ThisRecord.ElAsientoEsInadecuadoCondicionesUsuario,
+                                            HALLAZGOS66:ThisRecord.Hallazgo66,
+                                            EVIDENCIAS31:ThisRecord.Evidencia31,
+                            
+                                            'La silla es incomoda para el usuario':ThisRecord.LaSillaEsIncomadaUsuario,
+                                            HALLAZGOS67:ThisRecord.Hallazgo67,
+                                            EVIDENCIAS32:ThisRecord.Evidencia32,
+                            
+                                            'La herramienta de trabajo es inadecuada a las necesidades del trabajador en cuanto a la funcionalidad para ejecutar la tarea':ThisRecord.LaHerramientaDeTrabajoInadecuada,
+                                            HALLAZGOS68:ThisRecord.Hallazgo68,
+                            
+                                            'Las dimensiones del mango y la naturaleza del agarre son inadecuados a las dimensiones de la mano del trabajo ':ThisRecord.LasDimensionesMangoInadecuadas,
+                                            HALLAZGOS69:ThisRecord.Hallazgo69,
+                            
+                                            'Se usan herramientas o equipos que tengan altos niveles de vibración (Sierras eléctricas, martillos neumáticos, herramientas de percusión, martillos de remachado)':ThisRecord.SeUsanHerramientasAltaVibracion,
+                                            HALLAZGOS70:ThisRecord.Hallazgo70,
+                            
+                                            'Esta herramienta es usada mas de 30 minutos seguidos ':ThisRecord.EstaHerramientaEsUsadaMas30Minutos,
+                                            HALLAZGOS71:ThisRecord.Hallazgo71,
+                            
+                                            'Esta herramienta es usada mas de 2 horas seguidas':ThisRecord.
+                            
+                            
                             
                             
                             
