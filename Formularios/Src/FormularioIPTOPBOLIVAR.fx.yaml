@@ -11043,6 +11043,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'Mas de 10 veces al día ')
                         Required: =false
                         Update: =DataCardValue206.Selected.Value
+                        Visible: =If(DataCardValue197.Selected.Value = "Si", true)
                         Width: =640
                         X: =0
                         Y: =96
@@ -11643,6 +11644,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'Mas de 25 veces al dia')
                         Required: =false
                         Update: =DataCardValue210.Selected.Value
+                        Visible: =If(DataCardValue208.Selected.Value = "Si", true)
                         Width: =640
                         X: =0
                         Y: =101
@@ -12246,6 +12248,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'Mas de 2 horas al dia')
                         Required: =false
                         Update: =DataCardValue214.Selected.Value
+                        Visible: =If(DataCardValue212.Selected.Value = "Si", true)
                         Width: =640
                         X: =0
                         Y: =106
@@ -20128,6 +20131,7 @@ FormularioIPTOPBOLIVAR As screen:
                             PaddingLeft: =0
                             Size: =21
                             Text: =Parent.DisplayName
+                            Visible: =If()
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
