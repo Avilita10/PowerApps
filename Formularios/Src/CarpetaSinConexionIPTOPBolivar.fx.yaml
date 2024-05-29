@@ -525,7 +525,10 @@ CarpetaSinConexionIPTOPBolivar As screen:
                                             'Esta herramienta es usada mas de 30 minutos seguidos ':ThisRecord.EstaHerramientaEsUsadaMas30Minutos,
                                             HALLAZGOS71:ThisRecord.Hallazgo71,
                             
-                                            'Esta herramienta es usada mas de 2 horas seguidas':ThisRecord.
+                                            'Esta herramienta es usada mas de 2 horas seguidas':ThisRecord.EstaHerramientaEsUsada2HorasSeguidas,
+                                            Hallazgos73:ThisRecord.Hallazgo73,
+                            
+                                            'Observaciones ':ThisRecord.Observaciones
                             
                             
                             

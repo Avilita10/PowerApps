@@ -331,7 +331,8 @@ FormularioIPTOPBOLIVAR As screen:
                                 Hallazgo71: DataCardValue366.Text,
                                 ElTrabajoUsaHerramientasVibracionModerada: Text(DataCardValue367.Selected.Value),
                                 Hallazgo72: DataCardValue368.Text,
-                                
+                                EstaHerramientaEsUsada2HorasSeguidas:Text(DataCardValue8.Selected.Value),
+                                Hallazgo73: DataCardValue111.Text,
                                 Observaciones: DataCardValue333.Text
                         
                         
@@ -23030,6 +23031,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'Esta herramienta es usada mas de 30 minutos seguidos ')
                         Required: =false
                         Update: =DataCardValue365.Selected.Value
+                        Visible: =If(DataCardValue363.Selected.Value = "Si", true)
                         Width: =640
                         X: =0
                         Y: =196
@@ -23510,6 +23512,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, Estaherramientaesusadamasde2hora)
                         Required: =false
                         Update: =DataCardValue8.Selected.Value
+                        Visible: =If(DataCardValue367.Selected.Value = "Si",true)
                         Width: =640
                         X: =0
                         Y: =200
@@ -23651,7 +23654,7 @@ FormularioIPTOPBOLIVAR As screen:
                             Height: =48
                             PaddingLeft: =0
                             Size: =21
-                            Text: =Parent.DisplayName
+                            Text: ="Hallazgos"
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
