@@ -14715,7 +14715,7 @@ FormularioIPTOPBOLIVAR As screen:
                             DisabledColor: =RGBA(161, 159, 157, 1)
                             FocusedBorderThickness: =4
                             Font: =Font.'Segoe UI'
-                            FontWeight: =FontWeight.Semibold
+                            FontWeight: =FontWeight.Bold
                             Height: =48
                             PaddingLeft: =0
                             Size: =30
@@ -20111,6 +20111,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'La silla utilizada es estática')
                         Required: =false
                         Update: =DataCardValue347.Selected.Value
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =172
@@ -20131,7 +20132,6 @@ FormularioIPTOPBOLIVAR As screen:
                             PaddingLeft: =0
                             Size: =21
                             Text: =Parent.DisplayName
-                            Visible: =If()
                             Width: =Parent.Width - 60
                             Wrap: =false
                             X: =30
@@ -20347,6 +20347,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Height: =50
                         Required: =false
                         Update: =Image64.Image
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =174
@@ -20476,6 +20477,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'El sistema de regulación de la altura de la silla, con respecto a las dimensiones del usuario es deficiente  ')
                         Required: =false
                         Update: =DataCardValue349.Selected.Value
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =175
@@ -20715,6 +20717,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Height: =50
                         Required: =false
                         Update: =Image65.Image
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =177
@@ -20846,6 +20849,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'El sistema de regulación del espaldar de la silla, con respecto a las dimensiones del usuario es deficiente (Inclinación, y longitud) )')
                         Required: =false
                         Update: =DataCardValue351.Selected.Value
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =178
@@ -21085,6 +21089,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Height: =50
                         Required: =false
                         Update: =Image66.Image
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =180
@@ -21217,6 +21222,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'El espaldar de la silla carece de soporte de zona lumbar ')
                         Required: =false
                         Update: =DataCardValue353.Selected.Value
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =181
@@ -21454,6 +21460,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Height: =50
                         Required: =false
                         Update: =Image67.Image
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =183
@@ -21584,6 +21591,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'El asiento es inadecuado a las dimensiones del usuario (Profundidad y anchura))')
                         Required: =false
                         Update: =DataCardValue355.Selected.Value
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =184
@@ -21821,6 +21829,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Height: =50
                         Required: =false
                         Update: =Image68.Image
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =186
@@ -21951,6 +21960,7 @@ FormularioIPTOPBOLIVAR As screen:
                         MaxLength: =DataSourceInfo([@'Inspección de puesto de trabajo (Operativo)_2'], DataSourceInfo.MaxLength, 'La silla es incomoda para el usuario')
                         Required: =false
                         Update: =DataCardValue357.Selected.Value
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =187
@@ -22186,6 +22196,7 @@ FormularioIPTOPBOLIVAR As screen:
                         Height: =50
                         Required: =false
                         Update: =Image69.Image
+                        Visible: =If(DataCardValue345.Selected.Value = "No",true)
                         Width: =640
                         X: =0
                         Y: =189
