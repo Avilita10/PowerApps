@@ -530,26 +530,12 @@ CarpetaSinConexionIPTOPBolivar As screen:
                             
                                             'Observaciones ':ThisRecord.Observaciones
                             
-                            
-                            
-                            
-                            
-                                            
-                                            
-                                            
-                            
-                            
-                            
-                            
-                            
-                                        
                                             
                             
                                         }
                                     )
                                 )
                             );
-                            Clear(coleccionOffline); // Limpia la colección local
                                 SaveData(ColecccionOffline2, "Cache2"); // Guarda la colección vacía
                                 Notify("Datos enviados correctamente", NotificationType.Success) //Notifica el estado del envio del formulario Offline
                             

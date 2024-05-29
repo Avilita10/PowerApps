@@ -345,21 +345,21 @@ FormularioIPTADMBOLIVAR_1 As screen:
                         HallazgosSistemaRegulacionSilla:DataCardValue316_1.Text,
                         EvidenciasSistemaRegulacionSilla:Image72.Image,
                         
-                        SistemaRegulacionEspaldar:DataCardValue317_1.SelectedText,
+                        SistemaRegulacionEspaldar:Text(DataCardValue317_1.Selected.Value),
                         HallazgosSistemaRegulacionEspaldar:DataCardValue318_1.Text,
-                        EvidenciasSistemasRegulacionEspaldar:AddPicture69.Media,
+                        EvidenciasSistemasRegulacionEspaldar:Image73.Image,
                         
-                        EspaldarSilla:DataCardValue319_1.SelectedText,
+                        EspaldarSilla:Text(DataCardValue319_1.Selected.Value),
                         HallazgosEspaldarSilla:DataCardValue320_1.Text,
-                        EvidenciasEspaldarSilla:AddPicture70.Media,
+                        EvidenciasEspaldarSilla:Image74.Image,
                         
-                        AsientoInadecuado:DataCardValue321_1.SelectedText,
+                        AsientoInadecuado:Text(DataCardValue321_1.Selected.Value),
                         HallazgosAsientoInadecuado:DataCardValue322_1.Text,
-                        EvidenciasAsientoInadecuado:AddPicture71.Media,
+                        EvidenciasAsientoInadecuado:Image75.Image,
                         
-                        SillaIncomoda:DataCardValue323_1.SelectedText,
+                        SillaIncomoda:Text(DataCardValue323_1.Selected.Value),
                         HallazgosSillaIncomoda:DataCardValue324_1.Text,
-                        EvidenciasSillaIncomoda:AddPicture72.Media,
+                        EvidenciasSillaIncomoda:Image76.Image,
                         
                         Observaciones:DataCardValue325_1.Text
                         

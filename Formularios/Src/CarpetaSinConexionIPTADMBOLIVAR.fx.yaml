@@ -416,12 +416,29 @@ CarpetaSinConexionIPTADMBOLIVAR As screen:
                             
                                             'El sistema de regulación de la altura de la silla, con respecto a las dimensiones del usuario es deficiente':ThisRecord.SistemaRegulacionSilla,
                                             HALLAZGOS42:ThisRecord.HallazgosSistemaRegulacionSilla,
-                                            EVIDENCIAS27:ThisRecord.EvidenciasSistemaRegulacionSilla
+                                            EVIDENCIAS27:ThisRecord.EvidenciasSistemaRegulacionSilla,
+                            
+                                            'El sistema de regulación del espaldar de la silla, con respecto a las dimensiones del usuario es deficiente(Inclinación y longitud)':ThisRecord.SistemaRegulacionEspaldar,
+                                            HALLAZGOS43:ThisRecord.HallazgosSistemaRegulacionEspaldar,
+                                            EVIDENCIAS28:ThisRecord.EvidenciasSistemasRegulacionEspaldar,
+                            
+                                            'El espaldar de la silla carece de soporte lumbar':ThisRecord.EspaldarSilla,
+                                            HALLAZGOS44:ThisRecord.HallazgosEspaldarSilla,
+                                            EVIDENCIAS29:ThisRecord.EvidenciasEspaldarSilla,
+                            
+                                            'El asiento es inadecuado a las dimensiones del usuario(profundidad y anchura)':ThisRecord.AsientoInadecuado,
+                                            HALLAZGOS45:ThisRecord.HallazgosAsientoInadecuado,
+                                            EVIDENCIAS30:ThisRecord.EvidenciasAsientoInadecuado,
+                            
+                                            'La silla es incómoda para el usuario':ThisRecord.SillaIncomoda,
+                                            HALLAZGOS46:ThisRecord.HallazgosSillaIncomoda,
+                                            EVIDENCIAS31:ThisRecord.EvidenciasSillaIncomoda,
+                            
+                                            OBSERVACIONES:ThisRecord.Observaciones
                                         }
                                     )
                                 )
                             );
-                            Clear(ColeccionOffline3); // Limpia la colección local
                                 SaveData(ColeccionOffline3, "Cache3"); // Guarda la colección vacía
                                 Notify("Datos enviados correctamente", NotificationType.Success)
                         PaddingBottom: =16
